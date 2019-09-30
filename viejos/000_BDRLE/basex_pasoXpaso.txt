@@ -1,0 +1,13 @@
+## Descargamos la versión de basex de la página web
+## (la versión que se instala con ubuntu no tienen la opción de servidor httpd)
+
+## ~/bin/basex/bin/basexgui lo usamos inicialmente para cargar y recargar la base de datos, y para probar las secuencias de Xquery
+
+## las secuencias de ordenes las grabamos en archivos .xq en la carpeta de Provita/xml
+
+## el archivo .bxs se puede usar para correr secuencia de ordenes en basex:
+~/bin/basex/bin/basex ~/Provita_JRFP/doc/000_BDRLE/seq01_summary.bxs > resultadosBD.xml
+
+
+
+

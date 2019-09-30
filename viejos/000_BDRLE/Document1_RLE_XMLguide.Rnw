@@ -1,0 +1,235 @@
+\documentclass[english,12pt]{article}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage{lscape}
+
+\usepackage[shiftmargins]{vmargin}
+\setpapersize{USletter}
+%%\setmarginsrb{left}{top}{right}{bottom}{headhgt}{headsep}{foothgt}{footskip}
+\setmarginsrb{2.8cm}{2cm}{1.8cm}{2cm}{0.5cm}{0.5cm}{0.5cm}{0.5cm}
+
+\usepackage[Glenn]{fncychap}
+\usepackage{longtable}
+%% cambiamos a biblatex
+\usepackage[authoryear,sort]{natbib}
+
+%%\usepackage[natbib=true, style=authoryear]{biblatex}
+%/home/mapoteca/NeoMapas/lib/BibTEX/tesis
+
+\usepackage{enumerate}
+
+\usepackage[pagebackref=false,colorlinks=true,citecolor=black,linkcolor=black,filecolor=black,urlcolor=black]{hyperref}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\usepackage{titling}
+
+\pretitle{
+  \includegraphics[width=3cm]{/home/jferrer/Dropbox/Postgrado/img/logos/logo_completo_png}
+  \begin{center} 
+
+ \par \HRule \\[0.4cm] \LARGE }
+\posttitle{\par \HRule \\[1.5cm]
+%%    \large \colorbox{black}{\textcolor{white}{Laboratorio de Ecología Espacial}}
+\end{center}\vskip 0.5em}
+
+\preauthor{\large\begin{center}}
+\postauthor{\\
+ Laboratorio de Ecología Espacial\\Centro de Estudios Botánicos y Agroforestales\\Instituto Venezolano de Investigaciones Científicas
+\end{center}
+\par}
+
+\predate{\begin{center}\normalsize Informe de avance \Sexpr{cdg.doc}\\
+}
+\date{Versión de \today}
+\postdate{\par\end{center}}
+
+
+\title{Guide for documenting Red List of Ecosystem assessment in XML documents}
+\author{JR Ferrer-Paris}
+
+\usepackage{listings}
+
+\usepackage{color}
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  showstringspaces=false,
+  commentstyle=\color{gray}\upshape
+}
+
+\lstdefinelanguage{XML}
+{
+  morestring=[b]",
+  morestring=[s]{>}{<},
+  morecomment=[s]{<?}{?>},
+  stringstyle=\color{black},
+  identifierstyle=\color{darkblue},
+  keywordstyle=\color{cyan},
+  morekeywords={xmlns,version,type}% list your attributes here
+}
+
+
+\begin{document}
+\maketitle
+
+\bibliographystyle{/home/jferrer/Dropbox/NeoMapas/lib/custom-bib/tesis}
+
+\footnotesize
+
+\section*{A quien pueda interesar}
+
+
+Este es un documento con resultados parciales del proyecto ... para uso interno de Provita según plan acordado en la Oferta de Servicio ....
+
+<<echo=false, eval=true, results=hide>>=
+require(RColorBrewer)
+
+paquetes <- (.packages())
+paquetes <- paquetes[!(paquetes %in% c("stats", "graphics", "grDevices", "utils", "datasets", "methods", "base", "deldir", "DBI", "RMySQL"))]
+
+luq <- function(x,contar.NA=FALSE) {
+	if (contar.NA==F) {
+	x <- x[!is.na(x)]
+	}
+ length(unique(x))
+ }
+
+@
+
+Este documento es generado utilizando las funciones de \texttt{Sweave} desde una sesión de \emph{R} \citep{pqt::base}, por tanto todas las tablas y figuras se generan y actualizan automáticamente a partir de los datos suministrados. Para acceso al código fuente en \emph{R} y los archivos de datos contacte al primer autor. Dentro de \emph{R} utilizamos los paquetes 
+<<citas paquetes, results=tex, echo=false, eval=true>>=
+cat(paste("\\emph{",paquetes,"} \\citep{pqt::",paquetes,"}",sep="",collapse="; "))
+@
+.
+
+
+\normalsize
+
+\section*{Resumen ejecutivo}
+
+\begin{enumerate}
+   \item  
+\begin{enumerate}[a)]
+     \item 
+\end{enumerate}
+       \item     
+\end{enumerate}
+
+\section{Structure of Red List of Ecosystem Assessments}
+\label{EvalConf}
+
+I propose to use XML documents to standardize reporting Red List of Ecosystem (RLE) assessments in a semi-structured format. The XML format is a plain text format, with data organized in elements that have some value surrounded by a pairs of tags. Tags are enclosed in brackets, and closing tags are preceded by a forward-slash, like this:
+
+\lstset{language=XML}
+
+\begin{lstlisting}
+ <assessment-author>José R. Ferrer-Paris</assessment-author>
+\end{lstlisting}
+
+This snip of code simply tells that the assessment author is José R. Ferrer Paris.
+
+Tags can have attributes (like ids, types, etc).
+
+Elements in the xml file can be nested within each other (parent-child), or can be siblings to each other
+
+Each xml file needs to have an initial declaration and a root element, in which all other elements will 
+
+We will first create a file with a collection of case studies, each case study should have an unique id:
+
+\begin{lstlisting}
+<?xml version="1.0" encoding="utf-8"?>
+<Case-Studies>
+ <Case-Study id="MAC_RLE_Chile_2015_1">
+ This is the first case study
+ </Case-Study>
+ <Case-Study id="MAC_RLE_Chile_2015_2">
+ This is the second case study
+ </Case-Study>
+</Case-Studies>
+\end{lstlisting}
+
+This is a more elaborate example of a case study, with several elements:
+
+\begin{lstlisting}
+<Case-Study id="MAC_RLE_Chile_2015_45">
+ <keywords>Chile,Nacional</keywords>
+ <ref-label>MAC_RLE_Chile_2015</ref-label>
+ <assessment-author>P Pliscoff</assessment-author>
+ <assssment-date>2015</assssment-date>
+ <data-entry>
+   ...
+ </data-entry>
+ <assessment-target>
+  <ecosystem-id>MAC_RLE_Chile_2015_45</ecosystem-id>
+  <assessment-unit>
+   <ecosystem-subset>whole</ecosystem-subset>
+   <distribution>
+    <summary>National assessment of Chilean ecosystems</summary>
+    <spatial-data>
+     ...
+    </spatial-data>
+   </distribution>
+   <scope>Regional</scope>
+   <level>National</level>
+   <countries>Chile</countries>
+   <Risk-Assessment>
+    ...
+   </Risk-Assessment>
+  </assessment-unit>
+ </assessment-target>
+</Case-Study>
+
+\end{lstlisting}
+
+
+
+Reading a single xml doc and converting to a list object in \emph{R}
+<<>>=
+xmldb.dir <- sprintf("%s/RLE_test1",xml.db)
+dir(xmldb.dir)
+if (!exists("mi.doc"))
+    mi.doc <- xmlParse(sprintf("%s/RA_chile.xml",xmldb.dir))
+if (!exists("rslt"))
+    rslt <- xmlToList(mi.doc)
+@ 
+
+This document contains several "Case studies"
+
+<<>>=
+str(rslt,1)
+@ 
+
+each case study contains certain information
+<<>>=
+str(rslt[[1]],1)
+@ 
+
+Under assessment target we find a ecosystem-id and an "assessment-unit"
+
+<<>>=
+str(rslt[[1]]$"assessment-target",1)
+str(rslt[[1]][["assessment-target"]],1)
+str(rslt[[1]][["assessment-target"]][["assessment-unit"]],1)
+str(rslt[[1]][["assessment-target"]][["assessment-unit"]][["Risk-Assessment"]][[3]])
+
+@ 
+
+
+<<>>=
+xmlSApply(xmlRoot(mi.doc)[[1]], xmlName)
+
+xmlValue(xmlRoot(mi.doc)[[1]][["keywords"]])
+
+@ 
+%\printbibliography
+
+\bibliography{/home/jferrer/Dropbox/Provita/lib/BibTEX/RLE}
+  %,/home/jferrer/Dropbox/NeoMapas/lib/BibTEX/paquetesR}
+%,/home/mapoteca/Dropbox/Provita/lib/BibTEX/RLE
+%/home/mapoteca/Dropbox/NeoMapas/lib/BibTEX/DocumentosNM,
+
+\end{document}

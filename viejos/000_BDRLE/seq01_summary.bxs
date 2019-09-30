@@ -1,0 +1,6 @@
+OPEN RLE_test1
+RUN /home/user3/Provita_JRFP/xml/SummaryAssessments.xq
+CLOSE
+
+# ~/bin/basex/bin/basex
+
