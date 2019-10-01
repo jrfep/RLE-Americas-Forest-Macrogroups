@@ -10,9 +10,28 @@ inc.dir <- sprintf("%s/inc/R/xml-generator",script.dir)
 ## path for output
 out.dir <- sprintf("%s/documentation/xml",script.dir)
 output.file <- sprintf("%s/RA_Forest_Macrogroups_%s.xml",out.dir,ff)
+## path for restricted assets (see assets documentation)
+restricted.dir <- sprintf("%s/assets/descriptive-docs/restricted",script.dir)
 
-## Load assessment outcomes
- load(dir(sprintf("%s/results/Rdata",script.dir),full.names=T))
+## Load data
+## a) EcoVeg typology
+if (!exists("tipologia"))
+    tipologia <- read.csv(sprintf("%s/EcoVeg_typology_hierarchy 30 Jan 30 2015.csv",rtd.dir), stringsAsFactors=F)
+tipologia$grp <-  substr(tipologia$Division.Code,1,1)
+tipologia$sgrp <-  substr(tipologia$Division.Code,1,3)
+tipologia$frmt <-  substr(tipologia$Division.Code,1,5)
+## b) Macrogroup concepts
+rsm.MG1 <- read.csv(sprintf("%s/TablaBosquesNS.csv",rtd.dir),
+  stringsAsFactors=F)
+rsm.MG2 <- read.csv(sprintf("%s/TablaBosquesNS2.csv", rtd.dir), stringsAsFactors=F)
+rsm.MG3 <- read.csv(sprintf("%s/TablaBosquesNS3.csv", rtd.dir), stringsAsFactors=F)
+rsm.MG4 <- read.csv(sprintf("%s/TablaBosquesNS4.csv", rtd.dir), stringsAsFactors=F)
+rsm.MG5 <- read.csv(sprintf("%s/TablaBosquesNS5.csv", rtd.dir), stringsAsFactors=F)
+## c) distribution validation
+confTest <- read.csv(sprintf("%s/results/tables/TableS2_confidenceTests.csv", script.dir), stringsAsFactors=F)
+## d) assessment outcomes
+load(sprintf("%s/results/Rdata/20181123_MacrogroupsCountry.rda", script.dir))
+
 
  ## set-up auto-mode variables
  today <- "2019-09-30"
