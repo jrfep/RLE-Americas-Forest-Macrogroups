@@ -27,9 +27,9 @@ for (ff in c("1.A.1","1.A.2","1.A.3","1.A.4","1.A.5",
             }
         }
         ecoregs <- unique(ecoregs[!ecoregs %in% "*"])
-        slc.ecoregs <- subset(lista.ecoreg,OBJECTID %in% ecoregs)
+        slc.ecoregs <- subset(lista.ecoreg,OBJAT.id.Provita$`AT-id`ECTID %in% ecoregs)
         ss <- NULL
-        
+
         if (confTest[k,"Macrogroup.code"] %in% rsm.MG1$Codigo) {
             ss <- subset(rsm.MG1,Codigo %in% mg)
         }
@@ -54,7 +54,7 @@ for (ff in c("1.A.1","1.A.2","1.A.3","1.A.4","1.A.5",
             c(newXMLNode("name", confTest[k,"Name"],attrs=list(lang="en")),
               newXMLNode("system",subset(RLEDB[[2]],EcoName %in% confTest[k,"Name"])$Realm ),
               newXMLNode("description-source", "published international classification"),
-              
+
               newXMLNode("comments", "International Vegetation Classification (IVC or EcoVeg) by Faberlangedoen et al (20XX).")
               ))
 
@@ -71,11 +71,11 @@ for (ff in c("1.A.1","1.A.2","1.A.3","1.A.4","1.A.5",
                     qry <- c(qry,unique(ss[,kk]))
                 }
             }
-            qry <- unique(qry[!is.na(qry)])            
+            qry <- unique(qry[!is.na(qry)])
             cc2 <- c(cc2,newXMLNode("Vegetation-type", paste(qry,collapse=". "),attrs=list(lang="es")))
         }
 colnames(ss)[colnames(ss) %in% c("Distribución.Geográfica","Distribución.Geografica")] <- "distribucion"
-        
+
         if (any(!is.na(ss[,"distribucion"]))) {
             cc1 <- c(cc1,newXMLNode("description-based-on", "topography"))
             cc2 <- c(cc2,newXMLNode("Topography", paste(unique(ss[,"distribucion"]),collapse=". "),attrs=list(lang="es")))
@@ -98,7 +98,7 @@ colnames(ss)[colnames(ss) %in% c("Distribución.Geográfica","Distribución.Geog
                     qry <- c(qry,unique(ss[,kk]))
                 }
             }
-            qry <- unique(qry[!is.na(qry)])            
+            qry <- unique(qry[!is.na(qry)])
             cc2 <- c(cc2,newXMLNode("Characteristic-biota", paste(qry,collapse=". "),attrs=list(lang="es")))
 
         }
@@ -111,10 +111,10 @@ colnames(ss)[colnames(ss) %in% c("Distribución.Geográfica","Distribución.Geog
     b = newXMLNode("ecosystem-classification",attrs=list(id="IVC",version="2015",selected="yes"),
         children=c(
             newXMLNode("classification-system","International Vegetation Classification"),
-            newXMLNode("level0",as.character(subset(tipologia,Division.Code %in% tt$grp)$class),attrs=list(name="Class",code=tt$grp)), 
-            newXMLNode("level1",as.character(subset(tipologia,Division.Code %in% tt$sgrp)$subclass),attrs=list(name="Subclass",code=tt$sgrp)), 
-            newXMLNode("level2",as.character(subset(tipologia,Division.Code %in% tt$frmt)$formation),attrs=list(name="Formation",code=tt$frmt)), 
-            newXMLNode("level3",as.character(subset(tipologia,Division.Code %in% tt$Division.Code & division !="")$division),attrs=list(name="Division",code=tt$Division.Code)), 
+            newXMLNode("level0",as.character(subset(tipologia,Division.Code %in% tt$grp)$class),attrs=list(name="Class",code=tt$grp)),
+            newXMLNode("level1",as.character(subset(tipologia,Division.Code %in% tt$sgrp)$subclass),attrs=list(name="Subclass",code=tt$sgrp)),
+            newXMLNode("level2",as.character(subset(tipologia,Division.Code %in% tt$frmt)$formation),attrs=list(name="Formation",code=tt$frmt)),
+            newXMLNode("level3",as.character(subset(tipologia,Division.Code %in% tt$Division.Code & division !="")$division),attrs=list(name="Division",code=tt$Division.Code)),
             newXMLNode("level4",confTest[k,"Name"],attrs=list(name="Macrogroup",code=mg)),
             newXMLNode("scale","international"),
             newXMLNode("reference","Faberlangedoen et al. 2014"),
@@ -122,7 +122,7 @@ colnames(ss)[colnames(ss) %in% c("Distribución.Geográfica","Distribución.Geog
         ))
     a <- addChildren(a, b)
 
-    
+
     d = newXMLNode("ecosystem-classification",attrs=list(id="IUCN",version="3.1",selected="no"),
         children=c(
             newXMLNode("classification-system","IUCN Habitats Classification Scheme"),
@@ -135,13 +135,13 @@ colnames(ss)[colnames(ss) %in% c("Distribución.Geográfica","Distribución.Geog
             newXMLNode("url","http://www.iucnredlist.org/technical-documents/classification-schemes/habitats-classification-scheme-ver3"),
             newXMLNode("assigned-by","JRFP")
         ))
-        
+
         a <- addChildren(a, d)
 
         ##Distribution
         regions <- unique(slc.ecoregs$G200_REGIO)
         regions <- regions[!is.na(regions)]
-        
+
     d = newXMLNode("distribution",attrs=list(summary="Vegetation Macrogroup with continental distribution"),
         children=c(
             newXMLNode("description",ss$Distribución.Geografica,attrs=list(lang="es")),
@@ -153,7 +153,7 @@ colnames(ss)[colnames(ss) %in% c("Distribución.Geográfica","Distribución.Geog
             addChildren(d,newXMLNode("biogeographic-realm","Neotropic",attrs=list(id="006/NT")))
         if (any(slc.ecoregs$REALM %in% "NA"))
             addChildren(d,newXMLNode("biogeographic-realm","Nearctic",attrs=list(id="005/NA")))
-    
+
         countries <- c()
         for (p in 1:nrow(slc.paises)) {
             countries <- c(countries,newXMLNode("country", iconv(slc.paises$LOCAL[p],"latin1","utf8"),attrs=list(id=slc.paises$ISO2[p])))

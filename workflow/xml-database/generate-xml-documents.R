@@ -1,4 +1,8 @@
 #! R --vanilla
+require(readxl)
+require(readODS)
+require(dplyr)
+ require(XML)
 
 ## working directory and path to scripts
 script.dir <- Sys.getenv("SCRIPTDIR")
@@ -11,7 +15,7 @@ inc.dir <- sprintf("%s/inc/R/xml-generator",script.dir)
 out.dir <- sprintf("%s/documentation/xml",script.dir)
 output.file <- sprintf("%s/RA_Forest_Macrogroups_%s.xml",out.dir,ff)
 ## path for restricted assets (see assets documentation)
-restricted.dir <- sprintf("%s/assets/descriptive-docs/restricted",script.dir)
+rtd.dir <- sprintf("%s/assets/descriptive-docs/restricted",script.dir)
 
 ## Load data
 ## a) EcoVeg typology
@@ -28,10 +32,12 @@ rsm.MG3 <- read.csv(sprintf("%s/TablaBosquesNS3.csv", rtd.dir), stringsAsFactors
 rsm.MG4 <- read.csv(sprintf("%s/TablaBosquesNS4.csv", rtd.dir), stringsAsFactors=F)
 rsm.MG5 <- read.csv(sprintf("%s/TablaBosquesNS5.csv", rtd.dir), stringsAsFactors=F)
 ## c) distribution validation
-confTest <- read.csv(sprintf("%s/results/tables/TableS2_confidenceTests.csv", script.dir), stringsAsFactors=F)
+confTest <- read_ods(sprintf("%s/results/OO_files/TableS2_confidenceTests.ods", script.dir),skip=1)
 ## d) assessment outcomes
 load(sprintf("%s/results/Rdata/20181123_MacrogroupsCountry.rda", script.dir))
-
+## e) Assigned Case study IDs
+ATids <- read_excel(sprintf("%s/assets/db-management/CaseStudyID_ATid_America2018.xlsx", script.dir))
+ATids %>% filter(Type %in% "Regional") -> ATids.reg
 
  ## set-up auto-mode variables
  today <- "2019-09-30"
@@ -53,6 +59,8 @@ case.studies <- c("M134","M294")
 for (case.study in case.studies) {
   CS.id <- sprintf("%s_%s",mi.reflabel, CS.counter)
   rsm <- subset(Macrogroups.Global,IVC.macrogroup_key %in% case.study)
+  ATids.reg %>% filter(`Case-Study id` == CS.id) -> AT.id.Provita
+
   CS.name <- with(rsm,sprintf("%s: '%s, %s'",
     "Forest Macrogroups of the Americas",
     IVC.Name,

@@ -8,7 +8,7 @@ top = newXMLNode("Case-Studies",doc=doc)
 
 ## Scope
 Scope.description = newXMLNode("Scope-description","The risk assessment covered the entire distribution of the assessment target as described by the classification scheme and distribution maps available.")
-Scope.classification = newXMLNode("Scope-classification", attrs=list(id="IUCN RLE", version="1.0", selected="yes", assigned-by="JRFEP"), children=list(newXMLNode("Scope-classification-element","1. Global", attrs=list(level=1))))
+Scope.classification = newXMLNode("Scope-classification", attrs=list(id="IUCN RLE", version="1.0", selected="yes", `assigned-by`="JRFEP"), children=list(newXMLNode("Scope-classification-element","1. Global", attrs=list(level=1))))
 
 ## Info
 Info.ref <- newXMLNode("ref-label", mi.reflabel)
