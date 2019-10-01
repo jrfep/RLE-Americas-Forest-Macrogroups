@@ -1,7 +1,7 @@
 # RLE-Americas-Forest-Macrogroups
 Application of the IUCN Red List of Ecosystems to the forest macrogroups of the Americas
 
-This repository replicates and documents the analysis in **Ferrer-Paris et al. (2019)**.
+This repository replicates and documents the analysis in **Ferrer-Paris et al. (2019)** for the assessment of tropical and temperate forest ecosystems in the Americas region.
 
 ## Repository structure
 
@@ -10,6 +10,9 @@ Folder with meta-data and documentation of data sources used.
 
 ### gis: Geographic Information System
 Set up of the geographical databases used
+
+### inc:
+Scripts for specific tasks
 
 ### analysis
 Steps of data processing to replicate the analysis
