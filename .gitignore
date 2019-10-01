@@ -1,5 +1,5 @@
 # Restricted files
-*/restricted/*
+/assets/descriptive-docs/restricted/*
 
 # History files
 .Rhistory
