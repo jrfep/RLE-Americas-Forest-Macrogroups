@@ -1,0 +1,3481 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <Case-Studies>
+<Case-Study id="FerrerParis_Continental_ForestMacrogroup_2017:66" name="Forest Macrogroups of the Americas: '1.A.4.Ek.629 - Northern Andean Riparian &amp; Flooded Forest EN (EN -- CR)'">
+<Case-Study-Name lang="en">Forest Macrogroups of the Americas: '1.A.4.Ek.629 - Northern Andean Riparian &amp; Flooded Forest EN (EN -- CR)'</Case-Study-Name>
+<Assessment-Information date="20181010" reviewer="JRFP" status="completed">
+<Assessment-contributors>
+<Author>JR Ferrer-Paris</Author>
+<Author>I Zager</Author>
+<Author>D Keith</Author>
+<Author>MA Oliveira-Miranda</Author>
+<Author>JP Rodríguez</Author>
+<Author>C Josse</Author>
+<Author>M González-Gil</Author>
+<Author>RM Miller</Author>
+<Author>C Zambrana-Torrelio</Author>
+<Author>E Barrow</Author>
+</Assessment-contributors>
+<Assessment-date>2012</Assessment-date>
+<Assessment-reviewers>
+<Journal-Reviewer>Anonymous</Journal-Reviewer>
+<Journal-Reviewer>Anonymous</Journal-Reviewer>
+<Journal-Reviewer>Anonymous</Journal-Reviewer>
+<Journal-Editor>ET Game</Journal-Editor>
+<Journal-Editor>J Simonetti</Journal-Editor>
+</Assessment-reviewers>
+<Date-received>20180401</Date-received>
+<Date-accepted/>
+<Date-published/>
+<Date-webpublished/>
+<ref-label>FerrerParis_Continental_ForestMacrogroup_2017</ref-label>
+<Keywords>
+<Keyword>Woodlands</Keyword>
+<Keyword>Climate change</Keyword>
+<Keyword>Defaunation</Keyword>
+<Keyword>Anthromes</Keyword>
+<Keyword>Surface water</Keyword>
+</Keywords>
+</Assessment-Information>
+<Assessment-Target date="20181010" reviewer="JRFP" status="completed">
+<AT-id>IVC_1.A.4.Ek:M629</AT-id>
+<AT-description>The '1.A.4.Ek.629 - Northern Andean Riparian &amp; Flooded Forest' is a forest macrogroup belonging to the '1.A.4.Ek Tropical Andean Flooded Forest' division in the International Vegetation Classification system (Faber-Langendoen et al. 2014). It is considered here as a proxy for a forest ecosystem type in a regional assessment of forest ecosystems in the Americas.</AT-description>
+<AT-name>1.A.4.Ek.629 - Northern Andean Riparian &amp; Flooded Forest</AT-name>
+<Characteristic-biota>
+<Summary/>
+<Taxon lang="scientific">Alnus acuminata</Taxon>
+<Taxon lang="scientific">Vallea ecuadoriensis</Taxon>
+<Taxon lang="scientific">Vallea stipularis</Taxon>
+<Taxon lang="scientific">Salix humboldtiana</Taxon>
+<Taxon lang="scientific">Tessaria integrifolia</Taxon>
+</Characteristic-biota>
+<Abiotic-environment>
+<Summary lang="es">
+</Summary>
+</Abiotic-environment>
+<Biotic-processes>
+<Summary lang="es">Los bosques que se encuentran en las elevaciones mas altas estan dominados por Alnus acuminata, Vallea ecuadoriensis, Vallea stipularisy en el sotobosque encontramos abundantes helechos, hierbas y pastos. En las zonas mas baja y con entornos mas abiertos en los fondos de los valles las especies mas caracteristicas son Salix humboldtiana y Tessaria integrifolia. </Summary>
+</Biotic-processes>
+<Biotic-interactions>
+<Summary/>
+</Biotic-interactions>
+<Threats>
+<Summary/>
+<Threat>
+<Threat-name>Increase in human population density</Threat-name>
+<Threat-description>Increasing human population can be a cause of loss of woodland distribution due to increase in resource use, expansion of infrastructure, and changes in land use. It is also indirectly associated to the spread of invasive species.</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">1 Residential &amp;amp; commercial development</Threat-classification-element>
+<Threat-classification-element level="1">4 Transportation &amp;amp; service corridors</Threat-classification-element>
+<Threat-classification-element level="1">6 Human intrusions &amp;amp; disturbance</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Higher intensity of agriculture</Threat-name>
+<Threat-description>
+</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">2 Agriculture &amp;amp; aquaculture</Threat-classification-element>
+<Threat-classification-element level="2">2.1 Annual &amp;amp; perennial non-timber crops</Threat-classification-element>
+<Threat-classification-element level="2">2.2 Wood &amp;amp; pulp plantations</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Expansion of grazing stock</Threat-name>
+<Threat-description>
+</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">2 Agriculture &amp;amp; aquaculture</Threat-classification-element>
+<Threat-classification-element level="2">2.3 Livestock farming &amp;amp; ranching</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Deforestation</Threat-name>
+<Threat-description>Elimination of tree cover.</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">5 Biological resource use</Threat-classification-element>
+<Threat-classification-element level="2">5.3 Logging &amp;amp; wood harvesting</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Climate change</Threat-name>
+<Threat-description>Climate conditions are generally considered of great importance for the maintainance of forest vegetation and characteristic processes of several macrogroups, and were also incorporated in the process of macrogroup potential distribution modeling and validation (Bow et al. 2008; Josse et al. 2009)⁠. Thus we considered climate change as a plausible future threat of degradation of environmental conditions (Laurance &amp;amp; Williamson 2001; Tovar et al. 2013)⁠</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">11 Climate change &amp; severe weather</Threat-classification-element>
+<Threat-classification-element level="2">11.1 Habitat shifting &amp; alteration</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Changes in water regimes</Threat-name>
+<Threat-description>⁠For the tropical and temperate flooded and swamp forest formations, permanent and temporal water bodies form a relevant element of the ecosystem and interact with characteristic biota (e.g. species tolerant to flooding and high ground water levels) and important processes (e.g. nutrient cycling, vegetation growth; Keddy et al. 2009)⁠. We considered flood regime and surface water as an important component of these forest macrogroups.</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">7 Natural system modifications</Threat-classification-element>
+<Threat-classification-element level="2">7.2 Dams &amp;amp; water management/use</Threat-classification-element>
+<Threat-classification-element level="3">7.2.4 Abstraction of surface water (unknown use)</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Defaunation</Threat-name>
+<Threat-description>⁠Defaunation is considered a large and pervasive threat to biodiversity, the loss of large vertebrates due to overexploitation has an impact in important biotic associations in ecosystems (Galetti &amp; Dirzo 2013; Dirzo et al. 2014)⁠.</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">5 Biological resource use</Threat-classification-element>
+<Threat-classification-element level="2">5.1 Hunting &amp;amp; collecting terrestrial animals</Threat-classification-element>
+<Threat-classification-element level="3">5.1.4 Motivation Unknown/Unrecorded</Threat-classification-element>
+</Threat-classification>
+</Threat>
+</Threats>
+<Conceptual-ecosystem-model>
+<CEM-summary>A general conceptual model is presented graphically in Fig. S1. We include in this model the most important large scale threats to forest in the Americas: loss of forest cover due to agriculture and live stock expansion; defaunation due to hunting (or “empty forest syndrome”), structural and compositional changes due to selective logging and invasion of exotic species, changes in disturbance regimes due to land use practices and development and shifting climatic conditions due to climate change.</CEM-summary>
+<CEM-type>Narrative</CEM-type>
+<CEM-type>Graphical</CEM-type>
+<CEM-source>Assessment authors</CEM-source>
+<CEM-source>Laurance &amp;amp; Williamson 2001</CEM-source>
+<CEM-source>Allen et al. 2010</CEM-source>
+<CEM-source>Faber-Langendoen et al. 2014</CEM-source>
+<CEM-source>Lewis et al. 2015</CEM-source>
+<CEM-source>Levis et al. 2017</CEM-source>
+</Conceptual-ecosystem-model>
+<Classification>
+<Realm>Terrestrial</Realm>
+<Classification-system id="IUCN" version="3.0" selected="no" assigned.by="JRFP">
+<Classification-element level="1">1 Forest</Classification-element>
+<Classification-element level="2">1.8 Forest - Subtropical/Tropical Swamp</Classification-element>
+</Classification-system>
+<Classification-system id="IVC" version="2014" selected="yes" assigned.by="Natureserve">
+<Classification-element level="1">1 Forest &amp; Woodland</Classification-element>
+<Classification-element level="2">1.A Tropical Forest &amp; Woodland</Classification-element>
+<Classification-element level="3">1.A.4 Tropical Flooded &amp; Swamp Forest</Classification-element>
+<Classification-element level="4">1.A.4.Ek Tropical Andean Flooded Forest</Classification-element>
+<Classification-element level="5">1.A.4.Ek.629 - Northern Andean Riparian &amp; Flooded Forest</Classification-element>
+</Classification-system>
+</Classification>
+<Distribution>
+<Summary lang="es">1. Bsq. ribereños inundables Se encuentran en una estrecha franja a lo largo de los arroyos que estan dentro de los bsq. humedos montanos andinos en Venezuela, Colombia y Ecuador</Summary>
+<Countries>
+<Country iso-code-2="PE">Peru</Country>
+<Country iso-code-2="EC">Ecuador</Country>
+<Country iso-code-2="VE">Venezuela</Country>
+<Country iso-code-2="CO">Colombia</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+<Geographic-region>South America</Geographic-region>
+<Biogeographic-region>WWF ecoregion 'Magdalena Valley montane forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Apure-Villavicencio dry forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Guajira-Barranquilla xeric scrub'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Paraguana xeric scrub'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Sinú Valley dry forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Santa Marta montane forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Cordillera Oriental montane forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Maracaibo dry forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Magdalena-Urabá moist forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Venezuelan Andes montane forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Chocó-Darién moist forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Northwestern Andean montane forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Cauca Valley montane forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Northern Andean páramo'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Cauca Valley dry forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Magdalena Valley dry forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Eastern Cordillera real montane forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Western Ecuador moist forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Marañón dry forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Patía Valley dry forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Tumbes-Piura dry forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Napo moist forests'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Northern Andean Montane Forests'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Chocó-Darién Moist Forests'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Northern Andean Páramo'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Tumbesian-Andean Valleys Dry Forests'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Napo Moist Forests'</Biogeographic-region>
+<Biogeographic-region>'Tropical Andes' Hotspot</Biogeographic-region>
+<Biogeographic-region>'Tumbes-Choco-Magdalena' Hotspot</Biogeographic-region>
+</Distribution>
+<Collapse-definition>
+<Summary/>
+<Spatial-collapse>As the tree growth form is the main structural element of any forest macrogroup, a forest macrogroup was assumed to collapse if the original woodland cover was completely replaced by a non-woodland cover, or if the tree-cover within its potential distribution declined to zero (criteria A and B). </Spatial-collapse>
+<Functional-collapse>For assessing environmental degradation under criterion C, we considered two different indicators. In the case of climate change, we assume that the ecosystem collapsed if the climatic conditions shifted from mostly suitable for the focus macrogroup, to mostly suitable to a different macrogroup. Additionally for flooded and swamp forest, we assumed ecosystem collapse if the amount of detected surface water within the potential distribution of the macrogroup declined to zero.  For assessing disruption to biotic processes and interactions under criterion D we assumed that most of the fundamental processes and interactions disappeared with intensive use of woodlands under high population density. We also assumed that the ecosystem would collapse if the population of large mammals declined to less than 10% of their original population size. </Functional-collapse>
+</Collapse-definition>
+</Assessment-Target>
+<Ecosystem-Risk-Assessment date="20181010" reviewer="JRFP" status="completed">
+<Assessment-version>0.8</Assessment-version>
+<Risk-assessment-protocol>IUCN RLE 1.1</Risk-assessment-protocol>
+<Summary>
+</Summary>
+<Assessment-unit name="global">
+<Ecosystem-subset name="Global">
+<Subset-name>Global</Subset-name>
+<Subset-description>Regional or Continental-level assessment for the whole distribution of the '1.A.4.Ek.629 - Northern Andean Riparian &amp; Flooded Forest' macrogroup.</Subset-description>
+<Countries>
+<Country iso-code-2="PE">Peru</Country>
+<Country iso-code-2="EC">Ecuador</Country>
+<Country iso-code-2="VE">Venezuela</Country>
+<Country iso-code-2="CO">Colombia</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+</Ecosystem-subset>
+<Summary/>
+<Rationale>According to the evaluated indicators the threshold for EN was reached for criteria. Uncertainty in the indicators suggests that the overall category can be in the range os EN -- CR.</Rationale>
+<Overall-category>EN</Overall-category>
+<Plausible-bounds>EN -- CR</Plausible-bounds>
+<Criterion RAP="IUCN RLE 1.1" name="A">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="A1">
+<Summary/>
+<Rationale>The best estimate of the rate of recent change in woodland cover reached the threshold for EN for subcriterion A1. Uncertainty in this indicator suggests that the category for subcriterion A1 could be in the range of VU -- EN.</Rationale>
+<Category>EN</Category>
+<Plausible-bounds>VU -- EN</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A2b">
+<Summary/>
+<Rationale>The predicted future changes in tree cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A2b. Uncertainty in this indicator suggests that the category for subcriterion A2b could be in the range of VU -- LC.</Rationale>
+<Category>LC</Category>
+<Plausible-bounds>VU -- LC</Plausible-bounds>
+<Key-indicator-variable>Estimated and projected tree cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A3">
+<Summary/>
+<Rationale>The best estimate of the rate of historical change in woodland cover reached the threshold for EN for subcriterion A3. Uncertainty in this indicator suggests that the category for subcriterion A3 could be in the range of EN -- CR.</Rationale>
+<Category>EN</Category>
+<Plausible-bounds>EN -- CR</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="B">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="B1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="C">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="C1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="D">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="D1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="E">
+<Summary>No quantitative assessment of ecosystem collapse was performed for this assessment unit.</Summary>
+<Rationale>This criterion was not evaluated.</Rationale>
+<Overall-category>NE</Overall-category>
+</Criterion>
+</Assessment-unit>
+<Assessment-unit name="Peru">
+<Ecosystem-subset name="National: Peru">
+<Subset-name>National: Peru</Subset-name>
+<Subset-description>Country-level assessment of '1.A.4.Ek.629 - Northern Andean Riparian &amp; Flooded Forest' macrogroup in Peru.</Subset-description>
+<Countries>
+<Country isocode2="PE">Peru</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+</Ecosystem-subset>
+<Summary/>
+<Rationale>According to the evaluated indicators the threshold for EN was reached for criteria. Uncertainty in the indicators suggests that the overall category can be in the range os VU -- EN.</Rationale>
+<Overall-category>EN</Overall-category>
+<Plausible-bounds>VU -- EN</Plausible-bounds>
+<Criterion RAP="IUCN RLE 1.1" name="A">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="A1">
+<Summary/>
+<Rationale>The best estimate of the rate of recent change in woodland cover reached the threshold for VU for subcriterion A1. Uncertainty in this indicator suggests that the category for subcriterion A1 could be in the range of LC -- EN.</Rationale>
+<Category>VU</Category>
+<Plausible-bounds>LC -- EN</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A2b">
+<Summary/>
+<Rationale>The best estimate of the rate of predicted future change in tree cover reached the threshold for EN for subcriterion A2b. Uncertainty in this indicator suggests that the category for subcriterion A2b could be in the range of EN -- LC.</Rationale>
+<Category>EN</Category>
+<Plausible-bounds>EN -- LC</Plausible-bounds>
+<Key-indicator-variable>Estimated and projected tree cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A3">
+<Summary/>
+<Rationale>The best estimate of the rate of historical change in woodland cover reached the threshold for EN for subcriterion A3. Uncertainty in this indicator suggests that the category for subcriterion A3 could be in the range of VU -- EN.</Rationale>
+<Category>EN</Category>
+<Plausible-bounds>VU -- EN</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="B">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="B1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="C">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="C1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="D">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="D1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="E">
+<Summary>No quantitative assessment of ecosystem collapse was performed for this assessment unit.</Summary>
+<Rationale>This criterion was not evaluated.</Rationale>
+<Overall-category>NE</Overall-category>
+</Criterion>
+</Assessment-unit>
+<Assessment-unit name="Ecuador">
+<Ecosystem-subset name="National: Ecuador">
+<Subset-name>National: Ecuador</Subset-name>
+<Subset-description>Country-level assessment of '1.A.4.Ek.629 - Northern Andean Riparian &amp; Flooded Forest' macrogroup in Ecuador.</Subset-description>
+<Countries>
+<Country isocode2="EC">Ecuador</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+</Ecosystem-subset>
+<Summary/>
+<Rationale>According to the evaluated indicators the threshold for VU was reached for criteria. Uncertainty in the indicators suggests that the overall category can be in the range os VU -- EN.</Rationale>
+<Overall-category>VU</Overall-category>
+<Plausible-bounds>VU -- EN</Plausible-bounds>
+<Criterion RAP="IUCN RLE 1.1" name="A">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="A1">
+<Summary/>
+<Rationale>The best estimate of the rate of recent change in woodland cover reached the threshold for VU for subcriterion A1. Uncertainty in this indicator suggests that the category for subcriterion A1 could be in the range of LC -- EN.</Rationale>
+<Category>VU</Category>
+<Plausible-bounds>LC -- EN</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A2b">
+<Summary/>
+<Rationale>The best estimate of the rate of predicted future change in tree cover reached the threshold for VU for subcriterion A2b. Uncertainty in this indicator suggests that the category for subcriterion A2b could be in the range of VU -- NT.</Rationale>
+<Category>VU</Category>
+<Plausible-bounds>VU -- NT</Plausible-bounds>
+<Key-indicator-variable>Estimated and projected tree cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A3">
+<Summary/>
+<Rationale>The best estimate of the rate of historical change in woodland cover reached the threshold for VU for subcriterion A3. Uncertainty in this indicator suggests that the category for subcriterion A3 could be in the range of NT -- EN.</Rationale>
+<Category>VU</Category>
+<Plausible-bounds>NT -- EN</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="B">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="B1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="C">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="C1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="D">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="D1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="E">
+<Summary>No quantitative assessment of ecosystem collapse was performed for this assessment unit.</Summary>
+<Rationale>This criterion was not evaluated.</Rationale>
+<Overall-category>NE</Overall-category>
+</Criterion>
+</Assessment-unit>
+<Assessment-unit name="Venezuela">
+<Ecosystem-subset name="National: Venezuela">
+<Subset-name>National: Venezuela</Subset-name>
+<Subset-description>Country-level assessment of '1.A.4.Ek.629 - Northern Andean Riparian &amp; Flooded Forest' macrogroup in Venezuela.</Subset-description>
+<Countries>
+<Country isocode2="VE">Venezuela</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+</Ecosystem-subset>
+<Summary/>
+<Rationale>According to the evaluated indicators the threshold for VU was reached for criterion.</Rationale>
+<Overall-category>VU</Overall-category>
+<Criterion RAP="IUCN RLE 1.1" name="A">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="A1">
+<Summary/>
+<Rationale>The recent changes in woodland cover was near to the threshold for Vulnerable. For this reason it is considered Near Threatened under subcriterion A1. Uncertainty in this indicator suggests that the category for subcriterion A1 could be in the range of LC -- VU.</Rationale>
+<Category>NT</Category>
+<Plausible-bounds>LC -- VU</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A2b">
+<Summary/>
+<Rationale>The predicted future changes in tree cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A2b. Uncertainty in this indicator suggests that the category for subcriterion A2b could be in the range of VU -- LC.</Rationale>
+<Category>LC</Category>
+<Plausible-bounds>VU -- LC</Plausible-bounds>
+<Key-indicator-variable>Estimated and projected tree cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A3">
+<Summary/>
+<Rationale>The historical changes in woodland cover was near to the threshold for Vulnerable. For this reason it is considered Near Threatened under subcriterion A3. Uncertainty in this indicator suggests that the category for subcriterion A3 could be in the range of LC -- VU.</Rationale>
+<Category>NT</Category>
+<Plausible-bounds>LC -- VU</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="B">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="B1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="C">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="C1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="D">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="D1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="E">
+<Summary>No quantitative assessment of ecosystem collapse was performed for this assessment unit.</Summary>
+<Rationale>This criterion was not evaluated.</Rationale>
+<Overall-category>NE</Overall-category>
+</Criterion>
+</Assessment-unit>
+<Assessment-unit name="Colombia">
+<Ecosystem-subset name="National: Colombia">
+<Subset-name>National: Colombia</Subset-name>
+<Subset-description>Country-level assessment of '1.A.4.Ek.629 - Northern Andean Riparian &amp; Flooded Forest' macrogroup in Colombia.</Subset-description>
+<Countries>
+<Country isocode2="CO">Colombia</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+</Ecosystem-subset>
+<Summary/>
+<Rationale>According to the evaluated indicators the threshold for CR was reached for criterion.</Rationale>
+<Overall-category>CR</Overall-category>
+<Criterion RAP="IUCN RLE 1.1" name="A">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="A1">
+<Summary/>
+<Rationale>The best estimate of the rate of recent change in woodland cover reached the threshold for EN for subcriterion A1. </Rationale>
+<Category>EN</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A2b">
+<Summary/>
+<Rationale>The predicted future changes in tree cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A2b. Uncertainty in this indicator suggests that the category for subcriterion A2b could be in the range of NT -- LC.</Rationale>
+<Category>LC</Category>
+<Plausible-bounds>NT -- LC</Plausible-bounds>
+<Key-indicator-variable>Estimated and projected tree cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A3">
+<Summary/>
+<Rationale>The best estimate of the rate of historical change in woodland cover reached the threshold for CR for subcriterion A3. </Rationale>
+<Category>CR</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="B">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="B1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="C">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="C1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="D">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="D1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="E">
+<Summary>No quantitative assessment of ecosystem collapse was performed for this assessment unit.</Summary>
+<Rationale>This criterion was not evaluated.</Rationale>
+<Overall-category>NE</Overall-category>
+</Criterion>
+</Assessment-unit>
+</Ecosystem-Risk-Assessment>
+</Case-Study>
+<Case-Study id="FerrerParis_Continental_ForestMacrogroup_2017:67" name="Forest Macrogroups of the Americas: '1.A.4.Ek.630 - Central Andean Riparian &amp; Flooded Forest VU'">
+<Case-Study-Name lang="en">Forest Macrogroups of the Americas: '1.A.4.Ek.630 - Central Andean Riparian &amp; Flooded Forest VU'</Case-Study-Name>
+<Assessment-Information date="20181010" reviewer="JRFP" status="completed">
+<Assessment-contributors>
+<Author>JR Ferrer-Paris</Author>
+<Author>I Zager</Author>
+<Author>D Keith</Author>
+<Author>MA Oliveira-Miranda</Author>
+<Author>JP Rodríguez</Author>
+<Author>C Josse</Author>
+<Author>M González-Gil</Author>
+<Author>RM Miller</Author>
+<Author>C Zambrana-Torrelio</Author>
+<Author>E Barrow</Author>
+</Assessment-contributors>
+<Assessment-date>2012</Assessment-date>
+<Assessment-reviewers>
+<Journal-Reviewer>Anonymous</Journal-Reviewer>
+<Journal-Reviewer>Anonymous</Journal-Reviewer>
+<Journal-Reviewer>Anonymous</Journal-Reviewer>
+<Journal-Editor>ET Game</Journal-Editor>
+<Journal-Editor>J Simonetti</Journal-Editor>
+</Assessment-reviewers>
+<Date-received>20180401</Date-received>
+<Date-accepted/>
+<Date-published/>
+<Date-webpublished/>
+<ref-label>FerrerParis_Continental_ForestMacrogroup_2017</ref-label>
+<Keywords>
+<Keyword>Woodlands</Keyword>
+<Keyword>Climate change</Keyword>
+<Keyword>Defaunation</Keyword>
+<Keyword>Anthromes</Keyword>
+<Keyword>Surface water</Keyword>
+</Keywords>
+</Assessment-Information>
+<Assessment-Target date="20181010" reviewer="JRFP" status="completed">
+<AT-id>IVC_1.A.4.Ek:M630</AT-id>
+<AT-description>The '1.A.4.Ek.630 - Central Andean Riparian &amp; Flooded Forest' is a forest macrogroup belonging to the '1.A.4.Ek Tropical Andean Flooded Forest' division in the International Vegetation Classification system (Faber-Langendoen et al. 2014). It is considered here as a proxy for a forest ecosystem type in a regional assessment of forest ecosystems in the Americas.</AT-description>
+<AT-name>1.A.4.Ek.630 - Central Andean Riparian &amp; Flooded Forest</AT-name>
+<Characteristic-biota>
+<Summary/>
+<Taxon lang="scientific">Alnus acuminata</Taxon>
+<Taxon lang="scientific">Vallea stipularis</Taxon>
+<Taxon lang="scientific">Myrica pubescens</Taxon>
+<Taxon lang="scientific">Clusia trochitae</Taxon>
+<Taxon lang="scientific">Escallonia herrerae</Taxon>
+<Taxon lang="scientific">Hedyosmum angustifolium</Taxon>
+<Taxon lang="scientific">Hedyosmum dombeyanum</Taxon>
+<Taxon lang="scientific">Symplocos quitensis</Taxon>
+<Taxon lang="scientific">Polystichum</Taxon>
+<Taxon lang="scientific">Dryopteris,Cortaderia,Salix humboldtiana</Taxon>
+<Taxon lang="scientific">Acacia visco</Taxon>
+<Taxon lang="scientific">Baccharis salicifolia</Taxon>
+<Taxon lang="scientific">Baccharis juncea</Taxon>
+<Taxon lang="scientific">Pluchea absynthioides</Taxon>
+<Taxon lang="scientific">Nicotiana glauca</Taxon>
+</Characteristic-biota>
+<Abiotic-environment>
+<Summary lang="es">clima humedo Suelos aluviales</Summary>
+</Abiotic-environment>
+<Biotic-processes>
+<Summary lang="es">Los bosques humedos estan dominados por arboles con hoja decidua</Summary>
+</Biotic-processes>
+<Biotic-interactions>
+<Summary/>
+</Biotic-interactions>
+<Threats>
+<Summary/>
+<Threat>
+<Threat-name>Increase in human population density</Threat-name>
+<Threat-description>Increasing human population can be a cause of loss of woodland distribution due to increase in resource use, expansion of infrastructure, and changes in land use. It is also indirectly associated to the spread of invasive species.</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">1 Residential &amp;amp; commercial development</Threat-classification-element>
+<Threat-classification-element level="1">4 Transportation &amp;amp; service corridors</Threat-classification-element>
+<Threat-classification-element level="1">6 Human intrusions &amp;amp; disturbance</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Higher intensity of agriculture</Threat-name>
+<Threat-description>
+</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">2 Agriculture &amp;amp; aquaculture</Threat-classification-element>
+<Threat-classification-element level="2">2.1 Annual &amp;amp; perennial non-timber crops</Threat-classification-element>
+<Threat-classification-element level="2">2.2 Wood &amp;amp; pulp plantations</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Expansion of grazing stock</Threat-name>
+<Threat-description>
+</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">2 Agriculture &amp;amp; aquaculture</Threat-classification-element>
+<Threat-classification-element level="2">2.3 Livestock farming &amp;amp; ranching</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Deforestation</Threat-name>
+<Threat-description>Elimination of tree cover.</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">5 Biological resource use</Threat-classification-element>
+<Threat-classification-element level="2">5.3 Logging &amp;amp; wood harvesting</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Climate change</Threat-name>
+<Threat-description>Climate conditions are generally considered of great importance for the maintainance of forest vegetation and characteristic processes of several macrogroups, and were also incorporated in the process of macrogroup potential distribution modeling and validation (Bow et al. 2008; Josse et al. 2009)⁠. Thus we considered climate change as a plausible future threat of degradation of environmental conditions (Laurance &amp;amp; Williamson 2001; Tovar et al. 2013)⁠</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">11 Climate change &amp; severe weather</Threat-classification-element>
+<Threat-classification-element level="2">11.1 Habitat shifting &amp; alteration</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Changes in water regimes</Threat-name>
+<Threat-description>⁠For the tropical and temperate flooded and swamp forest formations, permanent and temporal water bodies form a relevant element of the ecosystem and interact with characteristic biota (e.g. species tolerant to flooding and high ground water levels) and important processes (e.g. nutrient cycling, vegetation growth; Keddy et al. 2009)⁠. We considered flood regime and surface water as an important component of these forest macrogroups.</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">7 Natural system modifications</Threat-classification-element>
+<Threat-classification-element level="2">7.2 Dams &amp;amp; water management/use</Threat-classification-element>
+<Threat-classification-element level="3">7.2.4 Abstraction of surface water (unknown use)</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Defaunation</Threat-name>
+<Threat-description>⁠Defaunation is considered a large and pervasive threat to biodiversity, the loss of large vertebrates due to overexploitation has an impact in important biotic associations in ecosystems (Galetti &amp; Dirzo 2013; Dirzo et al. 2014)⁠.</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">5 Biological resource use</Threat-classification-element>
+<Threat-classification-element level="2">5.1 Hunting &amp;amp; collecting terrestrial animals</Threat-classification-element>
+<Threat-classification-element level="3">5.1.4 Motivation Unknown/Unrecorded</Threat-classification-element>
+</Threat-classification>
+</Threat>
+</Threats>
+<Conceptual-ecosystem-model>
+<CEM-summary>A general conceptual model is presented graphically in Fig. S1. We include in this model the most important large scale threats to forest in the Americas: loss of forest cover due to agriculture and live stock expansion; defaunation due to hunting (or “empty forest syndrome”), structural and compositional changes due to selective logging and invasion of exotic species, changes in disturbance regimes due to land use practices and development and shifting climatic conditions due to climate change.</CEM-summary>
+<CEM-type>Narrative</CEM-type>
+<CEM-type>Graphical</CEM-type>
+<CEM-source>Assessment authors</CEM-source>
+<CEM-source>Laurance &amp;amp; Williamson 2001</CEM-source>
+<CEM-source>Allen et al. 2010</CEM-source>
+<CEM-source>Faber-Langendoen et al. 2014</CEM-source>
+<CEM-source>Lewis et al. 2015</CEM-source>
+<CEM-source>Levis et al. 2017</CEM-source>
+</Conceptual-ecosystem-model>
+<Classification>
+<Realm>Terrestrial</Realm>
+<Classification-system id="IUCN" version="3.0" selected="no" assigned.by="JRFP">
+<Classification-element level="1">1 Forest</Classification-element>
+<Classification-element level="2">1.8 Forest - Subtropical/Tropical Swamp</Classification-element>
+</Classification-system>
+<Classification-system id="IVC" version="2014" selected="yes" assigned.by="Natureserve">
+<Classification-element level="1">1 Forest &amp; Woodland</Classification-element>
+<Classification-element level="2">1.A Tropical Forest &amp; Woodland</Classification-element>
+<Classification-element level="3">1.A.4 Tropical Flooded &amp; Swamp Forest</Classification-element>
+<Classification-element level="4">1.A.4.Ek Tropical Andean Flooded Forest</Classification-element>
+<Classification-element level="5">1.A.4.Ek.630 - Central Andean Riparian &amp; Flooded Forest</Classification-element>
+</Classification-system>
+</Classification>
+<Distribution>
+<Summary lang="es">1. Bsq. montano humedo, 2. Bsq. ribereños Estan distribuidos por los Andes centrales de Perú, Bolivia y Argentina. Los Bsq ribereños se encuentran en las margenes ribereñas de la zona Xerica pre-puna</Summary>
+<Countries>
+<Country iso-code-2="CL">Chile</Country>
+<Country iso-code-2="AR">Argentina</Country>
+<Country iso-code-2="BO">Bolivia</Country>
+<Country iso-code-2="PE">Peru</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+<Geographic-region>South America</Geographic-region>
+<Biogeographic-region>WWF ecoregion 'Southwest Amazon moist forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Ucayali moist forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Peruvian Yungas'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Sechura desert'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Marañón dry forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Cordillera Central páramo'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Central Andean wet puna'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Central Andean puna'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Bolivian Yungas'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Bolivian montane dry forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Central Andean dry puna'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Atacama desert'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Southwestern Amazonian Moist Forests'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Napo Moist Forests'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Central Andean Yungas'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Atacama-Sechura Deserts'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Tumbesian-Andean Valleys Dry Forests'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Northern Andean Páramo'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Central Andean Dry Puna'</Biogeographic-region>
+<Biogeographic-region>'Tropical Andes' Hotspot</Biogeographic-region>
+<Biogeographic-region>'Tumbes-Choco-Magdalena' Hotspot</Biogeographic-region>
+</Distribution>
+<Collapse-definition>
+<Summary/>
+<Spatial-collapse>As the tree growth form is the main structural element of any forest macrogroup, a forest macrogroup was assumed to collapse if the original woodland cover was completely replaced by a non-woodland cover, or if the tree-cover within its potential distribution declined to zero (criteria A and B). </Spatial-collapse>
+<Functional-collapse>For assessing environmental degradation under criterion C, we considered two different indicators. In the case of climate change, we assume that the ecosystem collapsed if the climatic conditions shifted from mostly suitable for the focus macrogroup, to mostly suitable to a different macrogroup. Additionally for flooded and swamp forest, we assumed ecosystem collapse if the amount of detected surface water within the potential distribution of the macrogroup declined to zero.  For assessing disruption to biotic processes and interactions under criterion D we assumed that most of the fundamental processes and interactions disappeared with intensive use of woodlands under high population density. We also assumed that the ecosystem would collapse if the population of large mammals declined to less than 10% of their original population size. </Functional-collapse>
+</Collapse-definition>
+</Assessment-Target>
+<Ecosystem-Risk-Assessment date="20181010" reviewer="JRFP" status="completed">
+<Assessment-version>0.8</Assessment-version>
+<Risk-assessment-protocol>IUCN RLE 1.1</Risk-assessment-protocol>
+<Summary>
+</Summary>
+<Assessment-unit name="global">
+<Ecosystem-subset name="Global">
+<Subset-name>Global</Subset-name>
+<Subset-description>Regional or Continental-level assessment for the whole distribution of the '1.A.4.Ek.630 - Central Andean Riparian &amp; Flooded Forest' macrogroup.</Subset-description>
+<Countries>
+<Country iso-code-2="CL">Chile</Country>
+<Country iso-code-2="AR">Argentina</Country>
+<Country iso-code-2="BO">Bolivia</Country>
+<Country iso-code-2="PE">Peru</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+</Ecosystem-subset>
+<Summary/>
+<Rationale>According to the evaluated indicators the threshold for VU was reached for criteria.</Rationale>
+<Overall-category>VU</Overall-category>
+<Criterion RAP="IUCN RLE 1.1" name="A">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="A1">
+<Summary/>
+<Rationale>The recent changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A1. </Rationale>
+<Category>LC</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A2b">
+<Summary/>
+<Rationale>The best estimate of the rate of predicted future change in tree cover reached the threshold for VU for subcriterion A2b. </Rationale>
+<Category>VU</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated and projected tree cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A3">
+<Summary/>
+<Rationale>The historical changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A3. </Rationale>
+<Category>LC</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="B">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="B1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="C">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="C1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="D">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="D1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="E">
+<Summary>No quantitative assessment of ecosystem collapse was performed for this assessment unit.</Summary>
+<Rationale>This criterion was not evaluated.</Rationale>
+<Overall-category>NE</Overall-category>
+</Criterion>
+</Assessment-unit>
+<Assessment-unit name="Chile">
+<Ecosystem-subset name="National: Chile">
+<Subset-name>National: Chile</Subset-name>
+<Subset-description>Country-level assessment of '1.A.4.Ek.630 - Central Andean Riparian &amp; Flooded Forest' macrogroup in Chile.</Subset-description>
+<Countries>
+<Country isocode2="CL">Chile</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+</Ecosystem-subset>
+<Summary/>
+<Rationale>According to the evaluated indicators the threshold for VU was reached for criteria.</Rationale>
+<Overall-category>VU</Overall-category>
+<Criterion RAP="IUCN RLE 1.1" name="A">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="A1">
+<Summary/>
+<Rationale>This subcriterion was evaluated, but the uncertainty in the estimates of recent changes in woodland cover was too high to reliable assign a category. </Rationale>
+<Category>DD</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A2b">
+<Summary/>
+<Rationale>This subcriterion was evaluated, but the uncertainty in the estimates of predicted future changes in tree cover was too high to reliable assign a category. </Rationale>
+<Category>DD</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated and projected tree cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A3">
+<Summary/>
+<Rationale>This subcriterion was evaluated, but the uncertainty in the estimates of historical changes in woodland cover was too high to reliable assign a category. </Rationale>
+<Category>DD</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="B">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="B1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="C">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="C1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="D">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="D1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="E">
+<Summary>No quantitative assessment of ecosystem collapse was performed for this assessment unit.</Summary>
+<Rationale>This criterion was not evaluated.</Rationale>
+<Overall-category>NE</Overall-category>
+</Criterion>
+</Assessment-unit>
+<Assessment-unit name="Argentina">
+<Ecosystem-subset name="National: Argentina">
+<Subset-name>National: Argentina</Subset-name>
+<Subset-description>Country-level assessment of '1.A.4.Ek.630 - Central Andean Riparian &amp; Flooded Forest' macrogroup in Argentina.</Subset-description>
+<Countries>
+<Country isocode2="AR">Argentina</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+</Ecosystem-subset>
+<Summary/>
+<Rationale>According to the evaluated indicators the threshold for VU was reached for criteria. Uncertainty in the indicators suggests that the overall category can be in the range os VU -- EN.</Rationale>
+<Overall-category>VU</Overall-category>
+<Plausible-bounds>VU -- EN</Plausible-bounds>
+<Criterion RAP="IUCN RLE 1.1" name="A">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="A1">
+<Summary/>
+<Rationale>The recent changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A1. </Rationale>
+<Category>LC</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A2b">
+<Summary/>
+<Rationale>The predicted future changes in tree cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A2b. Uncertainty in this indicator suggests that the category for subcriterion A2b could be in the range of EN -- LC.</Rationale>
+<Category>LC</Category>
+<Plausible-bounds>EN -- LC</Plausible-bounds>
+<Key-indicator-variable>Estimated and projected tree cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A3">
+<Summary/>
+<Rationale>The historical changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A3. </Rationale>
+<Category>LC</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="B">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="B1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="C">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="C1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="D">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="D1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="E">
+<Summary>No quantitative assessment of ecosystem collapse was performed for this assessment unit.</Summary>
+<Rationale>This criterion was not evaluated.</Rationale>
+<Overall-category>NE</Overall-category>
+</Criterion>
+</Assessment-unit>
+<Assessment-unit name="Bolivia">
+<Ecosystem-subset name="National: Bolivia">
+<Subset-name>National: Bolivia</Subset-name>
+<Subset-description>Country-level assessment of '1.A.4.Ek.630 - Central Andean Riparian &amp; Flooded Forest' macrogroup in Bolivia.</Subset-description>
+<Countries>
+<Country isocode2="BO">Bolivia</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+</Ecosystem-subset>
+<Summary/>
+<Rationale>According to the evaluated indicators the threshold for CO was reached for criterion.</Rationale>
+<Overall-category>CO</Overall-category>
+<Criterion RAP="IUCN RLE 1.1" name="A">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="A1">
+<Summary/>
+<Rationale>The best estimate of the rate of recent change in woodland cover reached the threshold for EN for subcriterion A1. Uncertainty in this indicator suggests that the category for subcriterion A1 could be in the range of VU -- EN.</Rationale>
+<Category>EN</Category>
+<Plausible-bounds>VU -- EN</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A2b">
+<Summary/>
+<Rationale>The predicted future changes in tree cover was near to the threshold for Vulnerable. For this reason it is considered Near Threatened under subcriterion A2b. Uncertainty in this indicator suggests that the category for subcriterion A2b could be in the range of VU -- LC.</Rationale>
+<Category>NT</Category>
+<Plausible-bounds>VU -- LC</Plausible-bounds>
+<Key-indicator-variable>Estimated and projected tree cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A3">
+<Summary/>
+<Rationale>The best estimate of the rate of historical change in woodland cover reached the threshold for EN for subcriterion A3. Uncertainty in this indicator suggests that the category for subcriterion A3 could be in the range of EN -- CR.</Rationale>
+<Category>EN</Category>
+<Plausible-bounds>EN -- CR</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="B">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="B1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="C">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="C1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="D">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="D1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="E">
+<Summary>No quantitative assessment of ecosystem collapse was performed for this assessment unit.</Summary>
+<Rationale>This criterion was not evaluated.</Rationale>
+<Overall-category>NE</Overall-category>
+</Criterion>
+</Assessment-unit>
+<Assessment-unit name="Peru">
+<Ecosystem-subset name="National: Peru">
+<Subset-name>National: Peru</Subset-name>
+<Subset-description>Country-level assessment of '1.A.4.Ek.630 - Central Andean Riparian &amp; Flooded Forest' macrogroup in Peru.</Subset-description>
+<Countries>
+<Country isocode2="PE">Peru</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+</Ecosystem-subset>
+<Summary/>
+<Rationale>According to the evaluated indicators the threshold for VU was reached for criteria.</Rationale>
+<Overall-category>VU</Overall-category>
+<Criterion RAP="IUCN RLE 1.1" name="A">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="A1">
+<Summary/>
+<Rationale>The recent changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A1. </Rationale>
+<Category>LC</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A2b">
+<Summary/>
+<Rationale>The best estimate of the rate of predicted future change in tree cover reached the threshold for VU for subcriterion A2b. </Rationale>
+<Category>VU</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated and projected tree cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A3">
+<Summary/>
+<Rationale>The historical changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A3. </Rationale>
+<Category>LC</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="B">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="B1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="C">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="C1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="D">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="D1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="E">
+<Summary>No quantitative assessment of ecosystem collapse was performed for this assessment unit.</Summary>
+<Rationale>This criterion was not evaluated.</Rationale>
+<Overall-category>NE</Overall-category>
+</Criterion>
+</Assessment-unit>
+</Ecosystem-Risk-Assessment>
+</Case-Study>
+<Case-Study id="FerrerParis_Continental_ForestMacrogroup_2017:68" name="Forest Macrogroups of the Americas: '1.A.4.Ek.631 - Bolivian-Tucuman Dry Valley Riparian Forest VU (VU -- EN)'">
+<Case-Study-Name lang="en">Forest Macrogroups of the Americas: '1.A.4.Ek.631 - Bolivian-Tucuman Dry Valley Riparian Forest VU (VU -- EN)'</Case-Study-Name>
+<Assessment-Information date="20181010" reviewer="JRFP" status="completed">
+<Assessment-contributors>
+<Author>JR Ferrer-Paris</Author>
+<Author>I Zager</Author>
+<Author>D Keith</Author>
+<Author>MA Oliveira-Miranda</Author>
+<Author>JP Rodríguez</Author>
+<Author>C Josse</Author>
+<Author>M González-Gil</Author>
+<Author>RM Miller</Author>
+<Author>C Zambrana-Torrelio</Author>
+<Author>E Barrow</Author>
+</Assessment-contributors>
+<Assessment-date>2012</Assessment-date>
+<Assessment-reviewers>
+<Journal-Reviewer>Anonymous</Journal-Reviewer>
+<Journal-Reviewer>Anonymous</Journal-Reviewer>
+<Journal-Reviewer>Anonymous</Journal-Reviewer>
+<Journal-Editor>ET Game</Journal-Editor>
+<Journal-Editor>J Simonetti</Journal-Editor>
+</Assessment-reviewers>
+<Date-received>20180401</Date-received>
+<Date-accepted/>
+<Date-published/>
+<Date-webpublished/>
+<ref-label>FerrerParis_Continental_ForestMacrogroup_2017</ref-label>
+<Keywords>
+<Keyword>Woodlands</Keyword>
+<Keyword>Climate change</Keyword>
+<Keyword>Defaunation</Keyword>
+<Keyword>Anthromes</Keyword>
+<Keyword>Surface water</Keyword>
+</Keywords>
+</Assessment-Information>
+<Assessment-Target date="20181010" reviewer="JRFP" status="completed">
+<AT-id>IVC_1.A.4.Ek:M631</AT-id>
+<AT-description>The '1.A.4.Ek.631 - Bolivian-Tucuman Dry Valley Riparian Forest' is a forest macrogroup belonging to the '1.A.4.Ek Tropical Andean Flooded Forest' division in the International Vegetation Classification system (Faber-Langendoen et al. 2014). It is considered here as a proxy for a forest ecosystem type in a regional assessment of forest ecosystems in the Americas.</AT-description>
+<AT-name>1.A.4.Ek.631 - Bolivian-Tucuman Dry Valley Riparian Forest</AT-name>
+<Characteristic-biota>
+<Summary/>
+<Taxon lang="scientific">Pisonia ambigua</Taxon>
+<Taxon lang="scientific">Myroxylon peruiferum</Taxon>
+<Taxon lang="scientific">Coccoloba tiliacea</Taxon>
+<Taxon lang="scientific">Kaunia saltensis</Taxon>
+<Taxon lang="scientific">Piptadenia boliviana</Taxon>
+<Taxon lang="scientific">Pentapanax angelicifolius,Salix humboldtiana</Taxon>
+<Taxon lang="scientific">Sapium caribaeum (= Sapium glandulosum)</Taxon>
+<Taxon lang="scientific">Sapium haematospermum</Taxon>
+<Taxon lang="scientific">Schinus molle</Taxon>
+<Taxon lang="scientific">Acacia visco</Taxon>
+<Taxon lang="scientific">Acalypha plicata</Taxon>
+<Taxon lang="scientific">Pisoniella arborescens</Taxon>
+<Taxon lang="scientific">Muehlenbeckia tamnifolia</Taxon>
+<Taxon lang="scientific">Clematis montevidensis</Taxon>
+</Characteristic-biota>
+<Abiotic-environment>
+<Summary lang="es">
+</Summary>
+</Abiotic-environment>
+<Biotic-processes>
+<Summary lang="es">
+</Summary>
+</Biotic-processes>
+<Biotic-interactions>
+<Summary/>
+</Biotic-interactions>
+<Threats>
+<Summary/>
+<Threat>
+<Threat-name>Increase in human population density</Threat-name>
+<Threat-description>Increasing human population can be a cause of loss of woodland distribution due to increase in resource use, expansion of infrastructure, and changes in land use. It is also indirectly associated to the spread of invasive species.</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">1 Residential &amp;amp; commercial development</Threat-classification-element>
+<Threat-classification-element level="1">4 Transportation &amp;amp; service corridors</Threat-classification-element>
+<Threat-classification-element level="1">6 Human intrusions &amp;amp; disturbance</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Higher intensity of agriculture</Threat-name>
+<Threat-description>
+</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">2 Agriculture &amp;amp; aquaculture</Threat-classification-element>
+<Threat-classification-element level="2">2.1 Annual &amp;amp; perennial non-timber crops</Threat-classification-element>
+<Threat-classification-element level="2">2.2 Wood &amp;amp; pulp plantations</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Expansion of grazing stock</Threat-name>
+<Threat-description>
+</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">2 Agriculture &amp;amp; aquaculture</Threat-classification-element>
+<Threat-classification-element level="2">2.3 Livestock farming &amp;amp; ranching</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Deforestation</Threat-name>
+<Threat-description>Elimination of tree cover.</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">5 Biological resource use</Threat-classification-element>
+<Threat-classification-element level="2">5.3 Logging &amp;amp; wood harvesting</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Climate change</Threat-name>
+<Threat-description>Climate conditions are generally considered of great importance for the maintainance of forest vegetation and characteristic processes of several macrogroups, and were also incorporated in the process of macrogroup potential distribution modeling and validation (Bow et al. 2008; Josse et al. 2009)⁠. Thus we considered climate change as a plausible future threat of degradation of environmental conditions (Laurance &amp;amp; Williamson 2001; Tovar et al. 2013)⁠</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">11 Climate change &amp; severe weather</Threat-classification-element>
+<Threat-classification-element level="2">11.1 Habitat shifting &amp; alteration</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Changes in water regimes</Threat-name>
+<Threat-description>⁠For the tropical and temperate flooded and swamp forest formations, permanent and temporal water bodies form a relevant element of the ecosystem and interact with characteristic biota (e.g. species tolerant to flooding and high ground water levels) and important processes (e.g. nutrient cycling, vegetation growth; Keddy et al. 2009)⁠. We considered flood regime and surface water as an important component of these forest macrogroups.</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">7 Natural system modifications</Threat-classification-element>
+<Threat-classification-element level="2">7.2 Dams &amp;amp; water management/use</Threat-classification-element>
+<Threat-classification-element level="3">7.2.4 Abstraction of surface water (unknown use)</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Defaunation</Threat-name>
+<Threat-description>⁠Defaunation is considered a large and pervasive threat to biodiversity, the loss of large vertebrates due to overexploitation has an impact in important biotic associations in ecosystems (Galetti &amp; Dirzo 2013; Dirzo et al. 2014)⁠.</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">5 Biological resource use</Threat-classification-element>
+<Threat-classification-element level="2">5.1 Hunting &amp;amp; collecting terrestrial animals</Threat-classification-element>
+<Threat-classification-element level="3">5.1.4 Motivation Unknown/Unrecorded</Threat-classification-element>
+</Threat-classification>
+</Threat>
+</Threats>
+<Conceptual-ecosystem-model>
+<CEM-summary>A general conceptual model is presented graphically in Fig. S1. We include in this model the most important large scale threats to forest in the Americas: loss of forest cover due to agriculture and live stock expansion; defaunation due to hunting (or “empty forest syndrome”), structural and compositional changes due to selective logging and invasion of exotic species, changes in disturbance regimes due to land use practices and development and shifting climatic conditions due to climate change.</CEM-summary>
+<CEM-type>Narrative</CEM-type>
+<CEM-type>Graphical</CEM-type>
+<CEM-source>Assessment authors</CEM-source>
+<CEM-source>Laurance &amp;amp; Williamson 2001</CEM-source>
+<CEM-source>Allen et al. 2010</CEM-source>
+<CEM-source>Faber-Langendoen et al. 2014</CEM-source>
+<CEM-source>Lewis et al. 2015</CEM-source>
+<CEM-source>Levis et al. 2017</CEM-source>
+</Conceptual-ecosystem-model>
+<Classification>
+<Realm>Terrestrial</Realm>
+<Classification-system id="IUCN" version="3.0" selected="no" assigned.by="JRFP">
+<Classification-element level="1">1 Forest</Classification-element>
+<Classification-element level="2">1.8 Forest - Subtropical/Tropical Swamp</Classification-element>
+</Classification-system>
+<Classification-system id="IVC" version="2014" selected="yes" assigned.by="Natureserve">
+<Classification-element level="1">1 Forest &amp; Woodland</Classification-element>
+<Classification-element level="2">1.A Tropical Forest &amp; Woodland</Classification-element>
+<Classification-element level="3">1.A.4 Tropical Flooded &amp; Swamp Forest</Classification-element>
+<Classification-element level="4">1.A.4.Ek Tropical Andean Flooded Forest</Classification-element>
+<Classification-element level="5">1.A.4.Ek.631 - Bolivian-Tucuman Dry Valley Riparian Forest</Classification-element>
+</Classification-system>
+</Classification>
+<Distribution>
+<Summary lang="es">1. Bsq. ribereños. 2. Bsq andino humedo y sub-humedo Estan presentes en las terrazas aluviales, abanicos aluviales distales de las estribaciones de los valles interandinos y llanuras de inundación relativamente estrechas de arroyos de montaña al sureste de Bolivia y noreste de Argentina</Summary>
+<Countries>
+<Country iso-code-2="AR">Argentina</Country>
+<Country iso-code-2="BO">Bolivia</Country>
+<Country iso-code-2="PE">Peru</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+<Geographic-region>South America</Geographic-region>
+<Biogeographic-region>WWF ecoregion 'Central Andean wet puna'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Bolivian Yungas'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Bolivian montane dry forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Central Andean puna'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Dry Chaco'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Southern Andean Yungas'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Southwest Amazon moist forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'High Monte'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Low Monte'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Central Andean Yungas'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Southwestern Amazonian Moist Forests'</Biogeographic-region>
+<Biogeographic-region>'Tropical Andes' Hotspot</Biogeographic-region>
+</Distribution>
+<Collapse-definition>
+<Summary/>
+<Spatial-collapse>As the tree growth form is the main structural element of any forest macrogroup, a forest macrogroup was assumed to collapse if the original woodland cover was completely replaced by a non-woodland cover, or if the tree-cover within its potential distribution declined to zero (criteria A and B). </Spatial-collapse>
+<Functional-collapse>For assessing environmental degradation under criterion C, we considered two different indicators. In the case of climate change, we assume that the ecosystem collapsed if the climatic conditions shifted from mostly suitable for the focus macrogroup, to mostly suitable to a different macrogroup. Additionally for flooded and swamp forest, we assumed ecosystem collapse if the amount of detected surface water within the potential distribution of the macrogroup declined to zero.  For assessing disruption to biotic processes and interactions under criterion D we assumed that most of the fundamental processes and interactions disappeared with intensive use of woodlands under high population density. We also assumed that the ecosystem would collapse if the population of large mammals declined to less than 10% of their original population size. </Functional-collapse>
+</Collapse-definition>
+</Assessment-Target>
+<Ecosystem-Risk-Assessment date="20181010" reviewer="JRFP" status="completed">
+<Assessment-version>0.8</Assessment-version>
+<Risk-assessment-protocol>IUCN RLE 1.1</Risk-assessment-protocol>
+<Summary>
+</Summary>
+<Assessment-unit name="global">
+<Ecosystem-subset name="Global">
+<Subset-name>Global</Subset-name>
+<Subset-description>Regional or Continental-level assessment for the whole distribution of the '1.A.4.Ek.631 - Bolivian-Tucuman Dry Valley Riparian Forest' macrogroup.</Subset-description>
+<Countries>
+<Country iso-code-2="AR">Argentina</Country>
+<Country iso-code-2="BO">Bolivia</Country>
+<Country iso-code-2="PE">Peru</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+</Ecosystem-subset>
+<Summary/>
+<Rationale>According to the evaluated indicators the threshold for VU was reached for criterion. Uncertainty in the indicators suggests that the overall category can be in the range os VU -- EN.</Rationale>
+<Overall-category>VU</Overall-category>
+<Plausible-bounds>VU -- EN</Plausible-bounds>
+<Criterion RAP="IUCN RLE 1.1" name="A">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="A1">
+<Summary/>
+<Rationale>The recent changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A1. </Rationale>
+<Category>LC</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A2b">
+<Summary/>
+<Rationale>The best estimate of the rate of predicted future change in tree cover reached the threshold for VU for subcriterion A2b. Uncertainty in this indicator suggests that the category for subcriterion A2b could be in the range of EN -- VU.</Rationale>
+<Category>VU</Category>
+<Plausible-bounds>EN -- VU</Plausible-bounds>
+<Key-indicator-variable>Estimated and projected tree cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A3">
+<Summary/>
+<Rationale>The historical changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A3. </Rationale>
+<Category>LC</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="B">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="B1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="C">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="C1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="D">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="D1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="E">
+<Summary>No quantitative assessment of ecosystem collapse was performed for this assessment unit.</Summary>
+<Rationale>This criterion was not evaluated.</Rationale>
+<Overall-category>NE</Overall-category>
+</Criterion>
+</Assessment-unit>
+<Assessment-unit name="Argentina">
+<Ecosystem-subset name="National: Argentina">
+<Subset-name>National: Argentina</Subset-name>
+<Subset-description>Country-level assessment of '1.A.4.Ek.631 - Bolivian-Tucuman Dry Valley Riparian Forest' macrogroup in Argentina.</Subset-description>
+<Countries>
+<Country isocode2="AR">Argentina</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+</Ecosystem-subset>
+<Summary/>
+<Rationale>According to the evaluated indicators the threshold for EN was reached for criterion. Uncertainty in the indicators suggests that the overall category can be in the range os VU -- EN.</Rationale>
+<Overall-category>EN</Overall-category>
+<Plausible-bounds>VU -- EN</Plausible-bounds>
+<Criterion RAP="IUCN RLE 1.1" name="A">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="A1">
+<Summary/>
+<Rationale>The recent changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A1. </Rationale>
+<Category>LC</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A2b">
+<Summary/>
+<Rationale>The best estimate of the rate of predicted future change in tree cover reached the threshold for EN for subcriterion A2b. Uncertainty in this indicator suggests that the category for subcriterion A2b could be in the range of EN -- VU.</Rationale>
+<Category>EN</Category>
+<Plausible-bounds>EN -- VU</Plausible-bounds>
+<Key-indicator-variable>Estimated and projected tree cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A3">
+<Summary/>
+<Rationale>The historical changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A3. </Rationale>
+<Category>LC</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="B">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="B1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="C">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="C1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="D">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="D1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="E">
+<Summary>No quantitative assessment of ecosystem collapse was performed for this assessment unit.</Summary>
+<Rationale>This criterion was not evaluated.</Rationale>
+<Overall-category>NE</Overall-category>
+</Criterion>
+</Assessment-unit>
+<Assessment-unit name="Bolivia">
+<Ecosystem-subset name="National: Bolivia">
+<Subset-name>National: Bolivia</Subset-name>
+<Subset-description>Country-level assessment of '1.A.4.Ek.631 - Bolivian-Tucuman Dry Valley Riparian Forest' macrogroup in Bolivia.</Subset-description>
+<Countries>
+<Country isocode2="BO">Bolivia</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+</Ecosystem-subset>
+<Summary/>
+<Rationale>According to the evaluated indicators the threshold for VU was reached for criteria. Uncertainty in the indicators suggests that the overall category can be in the range os VU -- EN.</Rationale>
+<Overall-category>VU</Overall-category>
+<Plausible-bounds>VU -- EN</Plausible-bounds>
+<Criterion RAP="IUCN RLE 1.1" name="A">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="A1">
+<Summary/>
+<Rationale>The recent changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A1. Uncertainty in this indicator suggests that the category for subcriterion A1 could be in the range of LC -- NT.</Rationale>
+<Category>LC</Category>
+<Plausible-bounds>LC -- NT</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A2b">
+<Summary/>
+<Rationale>The best estimate of the rate of predicted future change in tree cover reached the threshold for VU for subcriterion A2b. Uncertainty in this indicator suggests that the category for subcriterion A2b could be in the range of EN -- VU.</Rationale>
+<Category>VU</Category>
+<Plausible-bounds>EN -- VU</Plausible-bounds>
+<Key-indicator-variable>Estimated and projected tree cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A3">
+<Summary/>
+<Rationale>The best estimate of the rate of historical change in woodland cover reached the threshold for VU for subcriterion A3. </Rationale>
+<Category>VU</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="B">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="B1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="C">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="C1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="D">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="D1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="E">
+<Summary>No quantitative assessment of ecosystem collapse was performed for this assessment unit.</Summary>
+<Rationale>This criterion was not evaluated.</Rationale>
+<Overall-category>NE</Overall-category>
+</Criterion>
+</Assessment-unit>
+<Assessment-unit name="Peru">
+<Ecosystem-subset name="National: Peru">
+<Subset-name>National: Peru</Subset-name>
+<Subset-description>Country-level assessment of '1.A.4.Ek.631 - Bolivian-Tucuman Dry Valley Riparian Forest' macrogroup in Peru.</Subset-description>
+<Countries>
+<Country isocode2="PE">Peru</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+</Ecosystem-subset>
+<Summary/>
+<Rationale>According to the evaluated indicators the threshold for EN was reached for criteria.</Rationale>
+<Overall-category>EN</Overall-category>
+<Criterion RAP="IUCN RLE 1.1" name="A">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="A1">
+<Summary/>
+<Rationale>The recent changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A1. </Rationale>
+<Category>LC</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A2b">
+<Summary/>
+<Rationale>The best estimate of the rate of predicted future change in tree cover reached the threshold for VU for subcriterion A2b. Uncertainty in this indicator suggests that the category for subcriterion A2b could be in the range of VU -- LC.</Rationale>
+<Category>VU</Category>
+<Plausible-bounds>VU -- LC</Plausible-bounds>
+<Key-indicator-variable>Estimated and projected tree cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A3">
+<Summary/>
+<Rationale>The historical changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A3. </Rationale>
+<Category>LC</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="B">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="B1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="C">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="C1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="D">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="D1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="E">
+<Summary>No quantitative assessment of ecosystem collapse was performed for this assessment unit.</Summary>
+<Rationale>This criterion was not evaluated.</Rationale>
+<Overall-category>NE</Overall-category>
+</Criterion>
+</Assessment-unit>
+</Ecosystem-Risk-Assessment>
+</Case-Study>
+<Case-Study id="FerrerParis_Continental_ForestMacrogroup_2017:69" name="Forest Macrogroups of the Americas: '1.A.4.Ek.632 - Eastern Subandean Ridge Riparian &amp; Flooded Forest EN'">
+<Case-Study-Name lang="en">Forest Macrogroups of the Americas: '1.A.4.Ek.632 - Eastern Subandean Ridge Riparian &amp; Flooded Forest EN'</Case-Study-Name>
+<Assessment-Information date="20181010" reviewer="JRFP" status="completed">
+<Assessment-contributors>
+<Author>JR Ferrer-Paris</Author>
+<Author>I Zager</Author>
+<Author>D Keith</Author>
+<Author>MA Oliveira-Miranda</Author>
+<Author>JP Rodríguez</Author>
+<Author>C Josse</Author>
+<Author>M González-Gil</Author>
+<Author>RM Miller</Author>
+<Author>C Zambrana-Torrelio</Author>
+<Author>E Barrow</Author>
+</Assessment-contributors>
+<Assessment-date>2012</Assessment-date>
+<Assessment-reviewers>
+<Journal-Reviewer>Anonymous</Journal-Reviewer>
+<Journal-Reviewer>Anonymous</Journal-Reviewer>
+<Journal-Reviewer>Anonymous</Journal-Reviewer>
+<Journal-Editor>ET Game</Journal-Editor>
+<Journal-Editor>J Simonetti</Journal-Editor>
+</Assessment-reviewers>
+<Date-received>20180401</Date-received>
+<Date-accepted/>
+<Date-published/>
+<Date-webpublished/>
+<ref-label>FerrerParis_Continental_ForestMacrogroup_2017</ref-label>
+<Keywords>
+<Keyword>Woodlands</Keyword>
+<Keyword>Climate change</Keyword>
+<Keyword>Defaunation</Keyword>
+<Keyword>Anthromes</Keyword>
+<Keyword>Surface water</Keyword>
+</Keywords>
+</Assessment-Information>
+<Assessment-Target date="20181010" reviewer="JRFP" status="completed">
+<AT-id>IVC_1.A.4.Ek:M632</AT-id>
+<AT-description>The '1.A.4.Ek.632 - Eastern Subandean Ridge Riparian &amp; Flooded Forest' is a forest macrogroup belonging to the '1.A.4.Ek Tropical Andean Flooded Forest' division in the International Vegetation Classification system (Faber-Langendoen et al. 2014). It is considered here as a proxy for a forest ecosystem type in a regional assessment of forest ecosystems in the Americas.</AT-description>
+<AT-name>1.A.4.Ek.632 - Eastern Subandean Ridge Riparian &amp; Flooded Forest</AT-name>
+<Characteristic-biota>
+<Summary/>
+<Taxon lang="scientific">Mauritia flexuosa</Taxon>
+<Taxon lang="scientific">Symphonia</Taxon>
+<Taxon lang="scientific">Ficus</Taxon>
+</Characteristic-biota>
+<Abiotic-environment>
+<Summary lang="es">
+</Summary>
+</Abiotic-environment>
+<Biotic-processes>
+<Summary lang="es">Es compatible con Mauritia flexuosa con Symphonia sp., Ficus sp. e hierbas de pantano</Summary>
+</Biotic-processes>
+<Biotic-interactions>
+<Summary/>
+</Biotic-interactions>
+<Threats>
+<Summary/>
+<Threat>
+<Threat-name>Increase in human population density</Threat-name>
+<Threat-description>Increasing human population can be a cause of loss of woodland distribution due to increase in resource use, expansion of infrastructure, and changes in land use. It is also indirectly associated to the spread of invasive species.</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">1 Residential &amp;amp; commercial development</Threat-classification-element>
+<Threat-classification-element level="1">4 Transportation &amp;amp; service corridors</Threat-classification-element>
+<Threat-classification-element level="1">6 Human intrusions &amp;amp; disturbance</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Higher intensity of agriculture</Threat-name>
+<Threat-description>
+</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">2 Agriculture &amp;amp; aquaculture</Threat-classification-element>
+<Threat-classification-element level="2">2.1 Annual &amp;amp; perennial non-timber crops</Threat-classification-element>
+<Threat-classification-element level="2">2.2 Wood &amp;amp; pulp plantations</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Expansion of grazing stock</Threat-name>
+<Threat-description>
+</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">2 Agriculture &amp;amp; aquaculture</Threat-classification-element>
+<Threat-classification-element level="2">2.3 Livestock farming &amp;amp; ranching</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Deforestation</Threat-name>
+<Threat-description>Elimination of tree cover.</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">5 Biological resource use</Threat-classification-element>
+<Threat-classification-element level="2">5.3 Logging &amp;amp; wood harvesting</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Climate change</Threat-name>
+<Threat-description>Climate conditions are generally considered of great importance for the maintainance of forest vegetation and characteristic processes of several macrogroups, and were also incorporated in the process of macrogroup potential distribution modeling and validation (Bow et al. 2008; Josse et al. 2009)⁠. Thus we considered climate change as a plausible future threat of degradation of environmental conditions (Laurance &amp;amp; Williamson 2001; Tovar et al. 2013)⁠</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">11 Climate change &amp; severe weather</Threat-classification-element>
+<Threat-classification-element level="2">11.1 Habitat shifting &amp; alteration</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Changes in water regimes</Threat-name>
+<Threat-description>⁠For the tropical and temperate flooded and swamp forest formations, permanent and temporal water bodies form a relevant element of the ecosystem and interact with characteristic biota (e.g. species tolerant to flooding and high ground water levels) and important processes (e.g. nutrient cycling, vegetation growth; Keddy et al. 2009)⁠. We considered flood regime and surface water as an important component of these forest macrogroups.</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">7 Natural system modifications</Threat-classification-element>
+<Threat-classification-element level="2">7.2 Dams &amp;amp; water management/use</Threat-classification-element>
+<Threat-classification-element level="3">7.2.4 Abstraction of surface water (unknown use)</Threat-classification-element>
+</Threat-classification>
+</Threat>
+<Threat>
+<Threat-name>Defaunation</Threat-name>
+<Threat-description>⁠Defaunation is considered a large and pervasive threat to biodiversity, the loss of large vertebrates due to overexploitation has an impact in important biotic associations in ecosystems (Galetti &amp; Dirzo 2013; Dirzo et al. 2014)⁠.</Threat-description>
+<Threat-classification id="IUCN" version="3.2" selected="yes" assigned.by="JRFP">
+<Threat-classification-element level="1">5 Biological resource use</Threat-classification-element>
+<Threat-classification-element level="2">5.1 Hunting &amp;amp; collecting terrestrial animals</Threat-classification-element>
+<Threat-classification-element level="3">5.1.4 Motivation Unknown/Unrecorded</Threat-classification-element>
+</Threat-classification>
+</Threat>
+</Threats>
+<Conceptual-ecosystem-model>
+<CEM-summary>A general conceptual model is presented graphically in Fig. S1. We include in this model the most important large scale threats to forest in the Americas: loss of forest cover due to agriculture and live stock expansion; defaunation due to hunting (or “empty forest syndrome”), structural and compositional changes due to selective logging and invasion of exotic species, changes in disturbance regimes due to land use practices and development and shifting climatic conditions due to climate change.</CEM-summary>
+<CEM-type>Narrative</CEM-type>
+<CEM-type>Graphical</CEM-type>
+<CEM-source>Assessment authors</CEM-source>
+<CEM-source>Laurance &amp;amp; Williamson 2001</CEM-source>
+<CEM-source>Allen et al. 2010</CEM-source>
+<CEM-source>Faber-Langendoen et al. 2014</CEM-source>
+<CEM-source>Lewis et al. 2015</CEM-source>
+<CEM-source>Levis et al. 2017</CEM-source>
+</Conceptual-ecosystem-model>
+<Classification>
+<Realm>Terrestrial</Realm>
+<Classification-system id="IUCN" version="3.0" selected="no" assigned.by="JRFP">
+<Classification-element level="1">1 Forest</Classification-element>
+<Classification-element level="2">1.8 Forest - Subtropical/Tropical Swamp</Classification-element>
+</Classification-system>
+<Classification-system id="IVC" version="2014" selected="yes" assigned.by="Natureserve">
+<Classification-element level="1">1 Forest &amp; Woodland</Classification-element>
+<Classification-element level="2">1.A Tropical Forest &amp; Woodland</Classification-element>
+<Classification-element level="3">1.A.4 Tropical Flooded &amp; Swamp Forest</Classification-element>
+<Classification-element level="4">1.A.4.Ek Tropical Andean Flooded Forest</Classification-element>
+<Classification-element level="5">1.A.4.Ek.632 - Eastern Subandean Ridge Riparian &amp; Flooded Forest</Classification-element>
+</Classification-system>
+</Classification>
+<Distribution>
+<Summary lang="es">1. Bsq inundable amazonico Se encuentra en la cordillera Azul, sub-andina del Perú y esta por encima de los 1000 m, generalmente en valles amplios elevados.</Summary>
+<Countries>
+<Country iso-code-2="PE">Peru</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+<Geographic-region>South America</Geographic-region>
+<Biogeographic-region>WWF ecoregion 'Eastern Cordillera real montane forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Ucayali moist forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Peruvian Yungas'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Southwest Amazon moist forests'</Biogeographic-region>
+<Biogeographic-region>WWF ecoregion 'Iquitos varzeá'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Northern Andean Montane Forests'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Napo Moist Forests'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Central Andean Yungas'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Southwestern Amazonian Moist Forests'</Biogeographic-region>
+<Biogeographic-region>Global 200 ecoregion 'Amazon River and Flooded Forests'</Biogeographic-region>
+<Biogeographic-region>'Tropical Andes' Hotspot</Biogeographic-region>
+</Distribution>
+<Collapse-definition>
+<Summary/>
+<Spatial-collapse>As the tree growth form is the main structural element of any forest macrogroup, a forest macrogroup was assumed to collapse if the original woodland cover was completely replaced by a non-woodland cover, or if the tree-cover within its potential distribution declined to zero (criteria A and B). </Spatial-collapse>
+<Functional-collapse>For assessing environmental degradation under criterion C, we considered two different indicators. In the case of climate change, we assume that the ecosystem collapsed if the climatic conditions shifted from mostly suitable for the focus macrogroup, to mostly suitable to a different macrogroup. Additionally for flooded and swamp forest, we assumed ecosystem collapse if the amount of detected surface water within the potential distribution of the macrogroup declined to zero.  For assessing disruption to biotic processes and interactions under criterion D we assumed that most of the fundamental processes and interactions disappeared with intensive use of woodlands under high population density. We also assumed that the ecosystem would collapse if the population of large mammals declined to less than 10% of their original population size. </Functional-collapse>
+</Collapse-definition>
+</Assessment-Target>
+<Ecosystem-Risk-Assessment date="20181010" reviewer="JRFP" status="completed">
+<Assessment-version>0.8</Assessment-version>
+<Risk-assessment-protocol>IUCN RLE 1.1</Risk-assessment-protocol>
+<Summary>
+</Summary>
+<Assessment-unit name="global">
+<Ecosystem-subset name="Global">
+<Subset-name>Global</Subset-name>
+<Subset-description>Regional or Continental-level assessment for the whole distribution of the '1.A.4.Ek.632 - Eastern Subandean Ridge Riparian &amp; Flooded Forest' macrogroup.</Subset-description>
+<Countries>
+<Country iso-code-2="PE">Peru</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+</Ecosystem-subset>
+<Summary/>
+<Rationale>According to the evaluated indicators the threshold for EN was reached for criterion.</Rationale>
+<Overall-category>EN</Overall-category>
+<Criterion RAP="IUCN RLE 1.1" name="A">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="A1">
+<Summary/>
+<Rationale>The recent changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A1. </Rationale>
+<Category>LC</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A2b">
+<Summary/>
+<Rationale>The best estimate of the rate of predicted future change in tree cover reached the threshold for EN for subcriterion A2b. </Rationale>
+<Category>EN</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated and projected tree cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A3">
+<Summary/>
+<Rationale>The historical changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A3. </Rationale>
+<Category>LC</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="B">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="B1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="C">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="C1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="D">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="D1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="E">
+<Summary>No quantitative assessment of ecosystem collapse was performed for this assessment unit.</Summary>
+<Rationale>This criterion was not evaluated.</Rationale>
+<Overall-category>NE</Overall-category>
+</Criterion>
+</Assessment-unit>
+<Assessment-unit name="Peru">
+<Ecosystem-subset name="National: Peru">
+<Subset-name>National: Peru</Subset-name>
+<Subset-description>Country-level assessment of '1.A.4.Ek.632 - Eastern Subandean Ridge Riparian &amp; Flooded Forest' macrogroup in Peru.</Subset-description>
+<Countries>
+<Country isocode2="PE">Peru</Country>
+</Countries>
+<Spatial-data>
+<Spatial-point proj4string="" type="">
+<x/>
+<y/>
+<radius/>
+</Spatial-point>
+</Spatial-data>
+</Ecosystem-subset>
+<Summary/>
+<Rationale>According to the evaluated indicators the threshold for EN was reached for criterion.</Rationale>
+<Overall-category>EN</Overall-category>
+<Criterion RAP="IUCN RLE 1.1" name="A">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="A1">
+<Summary/>
+<Rationale>The recent changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A1. </Rationale>
+<Category>LC</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A2b">
+<Summary/>
+<Rationale>The best estimate of the rate of predicted future change in tree cover reached the threshold for EN for subcriterion A2b. </Rationale>
+<Category>EN</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated and projected tree cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="A3">
+<Summary/>
+<Rationale>The historical changes in woodland cover was below the threshold for Vulnerable, and this unit is considered Least Concern under subcriterion A3. </Rationale>
+<Category>LC</Category>
+<Plausible-bounds>
+</Plausible-bounds>
+<Key-indicator-variable>Estimated woodland cover</Key-indicator-variable>
+<Indicator-data/>
+<Collapse-threshold>0</Collapse-threshold>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="B">
+<Summary/>
+<Rationale/>
+<Category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="B1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="B3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Threat-defined-locations/>
+<Continuing-decline/>
+<Threatening-process/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="C">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="C1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="C3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="D">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Subcriterion RAP="IUCN RLE 1.1" name="D1">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D2">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+<Subcriterion RAP="IUCN RLE 1.1" name="D3">
+<Summary/>
+<Rationale/>
+<Overall-category/>
+<Plausible-bounds/>
+<Key-indicator-variable/>
+<Indicator-data/>
+<Collapse-threshold/>
+</Subcriterion>
+</Criterion>
+<Criterion RAP="IUCN RLE 1.1" name="E">
+<Summary>No quantitative assessment of ecosystem collapse was performed for this assessment unit.</Summary>
+<Rationale>This criterion was not evaluated.</Rationale>
+<Overall-category>NE</Overall-category>
+</Criterion>
+</Assessment-unit>
+</Ecosystem-Risk-Assessment>
+</Case-Study>
+</Case-Studies>

@@ -11,11 +11,11 @@ Folder with meta-data and documentation of data sources used.
 ### gis: Geographic Information System
 Set up of the geographical databases used
 
-### inc:
+### inc: useful scripts
 Scripts for specific tasks
 
-### analysis
-Steps of data processing to replicate the analysis
+### workflow
+These folders describe complete workflows for analysis or documentation
 
 ### documentation
 Documentation of the assessment in xml data format.
