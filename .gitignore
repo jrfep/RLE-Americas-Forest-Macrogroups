@@ -1,6 +1,10 @@
 # Restricted files
 /assets/descriptive-docs/restricted/*
 
+# temporary files
+*~
+.~*
+
 # History files
 .Rhistory
 .Rapp.history
