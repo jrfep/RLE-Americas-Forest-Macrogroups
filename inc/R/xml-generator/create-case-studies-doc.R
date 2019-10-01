@@ -1,8 +1,3 @@
-## set-up auto-mode variables
-today <- "2019-09-30"
-auto.status <-"auto-generated-test"
-auto.agent <- "Rsaurio"
-
 ## initialize document
 doc = newXMLDoc()
 top = newXMLNode("Case-Studies",doc=doc)
@@ -16,14 +11,32 @@ Scope.description = newXMLNode("Scope-description","The risk assessment covered 
 Scope.classification = newXMLNode("Scope-classification", attrs=list(id="IUCN RLE", version="1.0", selected="yes", assigned-by="JRFEP"), children=list(newXMLNode("Scope-classification-element","1. Global", attrs=list(level=1))))
 
 ## Info
-Info.ref <- newXMLNode("ref-label")
-Info.update <- newXMLNode("Assessment-updated")
-Info.authors <- newXMLNode("Assessment-authors","JR Ferrer-Paris")##Irene Zager
+Info.ref <- newXMLNode("ref-label", mi.reflabel)
+Info.update <- newXMLNode("Assessment-updated","")
+Info.authors <- newXMLNode("Assessment-authors",
+  children=list(newXMLNode("Author","JR Ferrer-Paris"),
+  newXMLNode("Author","I Zager")))
 
-Info.colls <- newXMLNode("Assessment-collaborators") ##Collaborator Tina, Carmen, Erika etc...
+## TO DO: change this to a for loop with addChildren
+Info.colls <- newXMLNode("Assessment-collaborators",
+  children=list(newXMLNode("Collaborator","C. Josse"),
+  newXMLNode("Collaborator","M. A. Oliveira‐Miranda"),
+  newXMLNode("Collaborator","M. González‐Gil"),
+  newXMLNode("Collaborator","T Oliveira"),
+  newXMLNode("Collaborator","M. González‐Gil"),
+  newXMLNode("Collaborator","D. Velarde"),
+  newXMLNode("Collaborator","G. C. De La Cruz-Melo"),
+  newXMLNode("Collaborator","J.C. Amilibia"),
+  newXMLNode("Collaborator","E. Primiciero")))
 
+## TO DO: change this to a for loop with addChildren
 Info.review <- newXMLNode("Assessment-reviewers")
-Info.kwd <- newXMLNode("Assessment-Keywords")
+Info.kwd <- newXMLNode("Keywords",
+  children=list(newXMLNode("Keyword","Woodlands"),
+    newXMLNode("Keyword","Climate change"),
+      newXMLNode("Keyword","Defaunation"),
+        newXMLNode("Keyword","Anthromes"),
+          newXMLNode("Keyword","Surface water")))
 
 ## Curations
 Curation.generation <- newXMLNode("content-curation",
@@ -32,6 +45,3 @@ Curation.generation <- newXMLNode("content-curation",
 ## Ecosystem risk assessment
   ERA.version <- newXMLNode("Assessment-version","2.2")
   ERA.protocol <- newXMLNode("Risk-assessment-protocol","IUCN RLE")
-
-## set counter to 1
-  CS.counter <- 1

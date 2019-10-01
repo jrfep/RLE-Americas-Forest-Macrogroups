@@ -5,7 +5,7 @@ This repository replicates and documents the analysis in **Ferrer-Paris et al. (
 
 ## Repository structure
 
-### data: Original data sources
+### assets: Original data sources
 Folder with meta-data and documentation of data sources used.
 
 ### gis: Geographic Information System

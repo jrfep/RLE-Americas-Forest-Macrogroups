@@ -43,5 +43,3 @@ CS = newXMLNode("Case-Study",
   attrs=CS.attr.list,
   parent=top,
   children=CS.chld.list)
-
-CS.counter <- CS.counter + 1

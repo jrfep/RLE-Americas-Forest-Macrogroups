@@ -1,3 +1,6 @@
+# Restricted files
+*/restricted/*
+
 # History files
 .Rhistory
 .Rapp.history
