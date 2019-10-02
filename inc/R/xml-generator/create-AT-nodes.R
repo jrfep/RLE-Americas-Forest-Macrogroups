@@ -18,4 +18,6 @@ AT.class <- newXMLNode("Classifications")
 AT.dist <- newXMLNode("Distribution")
 AT.collapse <- newXMLNode("Collapse-definition")
 
-newXMLNode("AT-description",sprintf("The '%s' is a forest macrogroup belonging to the '%s' division in the International Vegetation Classification system (Faber-Langendoen et al. 2014). It is considered here as a proxy for a forest ecosystem type in a regional assessment of forest ecosystems in the Americas.",name, division), attrs=list(lang="en"),parent=AT.desc)
+division.name <- subset(tipologia,Division.Code %in% rsm$IVC.division & !(division %in% ""))$division
+newXMLNode("AT-description",sprintf("The '%s' is a forest macrogroup belonging to the '%s' division in the International Vegetation Classification system (Faber-Langendoen et al. 2014). It is considered here as a proxy for a forest ecosystem type in a regional assessment of forest ecosystems in the Americas.",rsm$IVC.Name, division.name), attrs=list(lang="en"),parent=AT.descs)
+newXMLNode("AT-name",rsm$IVC.Name,attrs=list(lang="en"),parent=AT.names)

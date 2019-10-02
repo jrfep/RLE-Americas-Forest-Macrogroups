@@ -17,28 +17,6 @@ output.file <- sprintf("%s/RA_Forest_Macrogroups_%s.xml",out.dir,ff)
 ## path for restricted assets (see assets documentation)
 rtd.dir <- sprintf("%s/assets/descriptive-docs/restricted",script.dir)
 
-## Load data
-## a) EcoVeg typology
-if (!exists("tipologia"))
-    tipologia <- read.csv(sprintf("%s/EcoVeg_typology_hierarchy 30 Jan 30 2015.csv",rtd.dir), stringsAsFactors=F)
-tipologia$grp <-  substr(tipologia$Division.Code,1,1)
-tipologia$sgrp <-  substr(tipologia$Division.Code,1,3)
-tipologia$frmt <-  substr(tipologia$Division.Code,1,5)
-## b) Macrogroup concepts
-rsm.MG1 <- read.csv(sprintf("%s/TablaBosquesNS.csv",rtd.dir),
-  stringsAsFactors=F)
-rsm.MG2 <- read.csv(sprintf("%s/TablaBosquesNS2.csv", rtd.dir), stringsAsFactors=F)
-rsm.MG3 <- read.csv(sprintf("%s/TablaBosquesNS3.csv", rtd.dir), stringsAsFactors=F)
-rsm.MG4 <- read.csv(sprintf("%s/TablaBosquesNS4.csv", rtd.dir), stringsAsFactors=F)
-rsm.MG5 <- read.csv(sprintf("%s/TablaBosquesNS5.csv", rtd.dir), stringsAsFactors=F)
-## c) distribution validation
-confTest <- read_ods(sprintf("%s/results/OO_files/TableS2_confidenceTests.ods", script.dir),skip=1)
-## d) assessment outcomes
-load(sprintf("%s/results/Rdata/20181123_MacrogroupsCountry.rda", script.dir))
-## e) Assigned Case study IDs
-ATids <- read_excel(sprintf("%s/assets/db-management/CaseStudyID_ATid_America2018.xlsx", script.dir))
-ATids %>% filter(Type %in% "Regional") -> ATids.reg
-
  ## set-up auto-mode variables
  today <- "2019-09-30"
  auto.status <-"auto-generated-test"
@@ -46,14 +24,17 @@ ATids %>% filter(Type %in% "Regional") -> ATids.reg
 ## needs an update?
  mi.reflabel <- "FerrerParis_Continental_ForestMacrogroup_2017"
 
-## first, open the containing document
+## Load external data tables and summaries
+source(sprintf("%s/load-external-data.R",inc.dir))
+
+## Begin by opening the containing document
 source(sprintf("%s/create-case-studies-doc.R",inc.dir))
 
-## list of case studies
+## list of case studies we want to process
 case.studies <- c("M134","M294")
 
 ## set counter to 1
-  CS.counter <- 1
+CS.counter <- 1
 
 ## for each case study:
 for (case.study in case.studies) {
