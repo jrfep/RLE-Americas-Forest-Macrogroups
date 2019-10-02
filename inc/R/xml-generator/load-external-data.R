@@ -1,10 +1,7 @@
 ## Load data
-## a) EcoVeg typology
-if (!exists("tipologia"))
-    tipologia <- read.csv(sprintf("%s/EcoVeg_typology_hierarchy 30 Jan 30 2015.csv",rtd.dir), stringsAsFactors=F)
-tipologia$grp <-  substr(tipologia$Division.Code,1,1)
-tipologia$sgrp <-  substr(tipologia$Division.Code,1,3)
-tipologia$frmt <-  substr(tipologia$Division.Code,1,5)
+## a) ecosystem classification: cambiar la tipologia por una tabla estructurada
+cross.walks <- sprintf("%s/assets//", script.dir)
+
 ## b) Macrogroup concepts
 rsm.MG1 <- read.csv(sprintf("%s/TablaBosquesNS.csv",rtd.dir),
   stringsAsFactors=F)
