@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Case-Studies>
+   <Case-Study id="" name="">
+     <Case-Study-Names>
+       <Case-Study-Name lang=""></Case-Study-Name>
+     </Case-Study-Names>
+		 <Scope>
+		   <Scope-description></Scope-description>
+		   <Scope-classification id="" version="" selected="" assigned-by="">
+		     <Scope-classification-element level=""></Scope-classification-element>
+		   </Scope-classification>
+		 </Scope>
+		 <Assessment-Information date="" updated-by="" status="" load="">
+	     <ref-label></ref-label>
+       <Assessment-date></Assessment-date>
+			 <Assessment-authors>
+				 <Author></Author>
+			 </Assessment-authors>
+			 <Assessment-collaborators>
+			   <Collaborator></Collaborator>
+       </Assessment-collaborators>
+			 <Assessment-reviewers>
+			   <Reviewer></Reviewer>
+			 </Assessment-reviewers>
+       <Assessment-Keywords>
+			   <Keyword></Keyword>
+       </Assessment-Keywords>
+		 </Assessment-Information>
+		 <Assessment-Target date="" updated-by="" status="">
+			 <AT-id></AT-id>
+			 <AT-descriptions>
+			   <AT-description lang=""></AT-description>
+       </AT-descriptions>
+			 <AT-names>
+         <AT-name lang=""></AT-name>
+			 </AT-names>
+			 <Characteristic-biota>
+			   <taxons>
+           <taxon></taxon>
+         </taxons>
+         <Biota-Summaries>
+           <Biota-Summary lang=""></Biota-Summary>
+         </Biota-Summaries>
+       </Characteristic-biota>
+			 <Abiotic-environment>
+			   <Abiotic-Summaries>
+			     <Abiotic-Summary lang=""></Abiotic-Summary>
+			   </Abiotic-Summaries>
+       </Abiotic-environment>
+			 <Biotic-processes>
+         <Processes-Summaries>
+           <Processes-Summary lang=""></Processes-Summary>
+         </Processes-Summaries>
+       </Biotic-processes>
+			 <Ecosystem-services>
+         <Services>
+			     <Ecosystem-service></Ecosystem-service>
+			   </Services>
+			   <Services-Summaries>
+			     <Services-Summary lang=""></Services-Summary>
+			   </Services-Summaries>
+			 </Ecosystem-services>
+			 <Threats>
+			   <Threats-Summaries>
+           <Threats-Summary lang=""></Threats-Summary>
+			   </Threats-Summaries>
+			   <Threat>
+           <Threat-name></Threat-name>
+			     <Threat-Impact>
+             <Threat-Timing id="" version="" selected="" assigned-by=""></Threat-Timing>
+             <Threat-Scope id="" version="" selected="" assigned-by=""></Threat-Scope>
+             <Threat-Severity id="" version="" selected="" assigned-by=""></Threat-Severity>
+           </Threat-Impact>
+           <Threat-descriptions>
+             <Threat-description lang=""></Threat-description>
+           </Threat-descriptions>
+           <Threat-classification id="" version="" selected="" assigned-by="">
+             <Threat-classification-element level=""></Threat-classification-element>
+           </Threat-classification>
+         </Threat>
+			 </Threats>
+			 <Conservation-actions>
+			   <Conservation-Summaries>
+           <Conservation-Summary lang=""></Conservation-Summary>
+			   </Conservation-Summaries>
+			   <Conservation-action>
+			     <Conservation-action-name></Conservation-action-name>
+			     <Conservation-action-descriptions>
+			       <Conservation-action-description lang=""></Conservation-action-description>
+           </Conservation-action-descriptions>
+			     <Conservation-action-classification id="" version="" selected="" assigned-by="">
+			       <Conservation-action-classification-element level=""></Conservation-action-classification-element>
+           </Conservation-action-classification>
+         </Conservation-action>
+       </Conservation-actions>
+			 <Research-needs>
+         <Research-Summaries>
+           <Research-Summary lang=""></Research-Summary>
+         </Research-Summaries>
+     	   <Research-needed>
+           <Research-needed-name></Research-needed-name>
+           <Research-needed-descriptions>
+             <Research-needed-description lang=""></Research-needed-description>
+           </Research-needed-descriptions>
+           <Research-needed-classification id="" version="" selected="" assigned-by="">
+             <Research-needed-classification-element level=""></Research-needed-classification-element>
+           </Research-needed-classification>
+         </Research-needed>
+       </Research-needs>
+			 <Conceptual-ecosystem-model>
+			   <CEM-type graphic=""></CEM-type>
+			   <CEM-source></CEM-source>
+			   <CEM-summaries>
+			     <CEM-summary lang=""></CEM-summary>
+			   </CEM-summaries>
+			 </Conceptual-ecosystem-model>
+       <Classifications>
+			   <Classification-system id="" version="" selected="" assigned-by="">
+			     <Classification-element level="'"></Classification-element>
+			   </Classification-system>
+			 </Classifications>
+       <Distribution>
+         <Distribution-Summaries>
+           <Distribution-Summary lang=""></Distribution-Summary>
+         </Distribution-Summaries>
+         <Countries>
+           <Country iso-code-2=""></Country>
+         </Countries>
+         <Geographic-region></Geographic-region>
+         <Biogeographic-realm></Biogeographic-realm>
+         <Region>
+           <Region-classification-system id="" version="" selected="" assigned-by="">
+             <Region-classification-element level=""></Region-classification-element>
+           </Region-classification-system>
+         </Region>
+         <Spatial-data>
+           <Spatial-point datum="" proj="" type="lower-left-corner">
+             <x></x>
+             <y></y>
+             <radius units=""></radius>
+           </Spatial-point>
+           <Spatial-point datum="" proj="" type="upper-right-corner">
+             <x></x>
+             <y></y>
+             <radius units=""></radius>
+           </Spatial-point>
+         </Spatial-data>
+       </Distribution>
+			 <Collapse-definition>
+			   <Collapse-Summaries>
+			     <Collapse-Summary lang=""></Collapse-Summary>
+			   </Collapse-Summaries>
+			   <Spatial-collapse></Spatial-collapse>
+			   <Functional-collapse></Functional-collapse>
+			 </Collapse-definition>
+		 </Assessment-Target>
+		 <Ecosystem-Risk-Assessment date="" updated-by="" status="">
+			 <Assessment-version></Assessment-version>
+       <Risk-assessment-protocol></Risk-assessment-protocol>
+       <Assessment-unit>
+         <Ecosystem-subset>
+			     <Subset-descriptions>
+			       <Subset-description lang=""></Subset-description>
+		     	 </Subset-descriptions>
+			     <Countries>
+			       <Country iso-code-2=""></Country>
+			     </Countries>
+			     <Spatial-data>
+			       <Spatial-point datum="" proj="" type="lower-left-corner">
+			         <x></x>
+			         <y></y>
+			         <radius units=""></radius>
+			       </Spatial-point>
+			       <Spatial-point datum="" proj="" type="upper-right-corner">
+			         <x></x>
+			         <y></y>
+			         <radius units=""></radius>
+			       </Spatial-point>
+			      </Spatial-data>
+         </Ecosystem-subset>
+		 	   <RA-Summaries>
+		 	     <RA-Summary lang=""></RA-Summary>
+		 	   </RA-Summaries>
+			   <Rationale></Rationale>
+	  		 <Overall-category></Overall-category>
+		  	 <Plausible-bounds lower="" upper=""></Plausible-bounds>
+		  	 <Supporting-subcriteria></Supporting-subcriteria>
+			   <Criterions>
+	  		   <Criterion name="A">
+		  		   <Summaries>
+			    	   <Summary lang=""></Summary>
+				     </Summaries>
+				     <Rationale></Rationale>
+	  			   <Category></Category>
+		  		   <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+			  	   <Subcriterions>
+				       <Subcriterion name="A1">
+					       <Summaries>
+					         <Summary lang=""></Summary>
+	  				     </Summaries>
+		  			     <Rationale></Rationale>
+			  		     <Category></Category>
+				  	     <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+					       <Key-indicator-variables>
+                   <Key-indicator name="Change in distribution">
+                     <Indicator-data>
+						           <Data-source></Data-source>
+						           <Data-description></Data-description>
+                       <Values method="Mapped distribution">
+                         <Value level="">
+                           <Year></Year>
+                           <Indicator-value units=""></Indicator-value>
+                         </Value>
+                       </Values>
+                       <Extent units="%"></Extent>
+                     </Indicator-data>
+					           <Collapse-threshold units=""></Collapse-threshold>
+  					       </Key-indicator>
+                 </Key-indicator-variables>
+		    			   <Continuing-decline numeral=""></Continuing-decline>
+			    		   <Threatening-process></Threatening-process>
+				       </Subcriterion>
+				       <Subcriterion name="A2a">
+					       <Summaries>
+					         <Summary lang=""></Summary>
+	    				   </Summaries>
+		    			   <Rationale></Rationale>
+			    		   <Category></Category>
+				    	   <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+					       <Key-indicator-variables>
+                   <Key-indicator name="Change in distribution">
+                     <Indicator-data>
+						           <Data-source></Data-source>
+						           <Data-description></Data-description>
+						           <Values method="Mapped distribution">
+	  					           <Value level="">
+		  				             <Year></Year>
+			  			             <Indicator-value units=""></Indicator-value>
+				  		           </Value>
+					  	         </Values>
+                       <Extent units="%"></Extent>
+                     </Indicator-data>
+					           <Collapse-threshold units=""></Collapse-threshold>
+                   </Key-indicator>
+                 </Key-indicator-variables>
+			  		     <Continuing-decline numeral=""></Continuing-decline>
+				  	     <Threatening-process></Threatening-process>
+				       </Subcriterion>
+				       <Subcriterion name="A2b">
+	  				     <Summaries>
+		  			       <Summary lang=""></Summary>
+  			  		   </Summaries>
+	  			  	   <Rationale></Rationale>
+		  			     <Category></Category>
+			  		     <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+				  	     <Key-indicator-variables>
+                   <Key-indicator name="Change in distribution">
+                     <Indicator-data>
+			  			         <Data-source></Data-source>
+				  		         <Data-description></Data-description>
+					  	         <Values method="Mapped distribution">
+						             <Value level="">
+						               <Year></Year>
+						               <Indicator-value units=""></Indicator-value>
+	  					           </Value>
+                       </Values>
+                       <Extent units="%"></Extent>
+                     </Indicator-data>
+		  		  	       <Collapse-threshold units=""></Collapse-threshold>
+			  		       </Key-indicator>
+				  	     </Key-indicator-variables>
+  					     <Continuing-decline numeral=""></Continuing-decline>
+	  				     <Threatening-process></Threatening-process>
+		  		     </Subcriterion>
+	  	  		   <Subcriterion name="A3">
+		  	  		   <Summaries>
+			  	  	     <Summary lang=""></Summary>
+				  	     </Summaries>
+					       <Rationale></Rationale>
+  					     <Category></Category>
+	  				     <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+		  			     <Key-indicator-variables>
+                   <Key-indicator name="Change in distribution">
+                     <Indicator-data>
+					  	         <Data-source></Data-source>
+						           <Data-description></Data-description>
+						           <Values method="Mapped distribution">
+						             <Value level="">
+						               <Year></Year>
+						               <Indicator-value units=""></Indicator-value>
+  						           </Value>
+                       </Values>
+                       <Extent units="%"></Extent>
+                     </Indicator-data>
+				    	       <Collapse-threshold units=""></Collapse-threshold>
+					         </Key-indicator>
+					       </Key-indicator-variables>
+					       <Continuing-decline numeral=""></Continuing-decline>
+  					     <Threatening-process></Threatening-process>
+               </Subcriterion>
+	    			 </Subcriterions>
+		    	 </Criterion>
+			     <Criterion name="B">
+				     <Summaries>
+			  	     <Summary lang=""></Summary>
+	    			 </Summaries>
+		    		 <Rationale></Rationale>
+			    	 <Category></Category>
+				     <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+				     <Subcriterions>
+  				     <Subcriterion name="B1">
+	  				     <Summaries>
+		  			       <Summary lang=""></Summary>
+  		  			   </Summaries>
+	  		  		   <Rationale></Rationale>
+		  		  	   <Category></Category>
+			  		     <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+				  	     <Key-indicator-variables>
+                   <Key-indicator name="EOO">
+                     <Indicator-data>
+				  		         <Data-source></Data-source>
+					  	         <Data-description></Data-description>
+						           <Values method="Mapped distribution">
+	  					         <Value level="">
+		  				           <Year></Year>
+			  			           <Indicator-value units="km2"></Indicator-value>
+                       </Value>
+	  				  	     </Values>
+                     </Indicator-data>
+			  		         <Collapse-threshold units="km2"></Collapse-threshold>
+                   </Key-indicator>
+	  			  	   </Key-indicator-variables>
+		  			     <Threat-defined-locations></Threat-defined-locations>
+			  		     <Continuing-decline numeral=""></Continuing-decline>
+	  			  	   <Threatening-process></Threatening-process>
+		  		     </Subcriterion>
+	  	  		   <Subcriterion name="B2">
+		  	  		   <Summaries>
+			  	  	     <Summary lang=""></Summary>
+				  	     </Summaries>
+					       <Rationale></Rationale>
+  					     <Category></Category>
+    					   <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+	    				   <Key-indicator-variables>
+                   <Key-indicator name="AOO">
+                     <Indicator-data>
+				    		     <Data-source></Data-source>
+					    	     <Data-description></Data-description>
+						         <Values method="Mapped distribution">
+						           <Value level="">
+						             <Year></Year>
+						             <Indicator-value units="10x10-km grid cells"></Indicator-value>
+	    					       </Value>
+		    				     </Values>
+                   </Indicator-data>
+				    	       <Collapse-threshold units="10x10-km grid cells"></Collapse-threshold>
+					         </Key-indicator>
+					       </Key-indicator-variables>
+	  				     <Threat-defined-locations></Threat-defined-locations>
+	  	  			   <Continuing-decline numeral=""></Continuing-decline>
+		  	  		   <Threatening-process></Threatening-process>
+			  	     </Subcriterion>
+				       <Subcriterion name="B3">
+					       <Summaries>
+					         <Summary lang=""></Summary>
+  					     </Summaries>
+	    				   <Rationale></Rationale>
+		    			   <Category></Category>
+			    		   <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+				    	   <Threat-defined-locations></Threat-defined-locations>
+					       <Continuing-decline numeral=""></Continuing-decline>
+					       <Threatening-process></Threatening-process>
+    				   </Subcriterion>
+             </Subcriterions>
+           </Criterion>
+			     <Criterion name="C">
+				     <Summaries>
+			  	     <Summary lang=""></Summary>
+	    			 </Summaries>
+             <Rationale></Rationale>
+  		  		 <Category></Category>
+	  		  	 <Plausible-bounds lower="" upper=""></Plausible-bounds>
+  		  		 <Subcriterions>
+	  		  	   <Subcriterion name="C1">
+		  		  	   <Summaries>
+			  		       <Summary lang=""></Summary>
+				  	     </Summaries>
+  				  	   <Rationale></Rationale>
+	  				     <Category></Category>
+		  			     <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+	  		  		   <Key-indicator-variables>
+                   <Key-indicator name="">
+                     <Indicator-data>
+				  		         <Data-source></Data-source>
+					  	         <Data-description></Data-description>
+						           <Values method="">
+						             <Value level="">
+						               <Year></Year>
+						               <Indicator-value units=""></Indicator-value>
+  						           </Value>
+	    					       </Values>
+                       <Extent units="%"></Extent>
+			    			       <Severity units="%"></Severity>
+                     </Indicator-data>
+					           <Collapse-threshold units=""></Collapse-threshold>
+					         </Key-indicator>
+                 </Key-indicator-variables>
+		    		   </Subcriterion>
+			    	   <Subcriterion name="C2a">
+				    	   <Summaries>
+                   <Summary lang=""></Summary>
+                 </Summaries>
+  					     <Rationale></Rationale>
+	    				   <Category></Category>
+		    			   <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+			    		   <Key-indicator-variables>
+                   <Key-indicator name="">
+                     <Indicator-data>
+						           <Data-source></Data-source>
+						           <Data-description></Data-description>
+						           <Values method="">
+						             <Value level="">
+						               <Year></Year>
+						               <Indicator-value units=""></Indicator-value>
+    						         </Value>
+	    					       </Values>
+                       <Extent units="%"></Extent>
+			    			       <Severity units="%"></Severity>
+                     </Indicator-data>
+					           <Collapse-threshold units=""></Collapse-threshold>
+                   </Key-indicator>
+                 </Key-indicator-variables>
+               </Subcriterion>
+               <Subcriterion name="C2b">
+				    	   <Summaries>
+                   <Summary lang=""></Summary>
+                 </Summaries>
+  					     <Rationale></Rationale>
+	    				   <Category></Category>
+		    			   <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+			    		   <Key-indicator-variables>
+                   <Key-indicator name="">
+                     <Indicator-data>
+						           <Data-source></Data-source>
+						           <Data-description></Data-description>
+						           <Values method="">
+						             <Value level="">
+						               <Year></Year>
+						               <Indicator-value units=""></Indicator-value>
+    						         </Value>
+	    					       </Values>
+                       <Extent units="%"></Extent>
+			    			       <Severity units="%"></Severity>
+                     </Indicator-data>
+					           <Collapse-threshold units=""></Collapse-threshold>
+                   </Key-indicator>
+                 </Key-indicator-variables>
+               </Subcriterion>
+	  		  	   <Subcriterion name="C3">
+		  		  	   <Summaries>
+			  		       <Summary lang=""></Summary>
+				  	     </Summaries>
+	  			  	   <Rationale></Rationale>
+		  			     <Category></Category>
+			  		     <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+		  		  	   <Key-indicator-variables>
+                   <Key-indicator name="">
+                     <Indicator-data>
+					  	         <Data-source></Data-source>
+						           <Data-description></Data-description>
+						           <Values method="">
+						             <Value level="">
+						               <Year></Year>
+  						             <Indicator-value units=""></Indicator-value>
+	  					           </Value>
+  		  				       </Values>
+                       <Extent units="%"></Extent>
+		  		  		       <Severity units="%"></Severity>
+                     </Indicator-data>
+				  	         <Collapse-threshold units=""></Collapse-threshold>
+					         </Key-indicator>
+                 </Key-indicator-variables>
+  		  		   </Subcriterion>
+	  		  	 </Subcriterions>
+		  	   </Criterion>
+  		  	 <Criterion name="D">
+	  		  	 <Summaries>
+		  	    	 <Summary lang=""></Summary>
+	  		  	 </Summaries>
+		  		   <Rationale></Rationale>
+  		  		 <Category></Category>
+	  		  	 <Plausible-bounds lower="" upper=""></Plausible-bounds>
+		  	  	 <Subcriterions>
+			  	     <Subcriterion name="D1">
+  				  	   <Summaries>
+	  				       <Summary lang=""></Summary>
+		  			     </Summaries>
+	  	  			   <Rationale></Rationale>
+		  	  		   <Category></Category>
+			  	  	   <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+				  	     <Key-indicator-variables>
+                   <Key-indicator name="">
+                    <Indicator-data>
+						         <Data-source></Data-source>
+  						       <Data-description></Data-description>
+                     <Values method="">
+		    				       <Value level="">
+			    			         <Year></Year>
+				    		         <Indicator-value units=""></Indicator-value>
+                       </Value>
+                     </Values>
+                     <Extent units="%"></Extent>
+						         <Severity units="%"></Severity>
+                   </Indicator-data>
+		    			     <Collapse-threshold units=""></Collapse-threshold>
+			    		   </Key-indicator>
+				    	 </Key-indicator-variables>
+				       </Subcriterion>
+  				     <Subcriterion name="D2a">
+	  				     <Summaries>
+		  			       <Summary lang=""></Summary>
+                 </Summaries>
+				    	   <Rationale></Rationale>
+					       <Category></Category>
+					       <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+  					     <Key-indicator-variables>
+                   <Key-indicator name="">
+                     <Indicator-data>
+			    			       <Data-source></Data-source>
+				     		       <Data-description></Data-description>
+					  	         <Values method="">
+						             <Value level="">
+						               <Year></Year>
+						               <Indicator-value units=""></Indicator-value>
+						             </Value>
+  						         </Values>
+                       <Extent units="%"></Extent>
+		    				       <Severity units="%"></Severity>
+                     </Indicator-data>
+				    	       <Collapse-threshold units=""></Collapse-threshold>
+					         </Key-indicator>
+					       </Key-indicator-variables>
+    				   </Subcriterion>
+    				   <Subcriterion name="D2b">
+	  				     <Summaries>
+		  			       <Summary lang=""></Summary>
+                 </Summaries>
+				    	   <Rationale></Rationale>
+					       <Category></Category>
+					       <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+  					     <Key-indicator-variables>
+                   <Key-indicator name="">
+                     <Indicator-data>
+			    			       <Data-source></Data-source>
+				     		       <Data-description></Data-description>
+					  	         <Values method="">
+						             <Value level="">
+						               <Year></Year>
+						               <Indicator-value units=""></Indicator-value>
+						             </Value>
+  						         </Values>
+                       <Extent units="%"></Extent>
+		    				       <Severity units="%"></Severity>
+                     </Indicator-data>
+				    	       <Collapse-threshold units=""></Collapse-threshold>
+					         </Key-indicator>
+					       </Key-indicator-variables>
+    				   </Subcriterion>
+	    			   <Subcriterion name="D3">
+		    			   <Summaries>
+			    		     <Summary lang=""></Summary>
+				    	   </Summaries>
+					       <Rationale></Rationale>
+  					     <Category></Category>
+	    				   <Plausible-bounds lower="" upper=""></Plausible-bounds>	
+		    			   <Key-indicator-variables>
+                   <Key-indicator name="">
+                     <Indicator-data>
+					    	       <Data-source></Data-source>
+						           <Data-description></Data-description>
+						           <Values method="">
+						             <Value level="">
+						               <Year></Year>
+						               <Indicator-value units=""></Indicator-value>
+  						           </Value>
+	    					       </Values>
+                       <Extent units="%"></Extent>
+			    			       <Severity units="%"></Severity>
+                     </Indicator-data>
+					           <Collapse-threshold units=""></Collapse-threshold>
+					         </Key-indicator>
+	  				     </Key-indicator-variables>
+	  	  		   </Subcriterion>
+             </Subcriterions>
+	  	  	 </Criterion>
+	  		   <Criterion name="E">
+	    		   <Summaries>
+		    	  	 <Summary lang=""></Summary>
+			    	 </Summaries>
+				     <Rationale></Rationale>
+  				   <Category></Category>
+	    			 <Plausible-bounds lower="" upper=""></Plausible-bounds>
+	  	  		 <Modelling>
+	  		  	 <Model-name></Model-name>
+	  			   <Model-source></Model-source>
+  	  			 <Model-type></Model-type>
+	    			 <Scenarios>
+               <Scenario name="">
+	  			       <Scenario-descriptions>
+	    			       <Scenario-description lang=""></Scenario-description>
+	  	  		     </Scenario-descriptions>
+	  		  	     <Scenario-variables>
+	  			         <Scenario-variable></Scenario-variable>
+	  			       </Scenario-variables>
+	  			       <Collapse-probability years=""></Collapse-probability>
+  	  			     <Num-simulations></Num-simulations>
+	    			     <Scenario-Category></Scenario-Category>
+	    			   </Scenario>
+	  	  		 </Scenarios>
+	  		  	 <Overall-collapse-prob years=""></Overall-collapse-prob>
+	  			   </Modelling>
+  	  		 </Criterion>
+         </Criterions>
+       </Assessment-unit>
+     </Ecosystem-Risk-Assessment>
+	  	<Content-Curations>
+		   <content-curation date="" reviewer="" status="">
+		     <edit-description>
+           <nodes-checked>
+             <node-checked name="">
+               <content-changes>
+               <content-change></content-change>
+             </content-changes>
+               <attribute-changes>
+                <attribute-change></attribute-change>
+             </attribute-changes>  
+           </node-checked>
+         </nodes-checked>
+         </edit-description>
+       </content-curation> 
+     </Content-Curations>
+	 </Case-Study>
+</Case-Studies>

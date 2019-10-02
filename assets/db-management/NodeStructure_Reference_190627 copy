@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Reference>
+    <Ref-information date="" updated-by="" status="">
+      <ref-label></ref-label>
+      <authors>
+        <author name="">
+          <affiliations>
+            <affiliation></affiliation>
+          </affiliations>
+        </author>
+      </authors>
+      <editors>
+       <editor name="">
+          <affiliations>
+            <affiliation></affiliation>
+          </affiliations>
+       </editor>
+      </editors>
+      <ref-titles>
+        <ref-title lang=""></ref-title>
+    </ref-titles>
+      <journal></journal>
+      <book-title></book-title>
+      <year></year>
+      <volume></volume>
+      <number></number>
+      <pages></pages>
+      <month></month>
+      <abstract></abstract>
+      <publisher></publisher>
+      <address></address>
+      <type></type>
+      <language></language>
+      <DOI></DOI>
+      <ISSN></ISSN>
+      <EISSN></EISSN>
+      <keywords>
+        <keyword></keyword>
+      </keywords>
+      <research-areas>
+        <research-area></research-area>
+      </research-areas>
+      <author-email></author-email>
+      <funding-acknowledgement></funding-acknowledgement>
+      <funding-text></funding-text>
+      <cited-references></cited-references>
+      <urls>
+      <pdf-url></pdf-url>
+      <web-url></web-url>
+      </urls>
+      <citation></citation>
+      <file-location>
+       <domain></domain>
+       <path></path>
+      </file-location>
+    </Ref-information>
+    <Ecosystem-Risk-Assessment-Content date="" updated-by="" status="">
+      <Risk-Assessment-Protocol>
+        <RAP-name></RAP-name>
+        <RAP-acronym></RAP-acronym>
+        <RAP-version></RAP-version>
+        <RAP-source></RAP-source>
+        <RAP-web-summary lang=""></RAP-web-summary>
+      </Risk-Assessment-Protocol>
+      <Available-information>
+        <number-assessment-targets units=""></number-assessment-targets>
+        <AT-list></AT-list>
+        <AT-description></AT-description>
+        <AT-maps></AT-maps>
+        <AT-spatial-data></AT-spatial-data>
+        <AT-images></AT-images>
+        <assessment-protocol-methods></assessment-protocol-methods>
+        <indicator-description></indicator-description>
+        <indicator-results-description></indicator-results-description>
+        <indicator-results-tables></indicator-results-tables>
+        <indicator-results-figures></indicator-results-figures>
+        <category-rationale></category-rationale>
+        <category-tables></category-tables>
+        <data-directory></data-directory>
+      </Available-information>
+    </Ecosystem-Risk-Assessment-Content>
+    <Content-Curations>
+      <content-curation date="" reviewer="" status="">
+        <edit-description>
+          <nodes-checked>
+            <node-checked name="">
+              <content-changes>
+                <content-change></content-change>
+              </content-changes>
+              <attribute-changes>
+                <attribute-change></attribute-change>
+              </attribute-changes>
+            </node-checked>
+          </nodes-checked>
+        </edit-description>
+      </content-curation>
+    </Content-Curations>
+</Reference>
