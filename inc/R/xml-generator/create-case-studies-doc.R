@@ -19,15 +19,13 @@ Info.authors <- newXMLNode("Assessment-authors",
 
 ## TO DO: change this to a for loop with addChildren
 Info.colls <- newXMLNode("Assessment-collaborators",
-  children=list(newXMLNode("Collaborator","C. Josse"),
-  newXMLNode("Collaborator","M. A. Oliveira‐Miranda"),
-  newXMLNode("Collaborator","M. González‐Gil"),
-  newXMLNode("Collaborator","T Oliveira"),
-  newXMLNode("Collaborator","M. González‐Gil"),
-  newXMLNode("Collaborator","D. Velarde"),
-  newXMLNode("Collaborator","G. C. De La Cruz-Melo"),
-  newXMLNode("Collaborator","J.C. Amilibia"),
-  newXMLNode("Collaborator","E. Primiciero")))
+  children=list(newXMLNode("Collaborator","C. Josse"), ## original description
+  newXMLNode("Collaborator","M. A. Oliveira‐Miranda"), ## first assessments
+  newXMLNode("Collaborator","M. González‐Gil"), ## initial data management
+  newXMLNode("Collaborator","D. Velarde"), ## compiled descriptive files
+  newXMLNode("Collaborator","G. C. De La Cruz-Melo"), ## compiled desc. files
+  ##newXMLNode("Collaborator","J.C. Amilibia"), ## not sure which role...
+  newXMLNode("Collaborator","E. Primiciero"))) ## compiled descriptive files
 
 ## TO DO: change this to a for loop with addChildren
 Info.review <- newXMLNode("Assessment-reviewers")

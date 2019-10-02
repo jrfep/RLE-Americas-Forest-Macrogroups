@@ -38,17 +38,6 @@ CS.counter <- 1
 
 ## for each case study:
 for (case.study in case.studies) {
-  CS.id <- sprintf("%s_%s",mi.reflabel, CS.counter)
-  rsm <- subset(Macrogroups.Global,IVC.macrogroup_key %in% case.study)
-  ATids.reg %>% filter(`Case-Study id` == CS.id) -> AT.id.Provita
-
-  CS.name <- with(rsm,sprintf("%s: '%s, %s'",
-    "Forest Macrogroups of the Americas",
-    IVC.Name,
-    ifelse(is.na(Overall.Category),"NE",
-      ifelse(is.na(Overall.Bounds),Overall.Category,
-        sprintf("%s (%s)",Overall.Category,Overall.Bounds)))))
-  CS.altnames.en <- rsm$IVC.Name
 
   ## nodes related to assessment target (1 per case study)
   source(sprintf("%s/create-AT-nodes.R",inc.dir))

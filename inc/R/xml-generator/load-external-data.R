@@ -19,3 +19,6 @@ load(sprintf("%s/results/Rdata/20181123_MacrogroupsCountry.rda", script.dir))
 ## e) Assigned Case study IDs
 ATids <- read_excel(sprintf("%s/assets/db-management/CaseStudyID_ATid_America2018.xlsx", script.dir))
 ATids %>% filter(Type %in% "Regional") -> ATids.reg
+## f) list of Threats
+threat.match <- read_ods(sprintf("%s/assets/descriptive-docs/ThreatsPerMacrogroup.ods", script.dir),sheet=1)
+threat.desc <- read_ods(sprintf("%s/assets/descriptive-docs/ThreatsPerMacrogroup.ods", script.dir),sheet=2)
