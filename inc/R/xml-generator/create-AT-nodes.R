@@ -144,11 +144,13 @@ AT.research
 
 ## Classification
 selected.string <- "yes"
-for (class.string in unique(subset(cross.walks,mcdg %in% case.study)$classification)) {
+ccw <- subset(classification.cross.walk,mcdg %in% case.study)
+
+for (class.string in unique(ccw$classification)) {
   class.sys <- strsplit(class.string," version ")[[1]]
   class.typ <- newXMLNode("Classification-system", attrs=list(id=class.sys[1], version=class.sys[2], selected=selected.string, `assigned-by`="Assessment authors"),
         parent=AT.class)
-  cross.walk <- subset(cross.walks,mcdg %in% case.study & classification %in% class.string)
+  cross.walk <- subset(ccw, classification %in% class.string)
   for (k in 1:nrow(cross.walk)) {
     newXMLNode("Classification-element", cross.walk[k,"name"], attrs=list(level=cross.walk[k,"level"]), parent=class.typ)
   }
