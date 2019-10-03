@@ -52,25 +52,33 @@ MFT1 Brackish tidal systems	MFT1.2 Intertidal forests and shrublands
 1. Forest	1.7. Forest – Subtropical/tropical mangrove vegetation above high tide level
 
 1.B.1
-T2 Temperate-boreal forests & woodlands	T2.2 Temperate deciduous forests and shrublands
-1. Forest	1.4. Forest – Temperate
-
 1.B.2
 1.B.3
+1. Forest	1.4. Forest – Temperate
+
+##1.B.1
+652,653,654,9,656,657,501
+T2 Temperate-boreal forests & woodlands	T2.2 Temperate deciduous forests and shrublands
+
+##1.B.2
+7,655,658,659,12,13,14,16,159,502,20,21,22,500,26,27,23,25
+T2 Temperate-boreal forests & woodlands	T2.1 Boreal and montane needle-leaved forest and woodland
+
+24
+T2 Temperate-boreal forests & woodlands	T2.3 Oceanic temperate rainforests
+
+9 # california
+T2 Temperate-boreal forests & woodlands	T2.6 Temperate pyric sclerophyll forests and woodlands
+
+1.B.3
 tipologia$frmt
+TF1 Palustrine wetlands	TF1.2 Subtropical/temperate forested wetlands
+
 
 
 T1 Tropical-subtropical forests	T1.4 Tropical heath forests
-T2 Temperate-boreal forests & woodlands	T2.1 Boreal and montane needle-leaved forest and woodland
-T2 Temperate-boreal forests & woodlands	T2.3 Oceanic temperate rainforests
-T2 Temperate-boreal forests & woodlands	T2.4 Warm temperate rainforests
-T2 Temperate-boreal forests & woodlands	T2.5 Temperate pyric humid forests
-T2 Temperate-boreal forests & woodlands	T2.6 Temperate pyric sclerophyll forests and woodlands
-TF1 Palustrine wetlands	TF1.2 Subtropical/temperate forested wetlands
 
-1. Forest	1.1. Forest – Boreal
-1. Forest	1.2. Forest - Subarctic
-1. Forest	1.3. Forest – Subantarctic
+T2 Temperate-boreal forests & woodlands	T2.4 Warm temperate rainforests
 
 ##output
 cross.walks <- sprintf("%s/assets//", script.dir)
