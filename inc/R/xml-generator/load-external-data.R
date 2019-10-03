@@ -1,6 +1,6 @@
 ## Load data
-## a) ecosystem classification: cambiar la tipologia por una tabla estructurada
-cross.walks <- sprintf("%s/assets//", script.dir)
+## a) ecosystem classification: run script in inc/R/classification-crosswalk
+load(sprintf("%s/assets/descriptive-docs/Macrogroup_Classification_Crosswalk.rda", script.dir))
 
 ## b) Macrogroup concepts
 rsm.MG1 <- read.csv(sprintf("%s/TablaBosquesNS.csv",rtd.dir),
@@ -19,3 +19,6 @@ ATids %>% filter(Type %in% "Regional") -> ATids.reg
 ## f) list of Threats
 threat.match <- read_ods(sprintf("%s/assets/descriptive-docs/ThreatsPerMacrogroup.ods", script.dir),sheet=1)
 threat.desc <- read_ods(sprintf("%s/assets/descriptive-docs/ThreatsPerMacrogroup.ods", script.dir),sheet=2)
+
+## g) basic spatial data
+TMWB <- read.dbf(sprintf("%s/admin/TMWB/TM_WORLD_BORDERS-0.3.dbf",gis.data))

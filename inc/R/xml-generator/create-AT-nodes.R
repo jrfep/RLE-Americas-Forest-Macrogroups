@@ -120,7 +120,6 @@ if (nrow(threat.list)>0) {
 }
 
 ## CEM
-AT.CEM
 newXMLNode("CEM-summaries",
       children=list(newXMLNode("CEM-summary","A general conceptual model is presented graphically in Fig. S1. We include in this model the most important large scale threats to forest in the Americas: loss of forest cover due to agriculture and live stock expansion; defaunation due to hunting (or 'empty forest syndrome'), structural and compositional changes due to selective logging and invasion of exotic species, changes in disturbance regimes due to land use practices and development and shifting climatic conditions due to climate change.",
       attrs=list(lang="en"))),
@@ -133,14 +132,6 @@ newXMLNode("CEM-type","Cause-effect",
 newXMLNode("CEM-source","Assessment authors, based on Laurance and Williamson (2001), Allen et al. (2010), Faber-Langendoen et al. (2014), Lewis et al. (2015), Levis et al. (2017)"
       parent=AT.CEM)
 
-
-
-## Ecosystem services
-AT.services
-## Conservation actions
-AT.actions
-## Research needs
-AT.research
 
 ## Classification
 selected.string <- "yes"
@@ -157,25 +148,47 @@ for (class.string in unique(ccw$classification)) {
   selected.string <- "no"
 }
 
+##collapse
+newXMLNode("Spatial-collapse","As the tree growth form is the main structural element of any forest macrogroup, a forest macrogroup was assumed to collapse if the original woodland cover was completely replaced by a non-woodland cover, or if the tree-cover within its potential distribution declined to zero (criteria A and B).",
+      attrs=list(lang="en"),parent=AT.collapse)
+newXMLNode("Functional-collapse","For assessing environmental degradation under criterion C, we considered two different indicators. In the case of climate change, we assume that the ecosystem collapsed if the climatic conditions shifted from mostly suitable for the focus macrogroup, to mostly suitable to a different macrogroup. Additionally for flooded and swamp forest, we assumed ecosystem collapse if the amount of detected surface water within the potential distribution of the macrogroup declined to zero.  For assessing disruption to biotic processes and interactions under criterion D we assumed that most of the fundamental processes and interactions disappeared with intensive use of woodlands under high population density. We also assumed that the ecosystem would collapse if the population of large mammals declined to less than 10% of their original population size."
+            attrs=list(lang="en"),parent=AT.collapse)
 
-  #
-  # <Classification>
-  #               <Realm>Terrestrial</Realm>
-  #               <Classification-system id="IUCN" version="3.0" selected="no" assigned.by="JRFP">
-  #                   <Classification-element level="1">1 Forest</Classification-element>
-  #                   <Classification-element level="2">1.5 Forest - Subtropical/Tropical Dry</Classification-element>
-  #               </Classification-system>
-  #               <Classification-system id="IVC" version="2014" selected="yes" assigned.by="Natureserve">
-  #                   <Classification-element level="1">1 Forest &amp; Woodland</Classification-element>
-  #                   <Classification-element level="2">1.A Tropical Forest &amp; Woodland</Classification-element>
-  #                   <Classification-element level="3">1.A.1 Tropical Dry Forest &amp; Woodland</Classification-element>
-  #                   <Classification-element level="4">1.A.1.Ea Caribbeo-Mesoamerican Dry Forest</Classification-element>
-  #                   <Classification-element level="5">1.A.1.Ea.134 - Caribbean Coastal Lowland Dry Forest</Classification-element>
-  #               </Classification-system>
-  #           </Classification>
+
+
+## Ecosystem services
+AT.services
+## Conservation actions
+AT.actions
+## Research needs
+AT.research
+
+
 
 ## distribution
-AT.dist
+if (nrow(rsm.info)>0) {
+  newXMLNode("Distribution-Summaries",
+    children(newXMLNode("Distribution-Summary", attrs=list(lang="es"), paste(unique(rsm.info$Distribución.Geografica),collapse=" "))),
+    parent=AT.dist)
+
+  country.list <- unique(subset(Macrogroups.Country,IVC.macrogroup_key %in% case.study)$Country)
+  country.list <- country.list[!country.list %in% ""]
+
+country.list[is.na(match(country.list,iconv(TMWB$NAME,"latin1","utf8")))]
+ISO_3166_1[match(country.list, ISO_3166_1$Name),]
+
+  if (length(spp.list)>0) {
+    newXMLNode("Biota-Summaries",
+      children=list(newXMLNode("Biota-Summary",
+      sprintf("A list of %s characteristic species was extracted from descriptive profiles of the Macrogroup%s.", length(spp.list),ifelse(sum(!rsm.info$Codigo.Sistema.Ecologico %in% "")>0," and related ecological systems","")),
+      attrs=list(lang="en"))),parent=AT.biota)
+    taxon.list <- newXMLNode("taxons",parent=AT.biota)
+    for (taxon in spp.list)
+      newXMLNode("taxon",taxon, attrs=list(lang="scientific"), parent=taxon.list)
+
+  }
+}
+
     <Distribution>
                 <Summary lang="es">Bsq. Seco de tierras bajas Este macrogrupo se encuentra en el sur de Florida, los Cayos de Florida, las Bahamas, Islas Caimán, Cuba, La Española, Jamaica, Islas de Sotavento, Puerto Rico, Trinidad y Tobago, y las Islas de Barlovento.Bsq. Seco de tierras bajas US/FloridaBsq. Seco de tierras bajas US/FloridaBsq. Seco de tierras bajas US/Florida</Summary>
                 <Countries>
@@ -248,10 +261,3 @@ AT.dist
                 <Biogeographic-region>Global 200 ecoregion 'Southeastern conifer and broadleaf forests'</Biogeographic-region>
                 <Biogeographic-region>'Caribbean Islands' Hotspot</Biogeographic-region>
             </Distribution>
-##collapse
-AT.collapse
-<Collapse-definition>
-                <Summary/>
-                <Spatial-collapse>As the tree growth form is the main structural element of any forest macrogroup, a forest macrogroup was assumed to collapse if the original woodland cover was completely replaced by a non-woodland cover, or if the tree-cover within its potential distribution declined to zero (criteria A and B). </Spatial-collapse>
-                <Functional-collapse>For assessing environmental degradation under criterion C, we considered two different indicators. In the case of climate change, we assume that the ecosystem collapsed if the climatic conditions shifted from mostly suitable for the focus macrogroup, to mostly suitable to a different macrogroup. Additionally for flooded and swamp forest, we assumed ecosystem collapse if the amount of detected surface water within the potential distribution of the macrogroup declined to zero.  For assessing disruption to biotic processes and interactions under criterion D we assumed that most of the fundamental processes and interactions disappeared with intensive use of woodlands under high population density. We also assumed that the ecosystem would collapse if the population of large mammals declined to less than 10% of their original population size. </Functional-collapse>
-            </Collapse-definition>

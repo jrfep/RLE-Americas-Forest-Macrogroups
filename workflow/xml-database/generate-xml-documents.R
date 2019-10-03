@@ -3,9 +3,12 @@ require(readxl)
 require(readODS)
 require(dplyr)
  require(XML)
+ require(foreign)
+require("ISOcodes")
 
 ## working directory and path to scripts
 script.dir <- Sys.getenv("SCRIPTDIR")
+gis.data <- Sys.getenv("GISDATA")
 work.dir <- Sys.getenv("WORKDIR")
 setwd(work.dir)
 

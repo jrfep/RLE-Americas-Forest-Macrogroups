@@ -1,4 +1,4 @@
-## The original files of the potential distribution of the Macrogroups in geotiff format were delivered by NatureServe. 
+## The original files of the potential distribution of the Macrogroups in geotiff format were delivered by NatureServe.
 ## Data set description in:
 ## http://hub.arcgis.com/datasets/b25fa8f7673749fc85e0ba7980374c5f
 ## http://hub.arcgis.com/datasets/Natureserve::southamerica-ivc-macrogroups-potential-natureserve-v1
@@ -18,3 +18,6 @@ gdalinfo commondata/raster_data/SouthAmerica_IVC_MacroGroups_potential_NatureSer
 ##  I chose the robin projection for the whole continent
 gdalwarp -co "COMPRESS=LZW" -t_srs '+proj=robin +lon_0=-80 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +ellps=WGS84 +towgs84=0,0,0' commondata/raster_data/NorthAmerica_Caribbean_IVC_MacroGroups_potential_NatureServe_v5_270m.tif commondata/raster_data/SouthAmerica_IVC_MacroGroups_potential_NatureServe_v7_270m.tif IVC_NS_v7_270m_robin.tif
 ## output file is IVC_NS_v7_270m_robin.tif
+
+## generate shapefile version...
+gdal_polygonize.py IVC_NS_v7_270m_robin.tif IVC_NS_v7_270m_robin_polygons.shp
