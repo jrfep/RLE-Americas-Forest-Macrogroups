@@ -21,4 +21,17 @@ threat.match <- read_ods(sprintf("%s/assets/descriptive-docs/ThreatsPerMacrogrou
 threat.desc <- read_ods(sprintf("%s/assets/descriptive-docs/ThreatsPerMacrogroup.ods", script.dir),sheet=2)
 
 ## g) basic spatial data
-TMWB <- read.dbf(sprintf("%s/admin/TMWB/TM_WORLD_BORDERS-0.3.dbf",gis.data))
+##TMWB <- read.dbf(sprintf("%s/admin/TMWB/TM_WORLD_BORDERS-0.3.dbf",gis.data))
+
+Macrogroups.Country$Country[Macrogroups.Country$Country %in% "Virgin Islands"] <- "Virgin Islands, U.S."
+Macrogroups.Country$Country[Macrogroups.Country$Country %in% "British Virgin Islands"] <- "Virgin Islands, British"
+Macrogroups.Country$Country[Macrogroups.Country$Country %in% "Turks and Caicas Islands"]   <- "Turks and Caicos Islands"
+Macrogroups.Country$Country[Macrogroups.Country$Country %in% "Bonaire, Saint Eustatius and Saba"] <- "Bonaire, Sint Eustatius and Saba"
+Macrogroups.Country$Country[Macrogroups.Country$Country %in% "Sint Maarten"] <- "Sint Maarten (Dutch part)"
+Macrogroups.Country$Country[Macrogroups.Country$Country %in% "Saint Martin"] <- "Saint Martin (French part)"
+Macrogroups.Country$Country[Macrogroups.Country$Country %in% "Venezuela"] <- "Venezuela, Bolivarian Republic of"
+Macrogroups.Country$Country[Macrogroups.Country$Country %in% "Bolivia"] <- "Bolivia, Plurinational State of"
+
+##country.list <- unique(Macrogroups.Country$Country)
+##iso.list <- ISO_3166_1[match(country.list, ISO_3166_1$Name),"Alpha_2"]
+##country.list[is.na(iso.list)]

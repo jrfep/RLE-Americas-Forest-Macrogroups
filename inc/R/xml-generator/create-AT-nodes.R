@@ -17,7 +17,8 @@ for (j in sprintf("rsm.MG%s",1:5)) {
     rsm.info <- subset(get(j),Codigo %in% case.study)
 }
 
-division.name <- subset(tipologia,Division.Code %in% rsm$IVC.division & !(division %in% ""))$division
+division.name <- subset(classification.cross.walk,mcdg %in% case.study & classification %in% "IVC version 2014" & level %in% 4)$name
+
 
 ## First, set up all Assessment-Target nodes
 AT.id <- newXMLNode("AT-id",AT.id.Provita$`AT-id`)
@@ -129,7 +130,7 @@ newXMLNode("CEM-type","Cause-effect",
       attrs=list(graphic="yes"),
       parent=AT.CEM)
 
-newXMLNode("CEM-source","Assessment authors, based on Laurance and Williamson (2001), Allen et al. (2010), Faber-Langendoen et al. (2014), Lewis et al. (2015), Levis et al. (2017)"
+newXMLNode("CEM-source","Assessment authors, based on Laurance and Williamson (2001), Allen et al. (2010), Faber-Langendoen et al. (2014), Lewis et al. (2015), Levis et al. (2017)",
       parent=AT.CEM)
 
 
@@ -151,113 +152,39 @@ for (class.string in unique(ccw$classification)) {
 ##collapse
 newXMLNode("Spatial-collapse","As the tree growth form is the main structural element of any forest macrogroup, a forest macrogroup was assumed to collapse if the original woodland cover was completely replaced by a non-woodland cover, or if the tree-cover within its potential distribution declined to zero (criteria A and B).",
       attrs=list(lang="en"),parent=AT.collapse)
-newXMLNode("Functional-collapse","For assessing environmental degradation under criterion C, we considered two different indicators. In the case of climate change, we assume that the ecosystem collapsed if the climatic conditions shifted from mostly suitable for the focus macrogroup, to mostly suitable to a different macrogroup. Additionally for flooded and swamp forest, we assumed ecosystem collapse if the amount of detected surface water within the potential distribution of the macrogroup declined to zero.  For assessing disruption to biotic processes and interactions under criterion D we assumed that most of the fundamental processes and interactions disappeared with intensive use of woodlands under high population density. We also assumed that the ecosystem would collapse if the population of large mammals declined to less than 10% of their original population size."
+newXMLNode("Functional-collapse","For assessing environmental degradation under criterion C, we considered two different indicators. In the case of climate change, we assume that the ecosystem collapsed if the climatic conditions shifted from mostly suitable for the focus macrogroup, to mostly suitable to a different macrogroup. Additionally for flooded and swamp forest, we assumed ecosystem collapse if the amount of detected surface water within the potential distribution of the macrogroup declined to zero.  For assessing disruption to biotic processes and interactions under criterion D we assumed that most of the fundamental processes and interactions disappeared with intensive use of woodlands under high population density. We also assumed that the ecosystem would collapse if the population of large mammals declined to less than 10% of their original population size.",
             attrs=list(lang="en"),parent=AT.collapse)
-
-
-
-## Ecosystem services
-AT.services
-## Conservation actions
-AT.actions
-## Research needs
-AT.research
-
 
 
 ## distribution
 if (nrow(rsm.info)>0) {
   newXMLNode("Distribution-Summaries",
-    children(newXMLNode("Distribution-Summary", attrs=list(lang="es"), paste(unique(rsm.info$Distribución.Geografica),collapse=" "))),
+    children=list(newXMLNode("Distribution-Summary", paste(unique(rsm.info$Distribución.Geografica),collapse=" "), attrs=list(lang="es"))),
     parent=AT.dist)
+  }
+    Countries.node <- newXMLNode("Countries",
+        parent=AT.dist)
 
   country.list <- unique(subset(Macrogroups.Country,IVC.macrogroup_key %in% case.study)$Country)
   country.list <- country.list[!country.list %in% ""]
+  iso.list <- ISO_3166_1[match(country.list, ISO_3166_1$Name),"Alpha_2"]
+  names(country.list) <- iso.list
 
-country.list[is.na(match(country.list,iconv(TMWB$NAME,"latin1","utf8")))]
-ISO_3166_1[match(country.list, ISO_3166_1$Name),]
-
-  if (length(spp.list)>0) {
-    newXMLNode("Biota-Summaries",
-      children=list(newXMLNode("Biota-Summary",
-      sprintf("A list of %s characteristic species was extracted from descriptive profiles of the Macrogroup%s.", length(spp.list),ifelse(sum(!rsm.info$Codigo.Sistema.Ecologico %in% "")>0," and related ecological systems","")),
-      attrs=list(lang="en"))),parent=AT.biota)
-    taxon.list <- newXMLNode("taxons",parent=AT.biota)
-    for (taxon in spp.list)
-      newXMLNode("taxon",taxon, attrs=list(lang="scientific"), parent=taxon.list)
-
+  for (pais in iso.list) {
+      newXMLNode("Country",country.list[pais], attrs=list(`iso-code-2`=pais), parent=Countries.node)
   }
-}
+  if(all(iso.list %in% c("US","CA"))) {
+    newXMLNode("Biogeographic-realm","Nearctic",parent=AT.dist)
+  } else {
+    if (any(iso.list %in% c("US","CA"))) {
+      newXMLNode("Biogeographic-realm","Nearctic",parent=AT.dist)
+    }
+    newXMLNode("Biogeographic-realm","Neotropic",parent=AT.dist)
+  }
 
-    <Distribution>
-                <Summary lang="es">Bsq. Seco de tierras bajas Este macrogrupo se encuentra en el sur de Florida, los Cayos de Florida, las Bahamas, Islas Caimán, Cuba, La Española, Jamaica, Islas de Sotavento, Puerto Rico, Trinidad y Tobago, y las Islas de Barlovento.Bsq. Seco de tierras bajas US/FloridaBsq. Seco de tierras bajas US/FloridaBsq. Seco de tierras bajas US/Florida</Summary>
-                <Countries>
-                    <Country iso-code-2="VI">Virgin Islands</Country>
-                    <Country iso-code-2="US">United States</Country>
-                    <Country iso-code-2="TC">Turks and Caicas Islands</Country>
-                    <Country iso-code-2="TT">Trinidad and Tobago</Country>
-                    <Country iso-code-2="SX">Sint Maarten</Country>
-                    <Country iso-code-2="VC">Saint Vincent and the Grenadines</Country>
-                    <Country iso-code-2="MF">Saint Martin</Country>
-                    <Country iso-code-2="LC">Saint Lucia</Country>
-                    <Country iso-code-2="KN">Saint Kitts and Nevis</Country>
-                    <Country iso-code-2="BL">Saint Barthélemy</Country>
-                    <Country iso-code-2="PR">Puerto Rico</Country>
-                    <Country iso-code-2="MS">Montserrat</Country>
-                    <Country iso-code-2="MQ">Martinique</Country>
-                    <Country iso-code-2="JM">Jamaica</Country>
-                    <Country iso-code-2="HT">Haiti</Country>
-                    <Country iso-code-2="GP">Guadeloupe</Country>
-                    <Country iso-code-2="GD">Grenada</Country>
-                    <Country iso-code-2="DO">Dominican Republic</Country>
-                    <Country iso-code-2="DM">Dominica</Country>
-                    <Country iso-code-2="CU">Cuba</Country>
-                    <Country iso-code-2="KY">Cayman Islands</Country>
-                    <Country iso-code-2="VG">British Virgin Islands</Country>
-                    <Country iso-code-2="BQ">Bonaire, Saint Eustatius and Saba</Country>
-                    <Country iso-code-2="BB">Barbados</Country>
-                    <Country iso-code-2="BS">Bahamas</Country>
-                    <Country iso-code-2="AG">Antigua and Barbuda</Country>
-                    <Country iso-code-2="AI">Anguilla</Country>
-                </Countries>
-                <Spatial-data>
-                    <Spatial-point proj4string="" type="">
-                        <x/>
-                        <y/>
-                        <radius/>
-                    </Spatial-point>
-                </Spatial-data>
-                <Geographic-region>North America</Geographic-region>
-                <Geographic-region>Caribbean</Geographic-region>
-                <Biogeographic-region>WWF ecoregion 'Bahamian pine mosaic'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Bahamian-Antillean mangroves'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Cuban cactus scrub'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Cuban moist forests'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Cuban wetlands'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Cuban dry forests'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Hispaniolan moist forests'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Hispaniolan dry forests'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Windward Islands moist forests'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Caribbean shrublands'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Puerto Rican moist forests'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Hispaniolan pine forests'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Cuban pine forests'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Lesser Antillean dry forests'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Leeward Islands moist forests'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Enriquillo wetlands'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Jamaican dry forests'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Jamaican moist forests'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Puerto Rican dry forests'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Everglades'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'South Florida rocklands'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Amazon-Orinoco-Southern Caribbean mangroves'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Trinidad and Tobago moist forests'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Southeastern conifer forests'</Biogeographic-region>
-                <Biogeographic-region>WWF ecoregion 'Florida sand pine scrub'</Biogeographic-region>
-                <Biogeographic-region>Global 200 ecoregion 'Greater Antillean Moist Forests'</Biogeographic-region>
-                <Biogeographic-region>Global 200 ecoregion 'Greater Antillean Pine Forests'</Biogeographic-region>
-                <Biogeographic-region>Global 200 ecoregion 'Everglades Flooded Grasslands'</Biogeographic-region>
-                <Biogeographic-region>Global 200 ecoregion 'Amazon-Orinoco-Southern Caribbean mangroves'</Biogeographic-region>
-                <Biogeographic-region>Global 200 ecoregion 'Southeastern conifer and broadleaf forests'</Biogeographic-region>
-                <Biogeographic-region>'Caribbean Islands' Hotspot</Biogeographic-region>
-            </Distribution>
+  ## Ecosystem services
+  AT.services
+  ## Conservation actions
+  AT.actions
+  ## Research needs
+  AT.research

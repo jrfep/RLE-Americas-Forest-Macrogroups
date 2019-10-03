@@ -2,9 +2,9 @@
 require(readxl)
 require(readODS)
 require(dplyr)
- require(XML)
- require(foreign)
-require("ISOcodes")
+require(XML)
+require(gdata)
+require(ISOcodes)
 
 ## working directory and path to scripts
 script.dir <- Sys.getenv("SCRIPTDIR")
@@ -47,7 +47,7 @@ for (case.study in case.studies) {
 
   ## nodes related to assessment units (1..n per case study)
   ## list of assessment units
-  assessment.units <- c("")
+  ## IN THIS VERSION we are only considering the regional assessment
   source(sprintf("%s/create-AU-nodes.R",inc.dir))
 
   ## now write case study
