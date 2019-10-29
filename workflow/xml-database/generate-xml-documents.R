@@ -16,7 +16,6 @@ setwd(work.dir)
 inc.dir <- sprintf("%s/inc/R/xml-generator",script.dir)
 ## path for output
 out.dir <- sprintf("%s/documentation/xml",script.dir)
-output.file <- sprintf("%s/RA_Forest_Macrogroups_%s.xml",out.dir,ff)
 ## path for restricted assets (see assets documentation)
 rtd.dir <- sprintf("%s/assets/descriptive-docs/restricted",script.dir)
 
@@ -30,7 +29,7 @@ rtd.dir <- sprintf("%s/assets/descriptive-docs/restricted",script.dir)
 ## Load external data tables and summaries
 source(sprintf("%s/load-external-data.R",inc.dir))
 
-## Begin by opening the containing document
+## Begin by opening the containing document and set up global nodes
 source(sprintf("%s/create-case-studies-doc.R",inc.dir))
 
 ## list of case studies we want to process
@@ -55,6 +54,7 @@ for (case.study in case.studies) {
 
 
   CS.counter <- CS.counter + 1
+  output.file <- sprintf("%s/RA_Forest_Macrogroups_%s.xml",out.dir,case.study)
 
 }
 

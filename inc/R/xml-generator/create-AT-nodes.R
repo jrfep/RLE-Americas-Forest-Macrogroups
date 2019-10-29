@@ -182,6 +182,24 @@ if (nrow(rsm.info)>0) {
     newXMLNode("Biogeographic-realm","Neotropic",parent=AT.dist)
   }
 
+   x <- newXMLNode("Spatial-point",attrs=c(datum="WGS84",proj="longlat",type="lower-left-corner"),
+    children=list(
+    newXMLNode("x",llc[case.study,1]),
+    newXMLNode("y",llc[case.study,2]),
+    newXMLNode("radius","0.0001",attrs=c(units="degrees"))
+  ))
+
+
+   y<- newXMLNode("Spatial-point",attrs=c(datum="WGS84",proj="longlat",type="upper-right-corner"),
+    children=list(
+    newXMLNode("x",urc[case.study,1]),
+    newXMLNode("y",urc[case.study,2]),
+    newXMLNode("radius","0.0001",attrs=c(units="degrees"))
+  ))
+
+
+newXMLNode("Spatial-data",children=list(x,y),parent=AT.dist)
+
   ## Ecosystem services
   AT.services
   ## Conservation actions

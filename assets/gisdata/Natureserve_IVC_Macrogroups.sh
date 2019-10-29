@@ -4,6 +4,7 @@
 ## http://hub.arcgis.com/datasets/Natureserve::southamerica-ivc-macrogroups-potential-natureserve-v1
 
 cp $GISDATA/ecosistemas/NatureServe/*potential*tif.lpk $WORKDIR
+cp $NSDATA/NorthAmerica_Caribbean_IVC_MacroGroups_potential_NatureServe_v5_270m_tif.lpk $WORKDIR
 cd $WORKDIR
 ## Extraction: files were encoded in .lpk format, I extracted them using the 7z extraction command
 7z x SouthAmerica_IVC_MacroGroups_potential_NatureServe_v7_270m_tif.lpk
@@ -27,4 +28,4 @@ gdalwarp -co "COMPRESS=LZW" -t_srs '+proj=robin +lon_0=-80 +x_0=0 +y_0=0 +datum=
 rm -r commondata/ esriinfo/ v10 v103/
 
 ## generate shapefile version...
-gdal_polygonize.py IVC_NS_v7_270m_robin.tif IVC_NS_v7_270m_robin_polygons.shp
+##gdal_polygonize.py IVC_NS_v7_270m_robin.tif IVC_NS_v7_270m_robin_polygons.shp

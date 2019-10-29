@@ -16,7 +16,7 @@ AU.criteria <- newXMLNode("Criterions")
 ## Now, add information per node
 
 ## subset:
-AU.subset
+#AU.subset
 newXMLNode("Subset-descriptions",
   children=list(newXMLNode("Subset-description","This assessment refers to the entire distribution of the assessment target as delimited by the assessment authors.",attrs=list(lang="en"))),
   parent=AU.subset)
