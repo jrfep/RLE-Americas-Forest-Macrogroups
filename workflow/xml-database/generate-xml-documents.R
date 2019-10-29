@@ -12,6 +12,10 @@ gis.data <- Sys.getenv("GISDATA")
 work.dir <- Sys.getenv("WORKDIR")
 setwd(work.dir)
 
+
+cat.weights <- c(NA,NA,0,1,2,3,4,5)
+names(cat.weights) <- c("NE","DD","LC","NT","VU","EN","CR","CO")
+
 ## path to xml-generator scripts:
 inc.dir <- sprintf("%s/inc/R/xml-generator",script.dir)
 ## path for output
