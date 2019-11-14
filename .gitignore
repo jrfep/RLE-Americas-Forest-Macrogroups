@@ -4,6 +4,7 @@
 # temporary files
 *~
 .~*
+~$*
 
 # History files
 .Rhistory
