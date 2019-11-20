@@ -44,6 +44,9 @@ CS.counter <- 1
 
 ## for each case study:
 for (case.study in case.studies) {
+   assess.total <- subset(Macrogroups.Global,IVC.macrogroup_key %in% case.study)
+   assess.spa <- subset(SpatialCriteria.Global,IVC.macrogroup_key %in% case.study)
+   assess.fun <- subset(FunctionalCriteria.Global,IVC.macrogroup_key %in% case.study)
 
   ## nodes related to assessment target (1 per case study)
   source(sprintf("%s/create-AT-nodes.R",inc.dir))

@@ -24,8 +24,6 @@ newXMLNode("Subset-descriptions",
   addChildren(AU.subset,kids=list(Countries.node,
      newXMLNode("Spatial-data",children=list(x,y))))
 
-assess.total <- subset(Macrogroups.Global,IVC.macrogroup_key %in% case.study)
-
 ##AU.overall
 xmlValue(AU.overall) <- assess.total$Overall.Category
 
@@ -38,8 +36,6 @@ if (!is.na(assess.total$Overall.Bounds)) {
 xmlValue(AU.support) <- gsub(", ","+",assess.total$Threat.criteria)
 
  ##AU.summary
- assess.spa <- subset(SpatialCriteria.Global,IVC.macrogroup_key %in% case.study)
-assess.fun <- subset(FunctionalCriteria.Global,IVC.macrogroup_key %in% case.study)
 
 "This assessment unit was not evaluated due to inconsistency in its distribution data."
 
@@ -73,7 +69,7 @@ crit.E <- newXMLNode("Criterion",attrs=list(name="E"),
 if (all(assess.total[,c("B1","B2","B3")] %in% "LC")) {
 addChildren(crit.B,
    list(newXMLNode("Rationale","EOO and AOO are well above the threshold for Vulnerable."),
-      newXMLNode("Category","LC")
+      newXMLNode("Category","LC"),
       newXMLNode("Subcriterions"))
 }
 
