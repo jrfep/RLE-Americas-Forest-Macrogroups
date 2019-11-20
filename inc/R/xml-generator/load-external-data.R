@@ -3,12 +3,14 @@
 load(sprintf("%s/assets/descriptive-docs/Macrogroup_Classification_Crosswalk.rda", script.dir))
 
 ## b) Macrogroup concepts
-rsm.MG1 <- read.csv(sprintf("%s/TablaBosquesNS.csv",rtd.dir),
-  stringsAsFactors=F)
-rsm.MG2 <- read.csv(sprintf("%s/TablaBosquesNS2.csv", rtd.dir), stringsAsFactors=F)
-rsm.MG3 <- read.csv(sprintf("%s/TablaBosquesNS3.csv", rtd.dir), stringsAsFactors=F)
-rsm.MG4 <- read.csv(sprintf("%s/TablaBosquesNS4.csv", rtd.dir), stringsAsFactors=F)
-rsm.MG5 <- read.csv(sprintf("%s/TablaBosquesNS5.csv", rtd.dir), stringsAsFactors=F)
+if (file.exists(sprintf("%s/TablaBosquesNS.csv",rtd.dir))) {
+  rsm.MG1 <- read.csv(sprintf("%s/TablaBosquesNS.csv",rtd.dir),
+    stringsAsFactors=F)
+  rsm.MG2 <- read.csv(sprintf("%s/TablaBosquesNS2.csv", rtd.dir), stringsAsFactors=F)
+  rsm.MG3 <- read.csv(sprintf("%s/TablaBosquesNS3.csv", rtd.dir), stringsAsFactors=F)
+  rsm.MG4 <- read.csv(sprintf("%s/TablaBosquesNS4.csv", rtd.dir), stringsAsFactors=F)
+  rsm.MG5 <- read.csv(sprintf("%s/TablaBosquesNS5.csv", rtd.dir), stringsAsFactors=F)
+}
 ## c) distribution validation
 confTest <- read_ods(sprintf("%s/results/OO_files/TableS2_confidenceTests.ods", script.dir),skip=1)
 ## d) assessment outcomes

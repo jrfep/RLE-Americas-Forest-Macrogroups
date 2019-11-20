@@ -43,7 +43,7 @@ assess.fun <- subset(FunctionalCriteria.Global,IVC.macrogroup_key %in% case.stud
 
 "This assessment unit was not evaluated due to inconsistency in its distribution data."
 
-According to the evaluated indicators the threshold for VU was reached for criterion. Uncertainty in the indicators suggests that the overall category can be in the range os NT -- VU.
+##According to the evaluated indicators the threshold for VU was reached for criterion. Uncertainty in the indicators suggests that the overall category can be in the range os NT -- VU.
 ##
 with(assess.spa,
     sprintf("Historical data on woodland cover suggests a historical decline of  %s %% (with plausible bound of %s) since 1750, and a decline of %s %% (%s) between 1950 and 2000", best.estimate.decline.1750.2000,bounds.estimate.decline.1750.2000, best.estimate.decline.1950.2000,bounds.estimate.decline.1950.2000 ))
