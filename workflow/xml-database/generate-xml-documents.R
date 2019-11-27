@@ -58,6 +58,7 @@ for (case.study in case.studies) {
 
   ## now write case study
   source(sprintf("%s/create-case-study.R",inc.dir))
+  source(sprintf("%s/create-subcriteria-D-node.R",inc.dir))
 
 
   CS.counter <- CS.counter + 1
