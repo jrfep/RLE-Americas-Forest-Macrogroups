@@ -33,17 +33,18 @@ rtd.dir <- sprintf("%s/assets/descriptive-docs/restricted",script.dir)
 ## Load external data tables and summaries
 source(sprintf("%s/load-external-data.R",inc.dir))
 
-## Begin by opening the containing document and set up global nodes
-source(sprintf("%s/create-case-studies-doc.R",inc.dir))
-
 ## list of case studies we want to process
-case.studies <- c("M134","M294")
+case.studies <- c("M134","M294","M652")
 
 ## set counter to 1
 CS.counter <- 1
 
 ## for each case study:
 for (case.study in case.studies) {
+   ## Begin by opening the containing document and set up global nodes
+   source(sprintf("%s/create-case-studies-doc.R",inc.dir))
+
+
    assess.total <- subset(Macrogroups.Global,IVC.macrogroup_key %in% case.study)
    assess.spa <- subset(SpatialCriteria.Global,IVC.macrogroup_key %in% case.study)
    assess.fun <- subset(FunctionalCriteria.Global,IVC.macrogroup_key %in% case.study)
@@ -58,15 +59,13 @@ for (case.study in case.studies) {
 
   ## now write case study
   source(sprintf("%s/create-case-study.R",inc.dir))
-  source(sprintf("%s/create-subcriteria-D-node.R",inc.dir))
 
 
   CS.counter <- CS.counter + 1
   output.file <- sprintf("%s/RA_Forest_Macrogroups_%s.xml",out.dir,case.study)
+  ## close xml document and write it to file
+  cat( saveXML(doc,file=output.file,
+    prefix = '<?xml version="1.0" encoding="UTF-8"?>',
+    encoding = "UTF-8"))
 
 }
-
-## close xml document and write it to file
-cat( saveXML(doc,file=output.file,
-  prefix = '<?xml version="1.0" encoding="UTF-8"?>',
-  encoding = "UTF-8"))
