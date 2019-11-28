@@ -8,8 +8,8 @@ This repository replicates and documents the analysis in **Ferrer-Paris et al. (
 ### assets: Original data sources
 Folder with meta-data and documentation of data sources used.
 
-### gis: Geographic Information System
-Set up of the geographical databases used
+### env: programming environment variables
+Sets up environment variables before running the workflows and scripts
 
 ### inc: useful scripts
 Scripts for specific tasks
