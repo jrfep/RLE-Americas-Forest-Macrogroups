@@ -1,0 +1,137 @@
+"IVC.division","IVC.formation","IVC.macrogroup_key","IVC.Name","Overall.Category","Overall.Bounds","Threat.criteria"
+"1.A.1.Ea","1.A.1","M134","1.A.1.Ea.134 - Caribbean Coastal Lowland Dry Forest","EN","EN -- CR","A1, A3, D2b"
+"1.A.1.Ea","1.A.1","M294","1.A.1.Ea.294 - Caribbean Dry Limestone Forest","EN",NA,"A3, D2b"
+"1.A.1.Ea","1.A.1","M296","1.A.1.Ea.296 - Caribbean & Mesoamerican Pine-Oak Dry Forest","VU",NA,"A1, A3, D2b"
+"1.A.1.Ea","1.A.1","M561","1.A.1.Ea.561 - Caribbean & Mesoamerican Seasonal Dry Forest","VU",NA,"D2b"
+"1.A.1.Ea","1.A.1","M562","1.A.1.Ea.562 - Pacific Mesoamerican Seasonal Dry Forest","NE",NA,NA
+"1.A.1.Ei","1.A.1","M563","1.A.1.Ei.563 - Guajiran Seasonal Dry Forest","EN",NA,"A3"
+"1.A.1.Ei","1.A.1","M565","1.A.1.Ei.565 - Llanos Seasonal Dry Forest","EN","VU -- EN","A1, A3"
+"1.A.1.Ei","1.A.1","M566","1.A.1.Ei.566 - Tumbes Guayaquil Seasonal Dry Forest","CR",NA,"A2b"
+"1.A.1.Ej","1.A.1","M567","1.A.1.Ej.567 - Central Guianan Seasonal Dry Forest","LC",NA,NA
+"1.A.1.Ek","1.A.1","M568","1.A.1.Ek.568 - Brazilian Atlantic Seasonal Dry Forest","EN","VU -- CR","A3"
+"1.A.1.Ek","1.A.1","M570","1.A.1.Ek.570 - Cerrado Seasonal Dry Forest","EN",NA,"A2b"
+"1.A.1.Ek","1.A.1","M571","1.A.1.Ek.571 - Parana Seasonal Dry Forest","CR",NA,"A2b"
+"1.A.1.Ek","1.A.1","M572","1.A.1.Ek.572 - Caatinga Seasonal Dry Forest","CR",NA,"A2b"
+"1.A.1.Ek","1.A.1","M872","1.A.1.Ek.872 – Cerradao Sclerophyllous Woodland","EN","VU -- EN","A1, A3"
+"1.A.1.El","1.A.1","M573","1.A.1.El.573 - Northern Andes Seasonal Dry Forest","NE",NA,NA
+"1.A.1.El","1.A.1","M574","1.A.1.El.574 - Central Andes Seasonal Dry Forest","VU",NA,"A2b"
+"1.A.1.El","1.A.1","M575","1.A.1.El.575 - Boliviano Tucumano Seasonal Dry Forest","NT","NT -- VU","A2b, D2b"
+"1.A.2.Eg","1.A.2","M281","1.A.2.Eg.281 - Caribbean Lowland Humid Forest","EN",NA,"A1, A3, D2b"
+"1.A.2.Eg","1.A.2","M578","1.A.2.Eg.578 - Mesoamerican Lowland Humid Forest","EN",NA,"A2b"
+"1.A.2.Eg","1.A.2","M873","1.A.2.Eg.873 - Mesoamerican Submontane Humid Forest","EN",NA,"A2b"
+"1.A.2.Eh","1.A.2","M579","1.A.2.Eh.579 - Guajiran Humid Forest","VU","NT -- VU","A1, A3"
+"1.A.2.Eh","1.A.2","M580","1.A.2.Eh.580 - Catatumbo Magdalena Humid Forest","EN",NA,"A1, A3"
+"1.A.2.Eh","1.A.2","M581","1.A.2.Eh.581 - Choco-Darien Humid Forest","VU",NA,"A1, A3, D1"
+"1.A.2.Eh","1.A.2","M582","1.A.2.Eh.582 - Western Ecuador Humid Forest","CR","EN -- CR","A2b"
+"1.A.2.Eh","1.A.2","M583","1.A.2.Eh.583 - Llanos Humid Forest","EN","EN -- CR","A1, A2b, A3"
+"1.A.2.Ei","1.A.2","M584","1.A.2.Ei.584 - Western Guianan Humid Forest","LC",NA,NA
+"1.A.2.Ei","1.A.2","M585","1.A.2.Ei.585 - Central Guianan Humid Forest","LC",NA,NA
+"1.A.2.Ei","1.A.2","M586","1.A.2.Ei.586 - Eastern Guianan Humid Forest","VU","VU -- EN","C2a"
+"1.A.2.Ei","1.A.2","M587","1.A.2.Ei.587 - Orinoquian Humid Forest","LC",NA,NA
+"1.A.2.Ej","1.A.2","M588","1.A.2.Ej.588 - Western Amazon Lowland Humid Forest","VU",NA,"C2a"
+"1.A.2.Ej","1.A.2","M589","1.A.2.Ej.589 - Western Amazon Subandean Humid Forest","VU",NA,"A2b, D1"
+"1.A.2.Ej","1.A.2","M590","1.A.2.Ej.590 - Southwestern Amazon Lowland Humid Forest","VU",NA,"C2a"
+"1.A.2.Ej","1.A.2","M591","1.A.2.Ej.591 - Southwestern Amazon Subandean Humid Forest","EN","VU -- EN","C2a"
+"1.A.2.Ej","1.A.2","M592","1.A.2.Ej.592 - Northern Amazon Humid Forest","NT","LC -- NT","C2a"
+"1.A.2.Ej","1.A.2","M593","1.A.2.Ej.593 - Central Amazon Humid Forest","VU",NA,"A2b"
+"1.A.2.Ek","1.A.2","M595","1.A.2.Ek.595 - Brazilian Atlantic Humid Forest","EN","VU -- EN","A3"
+"1.A.2.Ek","1.A.2","M596","1.A.2.Ek.596 - Parana Humid Forest","CR","EN -- CR","A2b"
+"1.A.2.Ek","1.A.2","M597","1.A.2.Ek.597 - Cerrado Humid Forest","EN",NA,"A2b"
+"1.A.3.Eg","1.A.3","M598","1.A.3.Eg.598 - Caribbean Montane Humid Forest","EN","VU -- CR","A1, A3"
+"1.A.3.Eg","1.A.3","M600","1.A.3.Eg.600 - Mesoamerican Montane Humid Forest","NE",NA,NA
+"1.A.3.Eg","1.A.3","M601","1.A.3.Eg.601 - Mesoamerican Pine-Oak Forest","EN",NA,"A2b"
+"1.A.3.Eg","1.A.3","M602","1.A.3.Eg.602 - Southern Mesoamerican Montane Humid Forest","VU",NA,"D1, D3"
+"1.A.3.Eh","1.A.3","M603","1.A.3.Eh.603 - Central Guianan Montane Humid Forest","EN","VU -- EN","C2a"
+"1.A.3.Eh","1.A.3","M604","1.A.3.Eh.604 - Eastern Guianan Montane Humid Forest","LC",NA,NA
+"1.A.3.Ej","1.A.3","M606","1.A.3.Ej.606 - Northern Andean Montane & Upper Montane Humid Forest","CR","EN -- CR","A3"
+"1.A.3.Ej","1.A.3","M607","1.A.3.Ej.607 - Northern Andean Lower Montane Humid Forest","EN",NA,"A3"
+"1.A.3.Ej","1.A.3","M609","1.A.3.Ej.609 - Northern Andes Venezuelan Coastal Ridge Forest","LC","LC -- VU",NA
+"1.A.3.Ej","1.A.3","M610","1.A.3.Ej.610 - Central Andean (Yungas) Montane & Upper Montane Humid Forest","EN","VU -- EN","A3"
+"1.A.3.Ej","1.A.3","M611","1.A.3.Ej.611 - Central Andean (Yungas) Lower Montane Humid Forest","NT","LC -- VU","A2b"
+"1.A.3.Ej","1.A.3","M612","1.A.3.Ej.612 - Bolivian-Tucuman Montane & Upper Montane Humid Forest","NT","LC -- NT","A3"
+"1.A.3.Ej","1.A.3","M613","1.A.3.Ej.613 - Bolivian-Tucuman Lower Montane Humid Forest","NT","NT -- VU","A2b"
+"1.A.3.Ej","1.A.3","M614","1.A.3.Ej.614 - Moist Puna Humid Forest","NE",NA,NA
+"1.A.3.Ej","1.A.3","M615","1.A.3.Ej.615 - Eastern Subandean Ridge Montane Humid Forest","VU","VU -- EN","A1, A3, D1, D3"
+"1.A.3.Ek","1.A.3","M616","1.A.3.Ek.616 - Brazilian Atlantic Montane Humid Forest","EN","VU -- EN","A1, A3"
+"1.A.4.Ed","1.A.4","M617","1.A.4.Ed.617 - Caribbean Swamp","EN","EN -- CR","A1, A3, D2b"
+"1.A.4.Ed","1.A.4","M618","1.A.4.Ed.618 - Caribbean Floodplain Forest","NE",NA,NA
+"1.A.4.Ed","1.A.4","M619","1.A.4.Ed.619 - Mesoamerican Coastal Plain Swamp","VU",NA,"C2b, D1"
+"1.A.4.Ed","1.A.4","M620","1.A.4.Ed.620 - Mesoamerican Floodplain Forest","NT",NA,"C2b, D2b"
+"1.A.4.Ei","1.A.4","M621","1.A.4.Ei.621 - Guajiran Flooded Forest","EN",NA,"A3"
+"1.A.4.Ei","1.A.4","M622","1.A.4.Ei.622 - Choco-Darien Floodplain Forest","VU",NA,"A3, D1"
+"1.A.4.Ei","1.A.4","M624","1.A.4.Ei.624 - Llanos Flooded & Swamp Forest","EN","VU -- CR","A1, A3"
+"1.A.4.Ei","1.A.4","M625","1.A.4.Ei.625 - Guayaquil Flooded & Swamp Forest","CR","EN -- CR","A3"
+"1.A.4.Ej","1.A.4","M626","1.A.4.Ej.626 - Guianan Riparian Forest","LC",NA,NA
+"1.A.4.Ej","1.A.4","M627","1.A.4.Ej.627 - Guianan Swamp Forest","LC",NA,NA
+"1.A.4.Ej","1.A.4","M628","1.A.4.Ej.628 - Orinoco Delta Swamp Forest","VU","VU -- EN","C2b"
+"1.A.4.Ek","1.A.4","M629","1.A.4.Ek.629 - Northern Andean Riparian & Flooded Forest","EN","EN -- CR","A1, A3"
+"1.A.4.Ek","1.A.4","M630","1.A.4.Ek.630 - Central Andean Riparian & Flooded Forest","VU",NA,"A2b, D1, D2b"
+"1.A.4.Ek","1.A.4","M631","1.A.4.Ek.631 - Bolivian-Tucuman Dry Valley Riparian Forest","VU","VU -- EN","A2b"
+"1.A.4.Ek","1.A.4","M632","1.A.4.Ek.632 - Eastern Subandean Ridge Riparian & Flooded Forest","EN",NA,"A2b"
+"1.A.4.El","1.A.4","M633","1.A.4.El.633 - Western Amazon Floodplain Forest","NT",NA,"C2b"
+"1.A.4.El","1.A.4","M634","1.A.4.El.634 - Western Amazon Swamp Forest","VU",NA,"D1"
+"1.A.4.El","1.A.4","M635","1.A.4.El.635 - Southwestern Amazon Floodplain Forest","VU","NT -- VU","C2a"
+"1.A.4.El","1.A.4","M636","1.A.4.El.636 - Southern Amazon Swamp Forest","VU",NA,"A2b"
+"1.A.4.El","1.A.4","M637","1.A.4.El.637 - Northern Amazon Floodplain Forest","NT","NT -- VU","C2a"
+"1.A.4.El","1.A.4","M638","1.A.4.El.638 - Central Amazon Floodplain Forest","VU",NA,"D1"
+"1.A.4.El","1.A.4","M639","1.A.4.El.639 - South-Central Amazon Floodplain Forest","VU","NT -- VU","A2b"
+"1.A.4.El","1.A.4","M640","1.A.4.El.640 - Amazon Delta Swamp Forest","VU",NA,"D1, D3"
+"1.A.4.Em","1.A.4","M641","1.A.4.Em.641 - Brazilian Atlantic Coastal Plain Swamp","EN","VU -- EN","A1, A3"
+"1.A.4.Em","1.A.4","M642","1.A.4.Em.642 - Parana Floodplain Forest","CR",NA,"A2b"
+"1.A.4.Em","1.A.4","M643","1.A.4.Em.643 - Cerrado Floodplain Forest","EN",NA,"A2b"
+"1.A.4.Em","1.A.4","M644","1.A.4.Em.644 - Beni Chiquitano Swamp Forest","VU",NA,"A3, C2b"
+"1.A.4.Em","1.A.4","M645","1.A.4.Em.645 - Beni Floodplain Forest","VU",NA,"A1, A3"
+"1.A.4.Em","1.A.4","M646","1.A.4.Em.646 - Pantanal Floodplain Forest","EN","EN -- CR","A1, A2b, A3, C2b"
+"1.A.4.En","1.A.4","M647","1.A.4.En.647 - Northern Chaco Floodplain Forest & Woodland","EN",NA,"A2b, A3, C2b"
+"1.A.4.En","1.A.4","M648","1.A.4.En.648 - Northern Chaco Riparian Shrubland & Woodland","EN","VU -- EN","A2b"
+"1.A.4.En","1.A.4","M649","1.A.4.En.649 - Northern Chaco Palm Swamp","EN",NA,"C2b"
+"1.A.4.En","1.A.4","M650","1.A.4.En.650 - Southern Chaco Floodplain Forest & Woodland","NE",NA,NA
+"1.A.5.Ua","1.A.5","M004","1.A.5.Ua.4 - Eastern Pacific Mangrove","EN","VU -- EN","A3"
+"1.A.5.Ua","1.A.5","M005","1.A.5.Ua.5 - Western Atlantic & Caribbean Mangrove","NT",NA,"D2b"
+"1.B.1.Ef","1.B.1","M652","1.B.1.Ef.652 - Central Chilean (Mediterranean) Sclerophyllous Forest","EN","EN -- CR","A1, A3"
+"1.B.1.Ef","1.B.1","M653","1.B.1.Ef.653 - Central Chilean (Mediterranean) Deciduous Forest","NE",NA,NA
+"1.B.1.Eg","1.B.1","M654","1.B.1.Eg.654 - Espinal Deciduous Forest & Woodland","EN","VU -- CR","A1, A3"
+"1.B.1.Na","1.B.1","M007","1.B.1.Na.7 - Longleaf Pine Woodland","VU","VU -- EN","C2a, D3"
+"1.B.1.Na","1.B.1","M008","1.B.1.Na.8 - Southern Mesic Mixed Broadleaf Forest","VU",NA,"A3, D3"
+"1.B.1.Nc","1.B.1","M009","1.B.1.Nc.9 - California Forest & Woodland","VU","VU -- EN","A1, A2b, A3"
+"1.B.1.Nd","1.B.1","M010","1.B.1.Nd.10 - Madrean Lowland Evergreen Woodland","NT","LC -- VU","A1, A3"
+"1.B.1.Nd","1.B.1","M015","1.B.1.Nd.15 - Comanchian Forest & Woodland","CR","VU -- CR","A3"
+"1.B.2.Ee","1.B.2","M655","1.B.2.Ee.655 - Valdivian Lower Montane Evergreen Forest","NE",NA,NA
+"1.B.2.Ee","1.B.2","M656","1.B.2.Ee.656 - Valdivian Lower Montane Deciduous Forest","NE",NA,NA
+"1.B.2.Ee","1.B.2","M657","1.B.2.Ee.657 - Valdivian Montane & Upper Montane Deciduous Forest","LC",NA,NA
+"1.B.2.Ee","1.B.2","M658","1.B.2.Ee.658 - Valdivian Montane & Upper Montane Evergreen Forest","LC",NA,NA
+"1.B.2.Ef","1.B.2","M659","1.B.2.Ef.659 - Magellanian Temperate Evergreen Forest","NE",NA,NA
+"1.B.2.Na","1.B.2","M012","1.B.2.Na.12 - North-Central Oak - Hardwood & Pine Forest","CR",NA,"A1, A3"
+"1.B.2.Na","1.B.2","M013","1.B.1.Nd.13 - Madrean Montane Forest & Woodland","NE",NA,NA
+"1.B.2.Na","1.B.2","M014","1.B.2.Na.14 - Northern Mesic Hardwood & Conifer Forest","VU","NT -- VU","A2b"
+"1.B.2.Na","1.B.2","M016","1.B.2.Na.16 - South-Central Oak - Hardwood & Pine Forest","EN","VU -- EN","A2b, A3"
+"1.B.2.Na","1.B.2","M151","1.B.2.Na.151 - Northern Great Plains Woodland","CR","EN -- CR","A3"
+"1.B.2.Na","1.B.2","M159","1.B.2.Na.159 - Northern Pine & Oak - Hardwood Forest","VU",NA,"A2b, D3"
+"1.B.2.Na","1.B.2","M502","1.B.2.Na.502 - Appalachian & Northeastern Oak - Hardwood & Pine Forest","EN","VU -- EN","C2a"
+"1.B.2.Nb","1.B.2","M020","1.B.2.Nb.20 - Rocky Mountain Subalpine & High Montane Conifer Forest","VU","NT -- EN","C2a"
+"1.B.2.Nb","1.B.2","M021","1.B.2.Nb.21 - Sierra Madre High Montane Forest","VU","LC -- EN","A2b"
+"1.B.2.Nb","1.B.2","M022","1.B.2.Nb.22 - Southern Rocky Mountain Lower Montane Forest","LC",NA,NA
+"1.B.2.Nb","1.B.2","M500","1.B.2.Nb.500 - Central Rocky Mountain Mesic Lower Montane Forest","EN","LC -- EN","A2b"
+"1.B.2.Nb","1.B.2","M501","1.B.2.Nb.501 - Central Rocky Mountain Dry Lower Montane & Foothill Forest","EN","LC -- EN","A2b"
+"1.B.2.Nc","1.B.2","M026","1.B.2.Nc.26 - Intermountain Singleleaf Pinyon - Utah Juniper - Western Juniper Woodland","VU",NA,"A3"
+"1.B.2.Nc","1.B.2","M027","1.B.2.Nc.27 - Southern Rocky Mountain Two-needle Pinyon - One-seed Juniper Woodland","EN",NA,"B2"
+"1.B.2.Nd","1.B.2","M023","1.B.2.Nd.23 - Southern Vancouverian Montane & Foothill Forest","EN","LC -- EN","A2b"
+"1.B.2.Nd","1.B.2","M024","1.B.2.Nd.24 - Vancouverian Lowland & Montane Rainforest","EN","LC -- EN","A2b"
+"1.B.2.Nd","1.B.2","M025","1.B.2.Nd.25 - Vancouverian Subalpine Forest","LC",NA,NA
+"1.B.3.Eh","1.B.3","M661","1.B.3.Eh.661 - Espinal Floodplain Forest","EN","VU -- CR","A3"
+"1.B.3.Ei","1.B.3","M662","1.B.3.Ei.662 - Central Chilean (Mediterranean) & Desert Riparian & Flooded Forest","EN",NA,"A3"
+"1.B.3.Ej","1.B.3","M663","1.B.3.Ej.663 - Valdivian Temperate Flooded & Swamp Forest","LC",NA,NA
+"1.B.3.Ek","1.B.3","M664","1.B.3.Ek.664 - Monte Floodplain Forest","NE",NA,NA
+"1.B.3.Na","1.B.3","M028","1.B.3.Na.28 - Great Plains Floodplain Forest","NE",NA,NA
+"1.B.3.Na","1.B.3","M029","1.B.3.Na.29 - Central Interior and Appalachian Floodplain Forest","EN","VU -- EN","A3"
+"1.B.3.Na","1.B.3","M503","1.B.3.Na.503 - Central & Appalachian Swamp Forest","CR","VU -- CR","A3"
+"1.B.3.Na","1.B.3","M504","1.B.3.Na.504 - Northern Swamp Forest","VU","NT -- VU","A3"
+"1.B.3.Nb","1.B.3","M031","1.B.3.Nb.31 - Southern Floodplain Hardwood Forest","VU",NA,"A3, D3"
+"1.B.3.Nb","1.B.3","M032","1.B.3.Nb.32 - Southern Coastal Plain Evergreen Hardwood & Conifer Swamp","EN",NA,"D3"
+"1.B.3.Nb","1.B.3","M033","1.B.3.Nb.33 - Southern Coastal Plain Basin Swamp & Flatwoods","VU",NA,"A3, D3"
+"1.B.3.Nb","1.B.3","M154","1.B.3.Nb.154 - Edwards Plateau Riparian Woodland","NE",NA,NA
+"1.B.3.Nb","1.B.3","M161","1.B.3.Nb.161 - Pond-cypress - Slash Pine Swamp","NT","NT -- VU","A1, A2b, A3, C2b"
+"1.B.3.Nc","1.B.3","M034","1.B.3.Nc.34 - Rocky Mountain & Great Basin Riparian Forest","NT",NA,"C2b"
+"1.B.3.Nd","1.B.3","M036","1.B.3.Nd.36 - Warm Southwest Riparian Forest","EN",NA,"A3"
+"1.B.3.Nd","1.B.3","M660","1.B.3.Nd.660 - Mexican Interior Riparian Forest","EN","VU -- CR","A1, A3"
+"1.B.3.Ng","1.B.3","M035","1.B.3.Ng.35 - Vancouverian Flooded & Swamp Forest","VU","LC -- EN","A2b"

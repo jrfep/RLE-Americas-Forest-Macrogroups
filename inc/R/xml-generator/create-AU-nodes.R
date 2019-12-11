@@ -66,7 +66,8 @@ source(sprintf("%s/create-subcriteria-A-node.R",inc.dir))
 crit.B <- newXMLNode("Criterion",attrs=list(name="B"),
     parent=AU.criteria)
 
-source(sprintf("%s/create-subcriteria-C-node.R",inc.dir))
+    source(sprintf("%s/create-subcriteria-A-node.R",inc.dir))
+    source(sprintf("%s/create-subcriteria-C-node.R",inc.dir))
 source(sprintf("%s/create-subcriteria-D-node.R",inc.dir))
 source(sprintf("%s/create-subcriteria-E-node.R",inc.dir))
 
