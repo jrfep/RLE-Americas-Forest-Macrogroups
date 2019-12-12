@@ -9,28 +9,6 @@ rD <- function(CAT,Mean.Sev,Sev.30,Sev.50,Sev.80,th=c(30,50,80)) {
       EN=sprintf("Mean relative severity was %s. %s, exceeding the threshold for Endangered.", Mean.Sev, ifelse(Sev.80>th[2], sprintf("%s %% of the extent had a relative severity of %s %% or higher", Sev.80,th[3]), sprintf("%s %% of the extent had a relative severity of %s %% or higher", Sev.50,th[2]))),
       CR=sprintf("Mean relative severity was %s and %s %% of the extent had a relative severity of %s %% or higher, exceeding the threshold for Critically Endangered.", Sev.80,th[3]))
 }
-getOExt <- function(CAT,Sev.30,Sev.50,Sev.80,th=c(30,50,80)) {
-  switch(CAT,
-      NE="",
-      DD="",
-      LC=Sev.30,
-      NT=ifelse(Sev.80>(th[1]*.9), Sev.80, ifelse(Sev.50>(th[2]*.9), Sev.50, Sev.30)),
-      VU=ifelse(Sev.80>th[1], Sev.80, ifelse(Sev.50>th[2], Sev.50, Sev.30)),
-      EN=ifelse(Sev.80>th[2], Sev.80, Sev.50),
-      CR=Sev.80)
-    }
-
-
-getOSev <- function(CAT,Sev.30,Sev.50,Sev.80,th=c(30,50,80)) {
-      switch(CAT,
-          NE="",
-          DD="",
-          LC=30,
-          NT=ifelse(Sev.80>(th[1]*.9), 80, ifelse(Sev.50>(th[2]*.9), 50, 30)),
-          VU=ifelse(Sev.80>th[1], 80, ifelse(Sev.50>th[2], 50,30)),
-          EN=ifelse(Sev.80>th[2], 80, 50),
-          CR=80)
-        }
 D1.rationale <- with(assess.fun,
   rD(as.character(D1),best.estimate.mean.severity.LandUseIntensity.1950.2000,
     extent.with.severity.30.or.higher.LandUseIntensity.1950.2000,

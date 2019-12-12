@@ -66,7 +66,29 @@ source(sprintf("%s/create-subcriteria-A-node.R",inc.dir))
 crit.B <- newXMLNode("Criterion",attrs=list(name="B"),
     parent=AU.criteria)
 
-    source(sprintf("%s/create-subcriteria-A-node.R",inc.dir))
+
+    getOExt <- function(CAT,Sev.30,Sev.50,Sev.80,th=c(30,50,80)) {
+      switch(CAT,
+          NE="",
+          DD="",
+          LC=Sev.30,
+          NT=ifelse(Sev.80>(th[1]*.9), Sev.80, ifelse(Sev.50>(th[2]*.9), Sev.50, Sev.30)),
+          VU=ifelse(Sev.80>th[1], Sev.80, ifelse(Sev.50>th[2], Sev.50, Sev.30)),
+          EN=ifelse(Sev.80>th[2], Sev.80, Sev.50),
+          CR=Sev.80)
+        }
+
+
+    getOSev <- function(CAT,Sev.30,Sev.50,Sev.80,th=c(30,50,80)) {
+          switch(CAT,
+              NE="",
+              DD="",
+              LC=30,
+              NT=ifelse(Sev.80>(th[1]*.9), 80, ifelse(Sev.50>(th[2]*.9), 50, 30)),
+              VU=ifelse(Sev.80>th[1], 80, ifelse(Sev.50>th[2], 50,30)),
+              EN=ifelse(Sev.80>th[2], 80, 50),
+              CR=80)
+            }
     source(sprintf("%s/create-subcriteria-C-node.R",inc.dir))
 source(sprintf("%s/create-subcriteria-D-node.R",inc.dir))
 source(sprintf("%s/create-subcriteria-E-node.R",inc.dir))
