@@ -4,3 +4,5 @@ These files are sourced in bash sessions (only relevant for linux/unix/mac osx e
 
 ##Usage:
 source env/$(hostname -s).sh
+
+source $HOME/proyectos/IUCN/RLE-Americas-Forest-Macrogroups/env/$(hostname -s).sh
