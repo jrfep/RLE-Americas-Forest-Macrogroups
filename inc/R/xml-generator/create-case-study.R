@@ -25,7 +25,7 @@ Curation = newXMLNode("Content-Curations",
 Target = newXMLNode("Assessment-Target",
   attrs=list(date=today,`updated-by`=auto.agent,status=auto.status),
   children=list(AT.id,AT.descs,AT.names,AT.biota,AT.abiotic,AT.biotic,AT.services,AT.threats,AT.actions,AT.research,AT.CEM,AT.class,AT.dist,AT.collapse))
-Names = newXMLNode("Case-Study-Names")
+Names = newXMLNode("Case-Study-Names", children=list(newXMLNode("Case-Study-Name",CS.name,attrs=list(lang="en"))
 
 ## The following node summarizes information for each assessment unit
 ## run create-AU-nodes.R
@@ -37,7 +37,8 @@ Assessment = newXMLNode("Ecosystem-Risk-Assessment",
 ## Wrapping up, and writing node to root node:
 
 CS.attr.list <- list(name=CS.name,id=CS.id)
-CS.chld.list <- list(Names,Scope,Info,Target,Assessment,Curation)
+CS.chld.list <- list(Names,
+  newXMLNode("Scope-descriptions", children=list(Scope)),newXMLNode("Assessment-type"),Info,Target,Assessment,Curation)
 
 CS = newXMLNode("Case-Study",
   attrs=CS.attr.list,

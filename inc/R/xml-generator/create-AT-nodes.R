@@ -55,7 +55,8 @@ if (nrow(rsm.info)>0) {
       attrs=list(lang="en"))),parent=AT.biota)
     taxon.list <- newXMLNode("taxons",parent=AT.biota)
     for (taxon in spp.list)
-      newXMLNode("taxon",taxon, attrs=list(lang="scientific"), parent=taxon.list)
+      newXMLNode("taxon",taxon, #attrs=list(lang="scientific"),
+        parent=taxon.list)
 
   }
 }
@@ -91,6 +92,9 @@ if (nrow(rsm.info)>0) {
 
 
 ## Threats
+newXMLNode("Threats-Summaries",children=list(newXMLNode("Threats-Summary",attrs=list(lang="en"),"")),parent=AT.threats)
+
+
 slc <- subset(threat.match,Macrogroup %in% case.study)$code
 threat.list <- subset(threat.desc,code %in% slc)
 if (nrow(threat.list)>0) {
@@ -201,8 +205,39 @@ if (nrow(rsm.info)>0) {
 newXMLNode("Spatial-data",children=list(x,y),parent=AT.dist)
 
   ## Ecosystem services
-  AT.services
+
+  newXMLNode("Services",children=list(newXMLNode("Ecosystem-service")),parent=AT.services)
+  newXMLNode("Services-Summaries", children=list(newXMLNode("Services-Summary",attrs=list(lang="en"))),parent=AT.services)
+
+
   ## Conservation actions
   AT.actions
+  CA.names <- newXMLNode("Conservation-action-name",attrs=list(lang="en"))
+  CA.desc <- newXMLNode("Conservation-action-description",attrs=list(lang="en"))
+  CA.class <- newXMLNode("Conservation-action-classification-element",attrs=list(level="none"))
+newXMLNode("Conservation-Summaries", children=list(newXMLNode("Conservation-Summary",attrs=list(lang="en"))),parent=AT.actions)
+
+newXMLNode("Conservation-action",
+children=list(
+newXMLNode("Conservation-action-names",children=CA.names),
+newXMLNode("Conservation-action-descriptions", children=CA.desc),
+newXMLNode("Conservation-action-classification", attrs=list(id="",version="0",selected="",`assigned-by`=""), children=CA.class)),
+parent=AT.actions)
+
+
+
   ## Research needs
   AT.research
+  RN.names <- newXMLNode("Research-needed-name",attrs=list(lang="en"))
+  RN.desc <- newXMLNode("Research-needed-description",attrs=list(lang="en"))
+  RN.class <- newXMLNode("Research-needed-classification-element",attrs=list(level="none"))
+
+
+  newXMLNode("Research-Summaries", children=list(newXMLNode("Research-Summary",attrs=list(lang="en"))),parent=AT.research)
+
+  newXMLNode("Research-needed",
+  children=list(
+  newXMLNode("Research-needed-names",children=RN.names),
+  newXMLNode("Research-needed-descriptions", children=RN.desc),
+  newXMLNode("Research-needed-classification", attrs=list(id="",version="0",selected="",`assigned-by`=""), children=RN.class)),
+  parent=AT.research)

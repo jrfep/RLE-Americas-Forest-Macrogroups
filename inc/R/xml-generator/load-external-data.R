@@ -38,6 +38,9 @@ Macrogroups.Country$Country[Macrogroups.Country$Country %in% "Bolivia"] <- "Boli
 ##iso.list <- ISO_3166_1[match(country.list, ISO_3166_1$Name),"Alpha_2"]
 ##country.list[is.na(iso.list)]
 
+## assessment summary
+OverallCat <- read.csv(sprintf("%s/results/csvs/OverallCat.csv",script.dir))
+
 ## lower left and upper right coordinates of bounding box:
 xys <-  read.table("MG_latlon_range.txt",col.names=c("code","xmin","xmax","ymin","ymax","area"),  na.strings = "*",colClasses=c("numeric"))
 llc <- rgdal::project(as.matrix(xys[,c(2,4)]), proj="+proj=robin +lon_0=-80 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +ellps=WGS84 +towgs84=0,0,0",inv=T)

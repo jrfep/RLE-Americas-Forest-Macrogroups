@@ -1,0 +1,1 @@
+//Criterion[@name="D"]//Summary

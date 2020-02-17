@@ -13,7 +13,11 @@ AU.overall <- newXMLNode("Overall-category")
 AU.bounds <- newXMLNode("Plausible-bounds")
 AU.support <- newXMLNode("Supporting-subcriteria")
 AU.criteria <- newXMLNode("Criterions")
-AU.summary
+
+## summaries prepared for NatureServe :
+newXMLNode("RA-Summary",subset(OverallCat,IVC.macrogroup_key %in% case.study)$Overall.rationale,attrs=list(lang="en"),parent=AU.summary)
+
+
 
 ## Now, add information per node
 
@@ -47,11 +51,6 @@ xmlValue(AU.support) <- gsub(", ","+",assess.total$Threat.criteria)
 ##    with(assess.spa,
 ##      sprintf("According to time series of current forest cover, the predicted rate of decline between 2000 and 2050 could reach up to %s %% (with plausible bound of %s).", best.estimate.decline.2000.2050,bounds.estimate.decline.2000.2050 ))
 
-##
-AU.ration
-
-##
-
 
 
 #if (all(assess.total[,c("B1","B2","B3")] %in% "LC")) {
@@ -62,9 +61,9 @@ AU.ration
 #}
 source(sprintf("%s/create-subcriteria-A-node.R",inc.dir))
 
-#  source(sprintf("%s/create-subcriteria-B-node.R",inc.dir))
-crit.B <- newXMLNode("Criterion",attrs=list(name="B"),
-    parent=AU.criteria)
+  source(sprintf("%s/create-subcriteria-B-node.R",inc.dir))
+##crit.B <- newXMLNode("Criterion",attrs=list(name="B"),
+##    parent=AU.criteria)
 
 
     getOExt <- function(CAT,Sev.30,Sev.50,Sev.80,th=c(30,50,80)) {
