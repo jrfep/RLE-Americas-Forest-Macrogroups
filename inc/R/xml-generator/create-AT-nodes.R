@@ -141,6 +141,7 @@ newXMLNode("CEM-source","Assessment authors, based on Laurance and Williamson (2
 ## Classification
 selected.string <- "yes"
 ccw <- subset(classification.cross.walk,mcdg %in% case.study)
+ccw$name <- gsub(" & "," and ",ccw$name)
 
 for (class.string in unique(ccw$classification)) {
   class.sys <- strsplit(class.string," version ")[[1]]
@@ -154,10 +155,13 @@ for (class.string in unique(ccw$classification)) {
 }
 
 ##collapse
-newXMLNode("Spatial-collapse","As the tree growth form is the main structural element of any forest macrogroup, a forest macrogroup was assumed to collapse if the original woodland cover was completely replaced by a non-woodland cover, or if the tree-cover within its potential distribution declined to zero (criteria A and B).",
-      attrs=list(lang="en"),parent=AT.collapse)
-newXMLNode("Functional-collapse","For assessing environmental degradation under criterion C, we considered two different indicators. In the case of climate change, we assume that the ecosystem collapsed if the climatic conditions shifted from mostly suitable for the focus macrogroup, to mostly suitable to a different macrogroup. Additionally for flooded and swamp forest, we assumed ecosystem collapse if the amount of detected surface water within the potential distribution of the macrogroup declined to zero.  For assessing disruption to biotic processes and interactions under criterion D we assumed that most of the fundamental processes and interactions disappeared with intensive use of woodlands under high population density. We also assumed that the ecosystem would collapse if the population of large mammals declined to less than 10% of their original population size.",
-            attrs=list(lang="en"),parent=AT.collapse)
+newXMLNode("Collapse-summaries",children=list(newXMLNode("Collapse-summary",attrs=list(lang="en"))),parent=AT.collapse)
+newXMLNode("Spatial-collapse-definitions",children=list(newXMLNode("Spatial-collapse","As the tree growth form is the main structural element of any forest macrogroup, a forest macrogroup was assumed to collapse if the original woodland cover was completely replaced by a non-woodland cover, or if the tree-cover within its potential distribution declined to zero (criteria A and B).",
+      attrs=list(lang="en"))),parent=AT.collapse)
+
+newXMLNode("Functional-collapse-definitions",children=list(newXMLNode("Functional-collapse","For assessing environmental degradation under criterion C, we considered two different indicators. In the case of climate change, we assume that the ecosystem collapsed if the climatic conditions shifted from mostly suitable for the focus macrogroup, to mostly suitable to a different macrogroup. Additionally for flooded and swamp forest, we assumed ecosystem collapse if the amount of detected surface water within the potential distribution of the macrogroup declined to zero.  For assessing disruption to biotic processes and interactions under criterion D we assumed that most of the fundamental processes and interactions disappeared with intensive use of woodlands under high population density. We also assumed that the ecosystem would collapse if the population of large mammals declined to less than 10% of their original population size.",
+            attrs=list(lang="en"))),parent=AT.collapse)
+
 
 
 ## distribution

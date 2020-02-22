@@ -4,7 +4,8 @@
 ##}
 
 ## First, set up all Assessment-Unit nodes
-ERA.AUs <- newXMLNode("Assessment-units")
+
+##ERA.AUs <- newXMLNode("Assessment-units") # THis is not needed anymore
 
 AU.subset <- newXMLNode("Ecosystem-subset")
 AU.summary <- newXMLNode("RA-Summaries")
@@ -59,12 +60,42 @@ xmlValue(AU.support) <- gsub(", ","+",assess.total$Threat.criteria)
 #      newXMLNode("Category","LC"),
 #      newXMLNode("Subcriterions"))
 #}
-source(sprintf("%s/create-subcriteria-A-node.R",inc.dir))
 
-  source(sprintf("%s/create-subcriteria-B-node.R",inc.dir))
-##crit.B <- newXMLNode("Criterion",attrs=list(name="B"),
-##    parent=AU.criteria)
 
+
+
+makeKeyIndicatorVariable <- function(dataName,dataDesc,dataSources,dataCT,overallExtent,overallSeverity=NULL,dataValue,valueName) {
+   IDV <- newXMLNode("Indicator-data")
+
+   newXMLNode("Data-descriptions", children=newXMLNode("Data-description",attrs=list(lang="en"),dataDesc), parent=IDV)
+   for (dS in dataSources)
+      newXMLNode("Data-source",dS,parent=IDV)
+   ValueList <- newXMLNode("Values", attrs=list(method=valueName),parent=IDV)
+   if ("Severity" %in% colnames(dataValue)) {
+      for (k in 1:nrow(dataValue))
+         newXMLNode("Value", attrs=list(level=k),children=list(
+            newXMLNode("Year",dataValue[k,"Year"]),
+            newXMLNode("Indicator-value", attrs=list(units="")),
+            newXMLNode("Extent", attrs=list(units=dataValue[k,"Unit"]),dataValue[k,"Extent"]),
+            newXMLNode("Severity", attrs=list(units=dataValue[k,"Unit"]),dataValue[k,"Severity"])
+         ),parent=ValueList)
+   } else {
+      for (k in 1:nrow(dataValue))
+         newXMLNode("Value", attrs=list(level=k),children=list(newXMLNode("Year",dataValue[k,"Year"]), newXMLNode("Indicator-value", attrs=list(units=dataValue[k,"Unit"]),dataValue[k,"Value"])),parent=ValueList)
+   }
+
+   KI <- newXMLNode("Key-indicator",attrs=list(name=dataName),children=newXMLNode("Indicator-data-values",children=IDV))
+
+   OE <- newXMLNode("Overall-Extent",attrs=list(units=overallExtent$units,method=overallExtent$method),overallExtent$value,parent=KI)
+   if (!is.null(overallSeverity))
+      newXMLNode("Overall-Severity",attrs=list(units=overallSeverity$units,method=overallSeverity$method),overallSeverity$value, parent=KI)
+   CT <- newXMLNode("Collapse-threshold",attrs=list(units=dataCT$units),dataCT$value,parent=KI)
+
+   KIV <- newXMLNode("Key-indicator-variable",
+          children=KI)
+
+   return(KIV)
+}
 
     getOExt <- function(CAT,Sev.30,Sev.50,Sev.80,th=c(30,50,80)) {
       switch(CAT,
@@ -88,11 +119,18 @@ source(sprintf("%s/create-subcriteria-A-node.R",inc.dir))
               EN=ifelse(Sev.80>th[2], 80, 50),
               CR=80)
             }
+
+source(sprintf("%s/create-subcriteria-A-node.R",inc.dir))
+
+  source(sprintf("%s/create-subcriteria-B-node.R",inc.dir))
+##crit.B <- newXMLNode("Criterion",attrs=list(name="B"),
+##    parent=AU.criteria)
+
+
     source(sprintf("%s/create-subcriteria-C-node.R",inc.dir))
 source(sprintf("%s/create-subcriteria-D-node.R",inc.dir))
 source(sprintf("%s/create-subcriteria-E-node.R",inc.dir))
 
 ## ensamble together
-newXMLNode("Assessment-unit",
-  children=list(AU.subset, AU.summary, AU.ration, AU.overall, AU.bounds, AU.support, AU.criteria),
-  parent=ERA.AUs)
+ERA.AUs <- newXMLNode("Assessment-unit",
+  children=list(AU.subset, AU.summary, AU.ration, AU.overall, AU.bounds, AU.support, AU.criteria))

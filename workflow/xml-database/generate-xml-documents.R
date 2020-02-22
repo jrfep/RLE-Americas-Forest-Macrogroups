@@ -34,7 +34,7 @@ rtd.dir <- sprintf("%s/assets/descriptive-docs/restricted",script.dir)
 source(sprintf("%s/load-external-data.R",inc.dir))
 
 ## list of case studies we want to process
-case.studies <- c("M134","M294","M652","M027")
+case.studies <- c("M012","M027","M134","M294","M503","M591", "M642","M649","M652")
 
 ## set counter to 1
 CS.counter <- 1

@@ -21,6 +21,14 @@ ATids %>% filter(Type %in% "Regional") -> ATids.reg
 ## f) list of Threats
 threat.match <- read_ods(sprintf("%s/assets/descriptive-docs/ThreatsPerMacrogroup.ods", script.dir),sheet=1)
 threat.desc <- read_ods(sprintf("%s/assets/descriptive-docs/ThreatsPerMacrogroup.ods", script.dir),sheet=2)
+threat.match <- unique(rbind(threat.match,
+   data.frame(Macrogroup=subset(Macrogroups.Global,!A1 %in% "NE")$IVC.macrogroup_key, code="Deforestation"),
+   data.frame(Macrogroup=subset(Macrogroups.Global,!C2a %in% "NE")$IVC.macrogroup_key, code="ClimateChange"),
+   ##      data.frame(Macrogroup=subset(Macrogroups.Global,!C2b %in% "NE")$IVC.macrogroup_key, code="SurfaceWater"), ## need to asign a threat to  this, ignoring so far...
+   data.frame(Macrogroup=subset(Macrogroups.Global,!D1 %in% "NE")$IVC.macrogroup_key, code="increasingPopulation"),
+   data.frame(Macrogroup=subset(Macrogroups.Global,!D1 %in% "NE")$IVC.macrogroup_key, code="increasingAgriculture"),
+   data.frame(Macrogroup=subset(Macrogroups.Global,!D3 %in% "NE")$IVC.macrogroup_key, code="increasingGrazing"),
+      data.frame(Macrogroup=subset(Macrogroups.Global,!D2b %in% "NE")$IVC.macrogroup_key, code="Defaunation")))
 
 ## g) basic spatial data
 ##TMWB <- read.dbf(sprintf("%s/admin/TMWB/TM_WORLD_BORDERS-0.3.dbf",gis.data))
