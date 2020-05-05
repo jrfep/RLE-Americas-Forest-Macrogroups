@@ -30,9 +30,9 @@ A1.variable <-
    valueName="estimated")
 
      if(is.na(assess.total$bounds.A1)) {
-        PB <-  newXMLNode("Plausible-bounds",attrs=list(lower="",upper=""))
+        PB <-  newXMLNode("Plausible-bounds","",attrs=list(lower="",upper=""))
      } else {
-        PB <-  newXMLNode("Plausible-bounds",attrs=list(lower=strsplit(assess.total$bounds.A1," -- ")[[1]][1], upper=strsplit(assess.total$bounds.A1," -- ")[[1]][2]))
+        PB <-  newXMLNode("Plausible-bounds",assess.total$bounds.A1,attrs=list(lower=strsplit(assess.total$bounds.A1," -- ")[[1]][1], upper=strsplit(assess.total$bounds.A1," -- ")[[1]][2]))
      }
 
      A1 <- newXMLNode("Subcriterion",attrs=list(name="A1"),
@@ -63,9 +63,9 @@ A3.variable <-
    valueName="estimated")
 
      if(is.na(assess.total$bounds.A3)) {
-        PB <-  newXMLNode("Plausible-bounds",attrs=list(lower="",upper=""))
+        PB <-  newXMLNode("Plausible-bounds","",attrs=list(lower="",upper=""))
      } else {
-        PB <-  newXMLNode("Plausible-bounds",attrs=list(lower=strsplit(assess.total$bounds.A3," -- ")[[1]][1], upper=strsplit(assess.total$bounds.A3," -- ")[[1]][2]))
+        PB <-  newXMLNode("Plausible-bounds",assess.total$bounds.A3,attrs=list(lower=strsplit(assess.total$bounds.A3," -- ")[[1]][1], upper=strsplit(assess.total$bounds.A3," -- ")[[1]][2]))
      }
 
    A3 <- newXMLNode("Subcriterion",attrs=list(name="A3"),
@@ -108,9 +108,9 @@ A2b.variable <-
 
 
      if(is.na(assess.total$bounds.A2b)) {
-        PB <-  newXMLNode("Plausible-bounds",attrs=list(lower="",upper=""))
+        PB <-  newXMLNode("Plausible-bounds","",attrs=list(lower="",upper=""))
      } else {
-        PB <-  newXMLNode("Plausible-bounds",attrs=list(lower=strsplit(assess.total$bounds.A2b," -- ")[[1]][1], upper=strsplit(assess.total$bounds.A2b," -- ")[[1]][2]))
+        PB <-  newXMLNode("Plausible-bounds",assess.total$bounds.A2b,attrs=list(lower=strsplit(assess.total$bounds.A2b," -- ")[[1]][1], upper=strsplit(assess.total$bounds.A2b," -- ")[[1]][2]))
      }
 
 A2b <- newXMLNode("Subcriterion",attrs=list(name="A2b"),

@@ -2,7 +2,7 @@ CS.id <- sprintf("%s_%s",mi.reflabel, CS.counter)
 rsm <- subset(Macrogroups.Global,IVC.macrogroup_key %in% case.study)
 ATids.reg %>% filter(`Case-Study id` == CS.id) -> AT.id.Provita
 
-CS.name <- with(rsm,sprintf("%s: '%s, %s'",
+CS.name <- with(rsm,sprintf("%s: '%s'",
   "Forest Macrogroups of the Americas",
   IVC.Name,
   ifelse(is.na(Overall.Category),"NE",
@@ -181,13 +181,14 @@ if (nrow(rsm.info)>0) {
   for (pais in iso.list) {
       newXMLNode("Country",country.list[pais], attrs=list(`iso-code-2`=pais), parent=Countries.node)
   }
+  AT.biogeo <- newXMLNode("Biogeographic-realms",parent=AT.dist)
   if(all(iso.list %in% c("US","CA"))) {
-    newXMLNode("Biogeographic-realm","Nearctic",parent=AT.dist)
+    newXMLNode("Biogeographic-realm","Nearctic",parent=AT.biogeo)
   } else {
     if (any(iso.list %in% c("US","CA"))) {
-      newXMLNode("Biogeographic-realm","Nearctic",parent=AT.dist)
+      newXMLNode("Biogeographic-realm","Nearctic",parent=AT.biogeo)
     }
-    newXMLNode("Biogeographic-realm","Neotropic",parent=AT.dist)
+    newXMLNode("Biogeographic-realm","Neotropic",parent=AT.biogeo)
   }
 
    x <- newXMLNode("Spatial-point",attrs=c(datum="WGS84",proj="longlat",type="lower-left-corner"),

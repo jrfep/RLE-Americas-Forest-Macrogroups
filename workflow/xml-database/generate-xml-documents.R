@@ -24,7 +24,7 @@ out.dir <- sprintf("%s/documentation/xml",script.dir)
 rtd.dir <- sprintf("%s/assets/descriptive-docs/restricted",script.dir)
 
  ## set-up auto-mode variables
- today <- "2019-09-30"
+ today <- "2020-04-30"
  auto.status <-"auto-generated-test"
  auto.agent <- "Rsaurio"
 ## needs an update?
@@ -34,10 +34,11 @@ rtd.dir <- sprintf("%s/assets/descriptive-docs/restricted",script.dir)
 source(sprintf("%s/load-external-data.R",inc.dir))
 
 ## list of case studies we want to process
-case.studies <- c("M012","M027","M134","M294","M503","M591", "M642","M649","M652")
+case.studies <- c("M012","M027","M134","M294","M591", "M642","M649","M652","M503")
 
 ## set counter to 1
 CS.counter <- 1
+
 
 ## for each case study:
 for (case.study in case.studies) {

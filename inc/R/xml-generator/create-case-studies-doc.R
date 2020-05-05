@@ -8,7 +8,7 @@ top = newXMLNode("Case-Studies",doc=doc)
 
 ## Scope
 Scope.description = newXMLNode("Scope-description",attrs=list(lang="en"),"The risk assessment covered the entire distribution of the assessment target as described by the classification scheme and distribution maps available.")
-Scope.classification = newXMLNode("Scope-classification", attrs=list(id="IUCN RLE", version="1.0", selected="yes", `assigned-by`="JRFEP"), children=list(newXMLNode("Scope-classification-element","1. Global", attrs=list(level=1))))
+Scope.classification = newXMLNode("Scope-classification", attrs=list(id="IUCN Scope", version="1.0", selected="no", `assigned-by`="JRFEP"), children=list(newXMLNode("Scope-classification-element","1. Global", attrs=list(level=1))))
 
 ## Info
 Info.ref <- newXMLNode("ref-label", mi.reflabel)
@@ -38,7 +38,7 @@ Info.kwd <- newXMLNode("Assessment-Keywords",
 
 ## Curations
 Curation.generation <- newXMLNode("content-curation",
-  attrs=list(date=today, reviewer=auto.agent, status=auto.status), children=list(newXMLNode("edit-description","XML document generation through R-scripts")))
+  attrs=list(date=today, `updated-by`=auto.agent, status=auto.status), children=list(newXMLNode("edit-description","XML document generation through R-scripts")))
 
 ## Ecosystem risk assessment
   ERA.version <- newXMLNode("Assessment-version","2.2")

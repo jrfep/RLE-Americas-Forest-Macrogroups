@@ -63,9 +63,9 @@ C2a.variable <-
 
 
 if(is.na(assess.total$bounds.C2a)) {
-  PB <-  newXMLNode("Plausible-bounds",attrs=list(lower="",upper=""))
+  PB <-  newXMLNode("Plausible-bounds","",attrs=list(lower="",upper=""))
 } else {
-  PB <-  newXMLNode("Plausible-bounds",attrs=list(lower=strsplit(assess.total$bounds.C2a,"--")[[1]][1], upper=strsplit(assess.total$bounds.C2a,"--")[[1]][2]))
+  PB <-  newXMLNode("Plausible-bounds",assess.total$bounds.C2a,attrs=list(lower=strsplit(assess.total$bounds.C2a,"--")[[1]][1], upper=strsplit(assess.total$bounds.C2a,"--")[[1]][2]))
 }
 
 

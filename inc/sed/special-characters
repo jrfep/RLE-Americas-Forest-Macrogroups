@@ -1,0 +1,5 @@
+s/ \&amp; / and /g
+s/ \&amp;amp; / and /g
+s/ \&amp;amp;amp; / and /g
+s/ \&lt; / less than /g
+s/ \&gt; / less than /g 

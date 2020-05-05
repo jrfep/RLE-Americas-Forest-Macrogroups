@@ -39,7 +39,7 @@ Assessment = newXMLNode("Ecosystem-Risk-Assessment",
 
 CS.attr.list <- list(name=CS.name,id=CS.id)
 CS.chld.list <- list(Names,
-  Scope,newXMLNode("Assessment-type"),Info,Target,Assessment,Curation)
+  Scope,newXMLNode("Assessment-type","Systematic"),Info,Target,Assessment,Curation)
 
 CS = newXMLNode("Case-Study",
   attrs=CS.attr.list,

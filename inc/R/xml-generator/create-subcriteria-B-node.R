@@ -58,7 +58,7 @@ B1.variable <-
    dataValue=data.frame(Unit="km2",Year=2012,Value=switch(assess.total$B1,LC=">50000",VU="<50000",EN="<20000",CR="<2000",NE=""),stringsAsFactors=F),
    valueName="estimated")
 
- PB <-  newXMLNode("Plausible-bounds",attrs=list(lower="",upper=""))
+ PB <-  newXMLNode("Plausible-bounds","",attrs=list(lower="",upper=""))
 
 B1 <- newXMLNode("Subcriterion",attrs=list(name="B1"),
       children=list(newXMLNode("Summaries",children=list(B1.summary)),
