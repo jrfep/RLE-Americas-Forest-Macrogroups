@@ -124,7 +124,8 @@ B3 <- newXMLNode("Subcriterion",attrs=list(name="B3"),
 
 
 wch <- which.max(cat.weights[unlist(assess.total[,c("B1","B2","B3")])])
-assess.total$B <- assess.total[,c("B1","B2","B3")][[wch]]
+assess.total$B <-
+ifelse(all(is.na(wch)),"NE",assess.total[,c("B1","B2","B3")][[wch]])
 B.category <- newXMLNode("Category",assess.total$B)
 
 subcrits <- c(sprintf(c("B1%s%s","B2%s%s"),ifelse(length(numerals)>0,

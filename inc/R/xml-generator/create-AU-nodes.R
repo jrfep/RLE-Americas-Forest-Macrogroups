@@ -91,7 +91,7 @@ makeKeyIndicatorVariable <- function(dataName,dataDesc,dataSources,dataCT,overal
       newXMLNode("Overall-Severity",attrs=list(units=overallSeverity$units,method=overallSeverity$method),overallSeverity$value, parent=KI)
    CT <- newXMLNode("Collapse-threshold",attrs=list(units=dataCT$units),dataCT$value,parent=KI)
 
-   KIV <- newXMLNode("Key-indicator-variable",
+   KIV <- newXMLNode("Key-indicator-variables",
           children=KI)
 
    return(KIV)
@@ -120,7 +120,7 @@ makeKeyIndicatorVariable <- function(dataName,dataDesc,dataSources,dataCT,overal
               CR=80)
             }
 
-source(sprintf("%s/create-subcriteria-A-node.R",inc.dir))
+source(sprintf("%s/create-subcriteria-A-node.R",inc.dir),verbose=F)
 
   source(sprintf("%s/create-subcriteria-B-node.R",inc.dir))
 ##crit.B <- newXMLNode("Criterion",attrs=list(name="B"),

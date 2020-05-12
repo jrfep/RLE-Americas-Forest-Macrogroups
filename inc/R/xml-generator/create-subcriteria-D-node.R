@@ -140,7 +140,7 @@ makeKeyIndicatorVariable(
           D2b.variable))
 
 wch <- which.max(cat.weights[unlist(assess.total[,c("D1","D2b","D3")])])
-assess.total$D <- assess.total[,c("D1","D2b","D3")][[wch]]
+assess.total$D <- ifelse(all(is.na(wch)),"NE", assess.total[,c("D1","D2b","D3")][[wch]])
 D.category <- newXMLNode("Category",assess.total$D)
 D.subcrit <- c("D1","D2b","D3")[assess.total[,c("D1","D2b","D3")] %in% assess.total$D]
 

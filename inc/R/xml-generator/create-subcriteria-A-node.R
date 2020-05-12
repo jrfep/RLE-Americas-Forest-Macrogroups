@@ -127,7 +127,7 @@ children=list(newXMLNode("Summaries",children=list(A2b.summary)),
 
 
 wch <- which.max(cat.weights[unlist(assess.total[,c("A1","A2b","A3")])])
-assess.total$A <- assess.total[,c("A1","A2b","A3")][[wch]]
+assess.total$A <- ifelse(all(is.na(wch)),"NE", assess.total[,c("A1","A2b","A3")][[wch]])
 A.category <- newXMLNode("Category",assess.total$A)
 A.subcrit <- c("A1","A2b","A3")[assess.total[,c("A1","A2b","A3")] %in% assess.total$A]
 
