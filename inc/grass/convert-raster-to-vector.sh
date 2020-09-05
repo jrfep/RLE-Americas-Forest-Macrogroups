@@ -19,4 +19,11 @@ r.to.vect -v input=M652@macrogroups output=M652@macrogroups type=area
 v.out.ogr -m input=M652@macrogroups type=area output=M652.shp format=ESRI_Shapefile
 
 mkdir WGS84
-ogr2ogr  -t_srs EPSG:4326 WGS84/M652.shp M652.shp 
+ogr2ogr  -t_srs EPSG:4326 WGS84/M652.shp M652.shp
+
+#slow
+g.region -pd
+r.stats -ac M652
+#fast
+g.region vect=M652@macrogroups -p
+r.stats -ac M652

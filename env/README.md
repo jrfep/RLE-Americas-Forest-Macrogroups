@@ -1,8 +1,10 @@
 # _env_ folder's content:
 
-These files are sourced in bash sessions (only relevant for linux/unix/mac osx environments). They set up some useful environmental variables used as shortcut for working and data directories.
+Source this file to set up relevant programming environment variables for linux/unix/mac osx. 
 
-##Usage:
-source env/$(hostname -s).sh
+Usage:
+```sh
+source env/project-env.sh
 
-source $HOME/proyectos/IUCN/RLE-Americas-Forest-Macrogroups/env/$(hostname -s).sh
+source $HOME/proyectos/IUCN/RLE-Americas-Forest-Macrogroups/env/project-env.sh
+```
