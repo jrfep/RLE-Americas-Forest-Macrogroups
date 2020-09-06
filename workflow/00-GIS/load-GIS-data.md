@@ -45,7 +45,11 @@ exit
 ```
 
 ```sh
-grass $GISDB/IVC/PERMANENT -exec $SCRIPTDIR/workflow/00-GIS/split-macrogroup-mapsets.sh '1.A.5'
+
+conda deactivate
+cd $WORKDIR
+#for k in $(psql -At -d IUCN -c "select value,mg_key from ivc_americas where formation_ IN ('1.A.1','1.A.2','1.A.3','1.A.4','1.A.5','1.B.1','1.B.2','1.B.3') order by ivc_format,mg_key")
+grass $GISDB/IVC/PERMANENT --exec sh $SCRIPTDIR/workflow/00-GIS/split-macrogroup-mapsets.sh "'1.A.5'"
 
 ```
 
