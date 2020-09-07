@@ -42,9 +42,9 @@ conda deactivate
 export MCDG=M572
 nohup grass $GISDB/IVC/$MCDG --exec bash $SCRIPTDIR/workflow/00-GIS/calculate-forest-loss.sh $MCDG &
 
-for MCDG in $(psql -At -d IUCN -c "select mg_key,mg_hierarc from ivc_americas where formation_ IN ('1.A.3') order by ivc_format,mg_key")
+for MCDG in $(psql -At -d IUCN -c "select mg_key from ivc_americas where formation_ IN ('1.A.4') order by ivc_format,mg_key")
 do
-
+  sleep $((RANDOM % 120))
   nohup grass $GISDB/IVC/$MCDG --exec bash $SCRIPTDIR/workflow/00-GIS/calculate-forest-loss.sh $MCDG > nohup-$MCDG.out &
 done
 
