@@ -32,24 +32,73 @@ do
   fi
 done
 
-export VAR=MCD12Q1
-export VRS=006
-mkdir -p $WORKDIR/$VAR.$VRS/
-
-for YEAR in $(seq 2001 2019)
-do
-  export FECHA=${YEAR}.01.01
-
-  if [ ! -e $WORKDIR/$VAR.$VRS/${VAR}.M652.${YEAR}.tif ]
-  then
-    gdalwarp -t_srs "+proj=robin +lon_0=-80 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +ellps=WGS84 +towgs84=0,0,0" -te $w $s $e $n -co "COMPRESS=LZW" $GISDATA/sensores/Modis/MCD12Q1.006/index_${VAR}_${VRS}_${FECHA}_LC_Type1.vrt $WORKDIR/$VAR.$VRS/${VAR}.M652.${YEAR}.tif
-    r.in.gdal input=$WORKDIR/$VAR.$VRS/${VAR}.M652.${YEAR}.tif output=${VAR}.${YEAR}
-  fi
-done
 ```
 
 
 ```sh
+
+export MCDG=M572
+nohup grass $GISDB/IVC/$MCDG --exec bash $SCRIPTDIR/workflow/00-GIS/calculate-forest-loss.sh $MCDG &
+
+
+```
+
+```r
+# R --vanilla
+require(dplyr)
+tree.lost <- read.table("M652-MCD12Q1-GFC-lossgain.tab", col.names=c('code','bsq','treecover2000','lossyear','gain','area','cells'))
+
+tree.lost %>% group_by(bsq) %>% summarise(total.area=sum(treecover2000/100*area)/1e6,
+  mu=weighted.mean(treecover2000,area))
+
+
+
+  dts <- data.frame(year=2000,grp='all',area=with(tree.lost,sum((treecover2000/100) * area)/1e6),stringsAsFactors=F)
+
+  for (yy in 1:19) {
+    dts <- rbind(dts,
+    data.frame(year=2000+yy,grp='all',area=with(subset(tree.lost,lossyear == 0 | lossyear > yy),sum((treecover2000/100) * area)/1e6)))
+    dts <- rbind(dts,
+    data.frame(year=2000+yy,grp='all',area=with(subset(tree.lost,lossyear == 0 | lossyear > yy | gain %in% 1),sum((treecover2000/100) * area)/1e6)))
+  }
+
+
+  dts <- rbind(dts,data.frame(year=2000,grp='bsq',area=with(subset(tree.lost,(bsq > 0)),sum((treecover2000/100) * area)/1e6),stringsAsFactors=F))
+
+    for (yy in 1:19) {
+      dts <- rbind(dts,
+      data.frame(year=2000+yy,grp='bsq',area=with(subset(tree.lost,(bsq > 0) & (lossyear == 0 | lossyear > yy)),sum((treecover2000/100) * area)/1e6)))
+      dts <- rbind(dts,
+      data.frame(year=2000+yy,grp='bsq',area=with(subset(tree.lost,(bsq > 0) & (lossyear == 0 | lossyear > yy | gain %in% 1)),sum((treecover2000/100) * area)/1e6)))
+    }
+
+
+mdl1 <- glm(area~year,subset(dts,grp %in% 'all'),family=quasipoisson)
+prd1 <- predict(mdl1,data.frame(year=c(2001,2050)),se.fit=T)
+
+
+mdl2 <- glm(area~year,subset(dts,grp %in% 'bsq'),family=quasipoisson)
+prd2 <- predict(mdl2,data.frame(year=c(2001,2050)),se.fit=T)
+
+prd.ci <- function(x,z=.9) {
+  l <- (1-z)/2
+  n <- qnorm(c(l,1-l))
+  u <- exp(x$fit)
+  y <- exp(x$fit + (x$se.fit*n[1]))
+  w <- exp(x$fit + (x$se.fit*n[2]))
+
+  return(data.frame(initial=u[1],final=u[2],est=1-u[2]/u[1],lower=1-w[2]/w[1],upper=1-y[2]/y[1]))
+}
+subset(dts,grp=='all')[1,]
+prd.ci(prd1,z=.9)
+subset(dts,grp=='bsq')[1,]
+prd.ci(prd2,z=.9)
+
+```
+
+
+```sh
+
 for YEAR in $(seq 2001 2019)
 do
   r.mapcalc expression="bsq.${YEAR}=if(MCD12Q1.${YEAR}@macrogroups<6,1,0)"
