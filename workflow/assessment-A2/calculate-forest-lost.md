@@ -8,7 +8,7 @@ g.mapset -c macrogroups
 
 #psql -At -d IUCN -c "select ivc_format,mg_key,mg_hierarc from ivc_americas where formation_ IN ('1.A.1','1.A.2','1.A.3','1.A.4','1.A.5','1.B.1','1.B.2','1.B.3') order by ivc_format,mg_key"
 
-psql -At -d IUCN -c "select divsion_c,mg_key from ivc_americas where formation_ IN ('1.A.1','1.A.2','1.A.3','1.A.4','1.A.5','1.B.1','1.B.2','1.B.3') order by ivc_format,mg_key"
+psql -At -d IUCN -c "select mg_key from ivc_americas where formation_ IN ('1.A.1','1.A.2','1.A.3','1.A.4','1.A.5','1.B.1','1.B.2','1.B.3') order by ivc_format,mg_key"
 
 r.mapcalc 'M652=if(IVC_NS_v7==652,1,null())'
 r.to.vect -v input=M652@macrogroups output=M652@macrogroups type=area
@@ -36,10 +36,17 @@ done
 
 
 ```sh
+cd $WORKDIR
+conda deactivate
 
 export MCDG=M572
 nohup grass $GISDB/IVC/$MCDG --exec bash $SCRIPTDIR/workflow/00-GIS/calculate-forest-loss.sh $MCDG &
 
+for MCDG in $(psql -At -d IUCN -c "select mg_key,mg_hierarc from ivc_americas where formation_ IN ('1.A.3') order by ivc_format,mg_key")
+do
+
+  nohup grass $GISDB/IVC/$MCDG --exec bash $SCRIPTDIR/workflow/00-GIS/calculate-forest-loss.sh $MCDG > nohup-$MCDG.out &
+done
 
 ```
 
